@@ -1,0 +1,168 @@
+{
+	"children": [
+		{
+			"children": [
+				{
+					"children": [
+						{
+							"settings": {},
+							"sourceSchema": {
+								"id": "udcContainer_yd6L"
+							},
+							"type": "container"
+						},
+						{
+							"children": [
+								{
+									"children": [
+										{
+											"children": [
+												{
+													"name": "表头",
+													"settings": {
+														"textFontSize": 20
+													},
+													"sourceSchema": {
+														"id": "label_XD11"
+													},
+													"type": "label"
+												}
+											],
+											"name": "",
+											"settings": {
+												"isMergeAllColumns": true,
+												"styles": {
+													"gridColumn": "1/3",
+													"gridRow": "1/2"
+												}
+											},
+											"sourceSchema": {
+												"id": "udcGridCell_aabb"
+											},
+											"type": "gridCell"
+										},
+										{
+											"children": [],
+											"name": "",
+											"settings": {
+												"isMergeAllColumns": true,
+												"styles": {
+													"display": "none",
+													"gridColumn": "2/3",
+													"gridRow": "1/2"
+												}
+											},
+											"sourceSchema": {
+												"id": "udcGridCell_aabb"
+											},
+											"type": "gridCell"
+										}
+									],
+									"settings": {
+										"gridTemplateColumns": [
+											1,
+											1
+										],
+										"gridTemplateRows": [
+											28
+										]
+									},
+									"sourceSchema": {
+										"id": "udcGrid_888H"
+									},
+									"type": "grid"
+								},
+								{
+									"children": [
+										{
+											"children": [
+												{
+													"settings": {
+														"textFontSize": 16
+													},
+													"sourceSchema": {
+														"id": "label_XD11"
+													},
+													"type": "label"
+												}
+											],
+											"settings": {
+												"styles": {
+													"gridColumn": "1/2",
+													"gridRow": "2/3"
+												}
+											},
+											"sourceSchema": {
+												"id": "udcGridCell_9Lqw"
+											},
+											"type": "gridCell"
+										},
+										{
+											"children": [
+												{
+													"settings": {},
+													"sourceSchema": {
+														"id": "input_XD11"
+													},
+													"type": "input"
+												}
+											],
+											"settings": {
+												"styles": {
+													"gridColumn": "2/3",
+													"gridRow": "2/3"
+												}
+											},
+											"sourceSchema": {
+												"id": "udcGridCell_a3s1"
+											},
+											"type": "gridCell"
+										}
+									],
+									"settings": {
+										"gridTemplateColumns": [
+											1,
+											1
+										],
+										"gridTemplateRows": [
+											28
+										]
+									},
+									"sourceSchema": {
+										"id": "udcGrid_888H"
+									},
+									"type": "grid"
+								}
+							],
+							"settings": {},
+							"sourceSchema": {
+								"id": "collapse_dScE"
+							},
+							"type": "collapse"
+						}
+					],
+					"settings": {},
+					"sourceSchema": {
+						"id": "udcContainer_nT8g"
+					},
+					"type": "container"
+				}
+			],
+			"settings": {},
+			"sourceSchema": {
+				"id": "udcForm_esD0"
+			},
+			"type": "form"
+		}
+	],
+	"name": "页面",
+	"pageType": "DETAIL",
+	"settings": {
+		"dataFrom": "ocr"
+	},
+	"sourceSchema": {
+		"id": "-591166153054340532"
+	},
+	"type": "page",
+	"urlType": "PC"
+}

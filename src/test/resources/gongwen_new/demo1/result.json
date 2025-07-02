@@ -1,0 +1,235 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "name": "文单标题",
+                  "settings": {
+                    "alignment": "center",
+                    "content": "标题名称***",
+                    "textColor": "error-6",
+                    "textFontSize": 20,
+                    "textFontStyle": ",bold"
+                  },
+                  "sourceSchema": {
+                    "id": "label_8XNA"
+                  },
+                  "type": "label"
+                }
+              ],
+              "settings": {
+                "display": "flex",
+                "gridColumn": "1/5",
+                "gridRow": "1/2",
+                "isMergeAllColumns": true
+              },
+              "sourceSchema": {
+                "id": "udcGridCell_1dnh"
+              },
+              "type": "gridCell"
+            }
+          ],
+          "settings": {
+            "gridTemplateColumns": [
+              1,
+              1
+            ],
+            "gridTemplateRows": [
+              28
+            ]
+          },
+          "sourceSchema": {
+            "id": "udcGrid_7V3T"
+          },
+          "type": "grid"
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "referGroup": {
+                            "groupId": 20001,
+                            "groupName": "文号",
+                            "groupType": "title"
+                          },
+                          "settings": {
+                            "align": "left",
+                            "alignment": "justify",
+                            "content": "文号:",
+                            "textColor": "warning-5",
+                            "validation": {
+                              "required": true
+                            }
+                          },
+                          "sourceSchema": {
+                            "id": "label_Zrrz"
+                          },
+                          "type": "label"
+                        }
+                      ],
+                      "settings": {
+                        "styles": {
+                          "display": "flex",
+                          "gridColumn": "1/2",
+                          "gridRow": "1/2"
+                        }
+                      },
+                      "sourceSchema": {
+                        "id": "udcGridCell_jOPu"
+                      },
+                      "type": "gridCell"
+                    },
+                    {
+                      "children": [
+                        {
+                          "dataSource": {
+                            "dataField": "markOriginalData"
+                          },
+                          "referGroup": {
+                            "groupId": 20001,
+                            "groupName": "文号",
+                            "groupType": "component"
+                          },
+                          "settings": {
+                            "align": "none",
+                            "alignment": "justify",
+                            "textColor": "warning-5",
+                            "titleName": "",
+                            "validation": {
+                              "required": false
+                            }
+                          },
+                          "sourceSchema": {
+                            "id": "label_Zrrz"
+                          },
+                          "type": "reference"
+                        }
+                      ],
+                      "settings": {
+                        "styles": {
+                          "display": "flex",
+                          "gridColumn": "2/3",
+                          "gridRow": "1/2"
+                        }
+                      },
+                      "sourceSchema": {
+                        "id": "udcGridCell_jOPu"
+                      },
+                      "type": "gridCell"
+                    },
+                    {
+                      "children": [
+                        {
+                          "referGroup": {
+                            "groupId": 20001,
+                            "groupName": "文号",
+                            "groupType": "desc"
+                          },
+                          "settings": {
+                            "align": "left",
+                            "alignment": "justify",
+                            "content": "文号描述:",
+                            "textColor": "info-7",
+                            "textFontSize": 18,
+                            "validation": {
+                              "required": false
+                            }
+                          },
+                          "sourceSchema": {
+                            "id": "label_V2eU"
+                          },
+                          "type": "label"
+                        }
+                      ],
+                      "settings": {
+                        "styles": {
+                          "display": "flex",
+                          "gridColumn": "3/4",
+                          "gridRow": "1/2"
+                        }
+                      },
+                      "sourceSchema": {
+                        "id": "udcGridCell_qM4j"
+                      },
+                      "type": "gridCell"
+                    }
+                  ],
+                  "settings": {
+                    "gridTemplateColumns": [
+                      0.5,
+                      1.5,
+                      1
+                    ],
+                    "gridTemplateRows": [
+                      28
+                    ],
+                    "gridType": "complex",
+                    "title": ""
+                  },
+                  "sourceSchema": {
+                    "id": "udcGrid_7V3T"
+                  },
+                  "type": "grid"
+                }
+              ],
+              "settings": {
+                "styles": {
+                  "display": "flex",
+                  "gridColumn": "1/2",
+                  "gridRow": "1/2"
+                }
+              },
+              "sourceSchema": {
+                "id": "udcGridCell_jOPu"
+              },
+              "type": "gridCell"
+            }
+          ],
+          "settings": {
+            "gridTemplateColumns": [
+              1.0
+            ],
+            "gridTemplateRows": [
+              28
+            ],
+            "gridType": "complex",
+            "title": ""
+          },
+          "sourceSchema": {
+            "id": "udcGrid_7V3T"
+          },
+          "type": "grid"
+        }
+      ],
+      "dataSource": {
+        "entityName": "",
+        "type": "entity"
+      },
+      "name": "发文[单一记录]",
+      "settings": {},
+      "sourceSchema": {
+        "id": "udcForm_jxE7"
+      },
+      "type": "form"
+    }
+  ],
+  "name": "页面",
+  "pageType": "SUBPAGE",
+  "settings": {
+    "dataFrom": "ocr"
+  },
+  "sourceSchema": {
+    "id": "-4446304051873963810"
+  },
+  "type": "page",
+  "urlType": "PC"
+}

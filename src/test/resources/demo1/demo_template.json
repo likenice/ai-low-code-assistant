@@ -1,0 +1,250 @@
+{
+  "id" : "NWIxMDFhMmM",
+  "type" : "page",
+  "pageType" : "DETAIL",
+  "urlType" : "PC",
+  "settings" : {
+    "dataFrom" : "ocr"
+  },
+  "sourceSchema" : {
+    "id" : "526324907379942050"
+  },
+  "name" : "页面",
+  "children" : [ {
+    "type" : "form",
+    "settings" : { },
+    "sourceSchema" : {
+      "id" : "udcForm_XBwH"
+    },
+    "id" : "ZjNhYWNlM2I",
+    "name" : "测试实体字段",
+    "dataSource" : {
+      "type" : "entity",
+      "entityName" : "ceshishitiziduan"
+    },
+    "children" : [ {
+      "type" : "grid",
+      "settings" : {
+        "gridTemplateColumns" : [ 1 ]
+      },
+      "sourceSchema" : {
+        "id" : "udcGrid_0gMF"
+      },
+      "id" : "YmIzZmNhMDE",
+      "children" : [ {
+        "id" : "NTY3YmQxMjM",
+        "type" : "gridCell",
+        "settings" : {
+          "isMergeAllColumns" : true
+        },
+        "sourceSchema" : {
+          "id" : "udcGridCell_RwwL"
+        },
+        "children" : [ {
+          "type" : "label",
+          "settings" : {
+            "textFontSize" : 20
+          },
+          "sourceSchema" : {
+            "id" : "label_ezn6"
+          },
+          "id" : "MDU1ODA0Y2E",
+          "name" : "文单标题"
+        } ]
+      } ]
+    }, {
+      "type" : "grid",
+      "settings" : {
+        "gridTemplateColumns" : [ 1, 1.55, 1.3399999999999999, 0.11000000000000004 ]
+      },
+      "sourceSchema" : {
+        "id" : "udcGrid_msvN"
+      },
+      "id" : "MTc0NDlhMTM",
+      "name" : "",
+      "children" : [ {
+        "id" : "NWMzMjAyNjU",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_GlDV"
+        },
+        "children" : [ ]
+      }, {
+        "id" : "ZjFmMGRkZDI",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_yjta"
+        },
+        "children" : [ {
+          "type" : "container",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcContainer_sZIc"
+          },
+          "id" : "MmEwNjM0MjM",
+          "name" : "页面属性",
+          "children" : [ {
+            "type" : "datePicker",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "datePicker_3Fpt"
+            },
+            "id" : "NjhiOTZjM2I"
+          } ]
+        } ]
+      }, {
+        "id" : "NmQ3ODQyM2U",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_5bNc"
+        },
+        "children" : [ {
+          "type" : "grid",
+          "settings" : {
+            "gridTemplateColumns" : [ 1 ]
+          },
+          "sourceSchema" : {
+            "id" : "udcGrid_raSd"
+          },
+          "id" : "NjMyMzIwYTQ",
+          "children" : [ {
+            "id" : "ZDkzNDYzMzM",
+            "type" : "gridCell",
+            "settings" : {
+              "isMergeAllColumns" : true
+            },
+            "sourceSchema" : {
+              "id" : "udcGridCell_NpDE"
+            },
+            "children" : [ {
+              "type" : "reference",
+              "settings" : { },
+              "sourceSchema" : {
+                "id" : "udcReference_nL1E"
+              },
+              "id" : "MzJlZDYxYjg"
+            } ]
+          } ]
+        } ]
+      }, {
+        "id" : "MDQyYzI1YWM",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_uaEL"
+        },
+        "children" : [ ]
+      } ]
+    }, {
+      "type" : "grid",
+      "settings" : {
+        "gridTemplateColumns" : [ 0.99, 0.99, 1.02, 1 ]
+      },
+      "sourceSchema" : {
+        "id" : "udcGrid_b1RV"
+      },
+      "id" : "MTg2MGQzYzE",
+      "name" : "主网格",
+      "children" : [ {
+        "id" : "MWVhYjQ4N2U",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell__cOT"
+        },
+        "children" : [ {
+          "type" : "label",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "label_Zegf"
+          },
+          "id" : "M2I2MzI4MzM"
+        } ]
+      }, {
+        "id" : "N2Y0Y2U2MTk",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_AOGf"
+        },
+        "children" : [ {
+          "type" : "reference",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcReference_g8vU"
+          },
+          "id" : "MmU5MDYzNzA"
+        } ]
+      }, {
+        "id" : "OGQxNjk1NDA",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_Gkem"
+        },
+        "children" : [ ]
+      }, {
+        "id" : "MWQxYjAxMjg",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_jn0h"
+        },
+        "children" : [ ]
+      }, {
+        "id" : "MWQ3MjljODg",
+        "type" : "gridCell",
+        "settings" : {
+          "isMergeAllColumns" : true
+        },
+        "sourceSchema" : {
+          "id" : "udcGridCell_AKsP"
+        },
+        "children" : [ {
+          "type" : "label",
+          "settings" : {
+            "textFontSize" : 17
+          },
+          "sourceSchema" : {
+            "id" : "label_qlKf"
+          },
+          "id" : "ZjRkODczMWM"
+        } ]
+      }, {
+        "id" : "ZDU5Mjg3ZDI",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_N8Zi"
+        },
+        "children" : [ ]
+      }, {
+        "id" : "ZjBmYjY3MjA",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_yvmf"
+        },
+        "children" : [ ]
+      }, {
+        "id" : "ZGZlZDg2Y2I",
+        "type" : "gridCell",
+        "settings" : { },
+        "sourceSchema" : {
+          "id" : "udcGridCell_Auyv"
+        },
+        "children" : [ ]
+      } ]
+    } ]
+  }, {
+    "type" : "label",
+    "settings" : { },
+    "sourceSchema" : {
+      "id" : "label_eFd8"
+    },
+    "id" : "NGI2ZmE5YmY"
+  } ]
+}

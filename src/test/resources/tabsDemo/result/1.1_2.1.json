@@ -1,0 +1,60 @@
+[
+	{
+		"id": "MmM4MTQxM2M",
+		"type": "collapse",
+		"settings": {
+			"title": "分组1_1",
+			"gridTemplateColumns": [
+				1,
+				1
+			],
+			"gridTemplateRows": [
+				28
+			],
+			"belongTabs": "页签1/页签2"
+		},
+		"sourceSchema": {
+			"id": "collapse_Zy4z"
+		},
+		"children": [
+			{
+				"type": "container",
+				"sourceSchema": {
+					"id": "udcContainer_uEhm"
+				},
+				"id": "NzY1MmQ3OGU",
+				"children": [
+					{
+						"type": "inputNumber",
+						"settings": {
+							"titleName": "文本组件11",
+							"flexRowSize": 1
+						},
+						"dataSource": {
+							"dataField": "wbzj_11"
+						},
+						"sourceSchema": {
+							"id": "inputNumber_XD11"
+						}
+					},
+					{
+						"type": "input",
+						"settings": {
+							"titleName": "文本组件12",
+							"flexRowSize": 1
+						},
+						"dataSource": {
+							"dataField": "wbzj_12"
+						},
+						"sourceSchema": {
+							"id": "input_XD11"
+						}
+					}
+				],
+				"settings": {
+					"columns": 2
+				}
+			}
+		]
+	}
+]

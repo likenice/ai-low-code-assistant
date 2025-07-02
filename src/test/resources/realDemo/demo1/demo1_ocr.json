@@ -1,0 +1,650 @@
+{
+	"titleName": "收入结算单申请wx4",
+	"groups": [{
+		"name": "未命名组1",
+		"type": "collapse",
+		"col": 3,
+		"ocrRelationId": "ae6032ef-fb59-4582-a50b-1d01680fe7d3",
+		"settings": {
+			"gridTemplateColumns": [1, 1, 1],
+			"gridTemplateRows": [1, 1, 1, 1, 1, 1, 1, 1],
+			"titleName": "未命名组1",
+			"validation": null
+		},
+		"components": [{
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "申请人",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "reference",
+			"ocrRelationId": "5a540a8a-6090-4783-89df-a91008d2f59e",
+			"dataSource": {
+				"dataField": "applicant"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "申请部门",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "reference",
+			"ocrRelationId": "6bdf5a11-ea54-4b6e-94e5-b74414719c04",
+			"dataSource": {
+				"dataField": "shenqingbumen"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "申请日期",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "datePicker",
+			"ocrRelationId": "38017864-24ba-4f64-a9e8-a713bbc32b00",
+			"dataSource": {
+				"dataField": "shenqingriqi"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 3,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "inBillId",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "input",
+			"ocrRelationId": "874e88ef-4aad-48aa-ab5c-38f991c246e5",
+			"dataSource": {
+				"dataField": "inbillid"
+			},
+			"cellColRow": {
+				"rowIndex": 2,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "所属组织",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "reference",
+			"ocrRelationId": "5419ff6b-491d-481a-925f-3472e7c41de9",
+			"dataSource": {
+				"dataField": "suoshuzuzhi"
+			},
+			"cellColRow": {
+				"rowIndex": 2,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "入账项目",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "input",
+			"ocrRelationId": "f367a22c-a2ac-418e-8582-b54c1d4b1caf",
+			"dataSource": {
+				"dataField": "ruzhangxiangmu"
+			},
+			"cellColRow": {
+				"rowIndex": 2,
+				"flexRowSize": 1,
+				"colIndex": 3,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "合同编码",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "input",
+			"ocrRelationId": "1f2c5d5f-2f64-4b8c-a450-a15367069962",
+			"dataSource": {
+				"dataField": "hetongbianma"
+			},
+			"cellColRow": {
+				"rowIndex": 3,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "合同名称",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "input",
+			"ocrRelationId": "b2a2fa59-d4cc-4128-9eff-3ae68c347f87",
+			"dataSource": {
+				"dataField": "hetongmingcheng"
+			},
+			"cellColRow": {
+				"rowIndex": 3,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "业务类型名称",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "treeSelect",
+			"ocrRelationId": "e97b8c20-6333-44fe-988e-32aefe70d224",
+			"dataSource": {
+				"dataField": "yewuleixingmingcheng"
+			},
+			"cellColRow": {
+				"rowIndex": 3,
+				"flexRowSize": 1,
+				"colIndex": 3,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "业务类型",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "treeSelect",
+			"ocrRelationId": "015e9513-be5e-42a1-bf84-1a6b3dd9887a",
+			"dataSource": {
+				"dataField": "yewuleixing"
+			},
+			"cellColRow": {
+				"rowIndex": 4,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "客户名称/相对方名称",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "reference",
+			"ocrRelationId": "d66f8d9f-0614-4014-89c4-1a81297b3263",
+			"dataSource": {
+				"dataField": "khmcxdfmc"
+			},
+			"cellColRow": {
+				"rowIndex": 4,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "联系人",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "reference",
+			"ocrRelationId": "402ab6b8-fd1d-4ba4-92e4-15a9b8e418a4",
+			"dataSource": {
+				"dataField": "lianxiren"
+			},
+			"cellColRow": {
+				"rowIndex": 4,
+				"flexRowSize": 1,
+				"colIndex": 3,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "开户行",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "input",
+			"ocrRelationId": "a42dbaf6-cf61-4ed1-ace0-d471af66db15",
+			"dataSource": {
+				"dataField": "kaihuxing"
+			},
+			"cellColRow": {
+				"rowIndex": 5,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "银行账号",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "input",
+			"ocrRelationId": "48d984fd-06fd-410a-b9e1-961d935ebac3",
+			"dataSource": {
+				"dataField": "yinhangzhanghao"
+			},
+			"cellColRow": {
+				"rowIndex": 5,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "结算单类型",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "treeSelect",
+			"ocrRelationId": "20d03a4d-a35d-4c18-bf15-6569e8f77d88",
+			"dataSource": {
+				"dataField": "jiesuandanleixing"
+			},
+			"cellColRow": {
+				"rowIndex": 5,
+				"flexRowSize": 1,
+				"colIndex": 3,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "来源",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "input",
+			"ocrRelationId": "0ddfbb23-4184-4431-8e7f-0650e4ae431c",
+			"dataSource": {
+				"dataField": "laiyuan"
+			},
+			"cellColRow": {
+				"rowIndex": 6,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "抽成金额",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "currency",
+			"ocrRelationId": "9c4ba7e6-1fe1-402a-ad6a-aa066ae1ddf6",
+			"dataSource": {
+				"dataField": "chouchengjine"
+			},
+			"cellColRow": {
+				"rowIndex": 6,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "履约金额",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "currency",
+			"ocrRelationId": "e9c37433-778d-4c95-909d-3f34ba32ce93",
+			"dataSource": {
+				"dataField": "lvyuejine"
+			},
+			"cellColRow": {
+				"rowIndex": 6,
+				"flexRowSize": 1,
+				"colIndex": 3,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "订单总金额",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "currency",
+			"ocrRelationId": "0c1cfc79-1c51-4348-a9bf-d28bb0885e77",
+			"dataSource": {
+				"dataField": "dingdanzongjine"
+			},
+			"cellColRow": {
+				"rowIndex": 7,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 3
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "申请说明",
+				"validation": {
+					"required": false
+				}
+			},
+			"type": "textArea",
+			"ocrRelationId": "3669a254-2593-48d8-a147-e8c4d61a523d",
+			"dataSource": {
+				"dataField": "shenqingshuoming"
+			},
+			"cellColRow": {
+				"rowIndex": 8,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 3
+			}
+		}]
+	}, {
+		"name": "未命名表1wx4",
+		"type": "dataGrid",
+		"col": 0,
+		"ocrRelationId": "b2246b2c-a99d-4915-ba6f-10d4ca08113d",
+		"settings": {
+			"gridTemplateColumns": [0.65, 1.08, 0.99, 1.32, 0.95, 0.92, 1.12, 1.1, 1.19, 1.08, 1.2, 0.4],
+			"gridTemplateRows": [1],
+			"titleName": "",
+			"validation": null
+		},
+		"components": [{
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "序号",
+				"validation": null
+			},
+			"type": "inputNumber",
+			"ocrRelationId": "8cf5b889-8de9-4c01-9659-e53656d216dc",
+			"dataSource": {
+				"dataField": "xuhao"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "资源名称",
+				"validation": null
+			},
+			"type": "input",
+			"ocrRelationId": "b3047ef3-d40a-4e4a-becc-5d4b5ac51390",
+			"dataSource": {
+				"dataField": "ziyuanmingcheng"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "费项名称",
+				"validation": null
+			},
+			"type": "input",
+			"ocrRelationId": "bff13ff1-c2ed-42f1-ae80-c9bcf28feee7",
+			"dataSource": {
+				"dataField": "feixiangmingcheng"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 3,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "应收含税金额",
+				"validation": null
+			},
+			"type": "currency",
+			"ocrRelationId": "79d112d2-993f-4105-85d0-13abd741dc0a",
+			"dataSource": {
+				"dataField": "yingshouhanshuijine"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 4,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "税率",
+				"validation": null
+			},
+			"type": "inputNumber",
+			"ocrRelationId": "dff31a7a-2b7f-4fab-b0be-8ba717bc82e9",
+			"dataSource": {
+				"dataField": "shuilv"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 5,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "应收税额",
+				"validation": null
+			},
+			"type": "currency",
+			"ocrRelationId": "a223bde6-8079-4de2-aac1-4b40cf68cb24",
+			"dataSource": {
+				"dataField": "yingshoushuie"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 6,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "应收不含税金额",
+				"validation": null
+			},
+			"type": "currency",
+			"ocrRelationId": "142a0184-121e-40dc-b04f-48dadd5fc6d1",
+			"dataSource": {
+				"dataField": "ysbhsje"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 7,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "费用开始日期",
+				"validation": null
+			},
+			"type": "datePicker",
+			"ocrRelationId": "ed6b7a58-b91f-461d-b918-0df33bcc80c1",
+			"dataSource": {
+				"dataField": "feiyongkaishiriqi"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 8,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "费用结束日期",
+				"validation": null
+			},
+			"type": "datePicker",
+			"ocrRelationId": "f4c68fc3-7b4c-45b2-8932-706488c704e5",
+			"dataSource": {
+				"dataField": "feiyongjieshuriqi"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 9,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "应收账期",
+				"validation": null
+			},
+			"type": "inputNumber",
+			"ocrRelationId": "2474d1ce-7db9-4d3a-9745-266186c9f7fa",
+			"dataSource": {
+				"dataField": "yingshouzhangqi"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 10,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "应收日期",
+				"validation": null
+			},
+			"type": "datePicker",
+			"ocrRelationId": "22a18946-2143-4821-8d78-8ac60c3dd350",
+			"dataSource": {
+				"dataField": "yingshouriqi"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 11,
+				"flexColSize": 1
+			}
+		}, {
+			"settings": {
+				"gridTemplateColumns": [],
+				"gridTemplateRows": [],
+				"titleName": "备注",
+				"validation": null
+			},
+			"type": "textArea",
+			"ocrRelationId": "35ca5a1a-14a1-45e7-838e-b3b52301a255",
+			"dataSource": {
+				"dataField": "beizhu"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 12,
+				"flexColSize": 1
+			}
+		}],
+		"dataSource": {
+			"entityName": "ingbiao1wx4"
+		}
+	}],
+	"dataSource": {
+		"entityName": "srjsdsqwx4"
+	}
+}

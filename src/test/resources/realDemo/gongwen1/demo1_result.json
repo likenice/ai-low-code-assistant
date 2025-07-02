@@ -1,0 +1,222 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "name": "表头",
+                                    "settings": {
+                                        "alignment": "center",
+                                        "content": "F25**集团因私出国(境)人员审批表",
+                                        "textColor": "error-6",
+                                        "textFontSize": 20,
+                                        "textFontStyle": ",bold"
+                                    },
+                                    "sourceSchema": {
+                                        "id": "label_8XNA"
+                                    },
+                                    "type": "label"
+                                }
+                            ],
+                            "settings": {
+                                "isMergeAllColumns": true,
+                                "styles": {
+                                    "display": "flex",
+                                    "gridColumn": "1/5",
+                                    "gridRow": "1/2"
+                                }
+                            },
+                            "sourceSchema": {
+                                "id": "udcGridCell_1dnh"
+                            },
+                            "type": "gridCell"
+                        }
+                    ],
+                    "settings": {
+                        "gridTemplateColumns": [
+                            0.3999999999999999,
+                            1.5999999999999999,
+                            0.38,
+                            1.6199999999999999
+                        ],
+                        "gridTemplateRows": [
+                            28
+                        ]
+                    },
+                    "sourceSchema": {
+                        "id": "udcGrid_7V3T"
+                    },
+                    "type": "grid"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "dataSource": {
+                                        "dataField": "userName"
+                                    },
+                                    "settings": {
+                                        "align": "left",
+                                        "titleName": "姓名",
+                                        "validation": {
+                                            "required": true
+                                        }
+                                    },
+                                    "sourceSchema": {
+                                        "id": "input_mFrL_1705028869530"
+                                    },
+                                    "type": "input"
+                                }
+                            ],
+                            "settings": {
+                                "styles": {
+                                    "display": "flex",
+                                    "gridColumn": "1/2",
+                                    "gridRow": "1/2"
+                                }
+                            },
+                            "sourceSchema": {
+                                "id": "udcGridCell_HMk9"
+                            },
+                            "type": "gridCell"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "settings": {
+                                        "align": "center",
+                                        "titleName": "注意事项****"
+                                    },
+                                    "sourceSchema": {
+                                        "id": "label_Zrrz"
+                                    },
+                                    "type": "label"
+                                }
+                            ],
+                            "settings": {
+                                "styles": {
+                                    "display": "flex",
+                                    "gridColumn": "2/3",
+                                    "gridRow": "1/2"
+                                }
+                            },
+                            "sourceSchema": {
+                                "id": "udcGridCell_HMk9"
+                            },
+                            "type": "gridCell"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "dataSource": {
+                                                "dataField": "memo"
+                                            },
+                                            "settings": {
+                                                "align": "left",
+                                                "titleName": "备注",
+                                                "validation": {
+                                                    "required": false
+                                                }
+                                            },
+                                            "sourceSchema": {},
+                                            "type": "textarea"
+                                        },
+                                        {
+                                            "dataSource": {
+                                                "dataField": "optionUser"
+                                            },
+                                            "settings": {
+                                                "align": "left",
+                                                "titleName": "操作人员",
+                                                "validation": {
+                                                    "required": false
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcReference_EdFN"
+                                            },
+                                            "type": "reference"
+                                        }
+                                    ],
+                                    "settings": {
+                                        "alignItems": "stretch",
+                                        "flexDirection": "column",
+                                        "justifyContent": "center"
+                                    },
+                                    "sourceSchema": {},
+                                    "type": "container"
+                                }
+                            ],
+                            "settings": {
+                                "styles": {
+                                    "display": "flex",
+                                    "gridColumn": "1/3",
+                                    "gridRow": "2/3"
+                                }
+                            },
+                            "sourceSchema": {
+                                "id": "udcGridCell_HMk9"
+                            },
+                            "type": "gridCell"
+                        },
+                        {
+                            "children": [],
+                            "settings": {
+                                "styles": {
+                                    "display": "none",
+                                    "gridColumn": "2/3",
+                                    "gridRow": "2/3"
+                                }
+                            },
+                            "sourceSchema": {
+                                "id": "udcGridCell_HMk9"
+                            },
+                            "type": "gridCell"
+                        }
+                    ],
+                    "settings": {
+                        "gridTemplateColumns": [
+                            1.0,
+                            1.0
+                        ],
+                        "gridTemplateRows": [
+                            28,
+                            28
+                        ],
+                        "title": ""
+                    },
+                    "sourceSchema": {
+                        "id": "udcGrid_7V3T"
+                    },
+                    "type": "grid"
+                }
+            ],
+            "dataSource": {
+                "entityName": "IssuedDocument",
+                "type": "entity"
+            },
+            "name": "发文[单一记录]",
+            "settings": {},
+            "sourceSchema": {
+                "id": "udcForm_jxE7"
+            },
+            "type": "form"
+        }
+    ],
+    "name": "页面",
+    "pageType": "SUBPAGE",
+    "settings": {
+        "dataFrom": "ocr"
+    },
+    "sourceSchema": {
+        "id": "1664618266661216324"
+    },
+    "type": "page",
+    "urlType": "PC"
+}

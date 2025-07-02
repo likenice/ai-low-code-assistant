@@ -1,0 +1,105 @@
+[ {
+  "type" : "collapse",
+  "settings" : {
+    "title" : "分组1_1"
+  },
+  "sourceSchema" : {
+    "id" : "collapse_dScE"
+  },
+  "id" : "NGQ4YjcyZDQ",
+  "children" : [ {
+    "id" : "OWE4ZWY2NmU",
+    "type" : "grid",
+    "settings" : {
+      "gridTemplateColumns" : [ 1, 1, 1, 1 ],
+      "gridTemplateRows" : [ 28 ]
+    },
+    "sourceSchema" : {
+      "id" : "udcGrid_888H"
+    },
+    "children" : [ {
+      "type" : "gridCell",
+      "settings" : {
+        "styles" : {
+          "display" : "flex",
+          "gridColumn" : "1/2",
+          "gridRow" : "1/2"
+        }
+      },
+      "children" : [ {
+        "type" : "label",
+        "settings" : {
+          "content" : "文本组件label"
+        },
+        "sourceSchema" : {
+          "id" : "label_XD11"
+        },
+        "dataSource" : {
+          "dataField" : "wbzj_12"
+        }
+      } ],
+      "sourceSchema" : {
+        "id" : "udcGridCell_9Lqw"
+      }
+    }, {
+      "type" : "gridCell",
+      "settings" : {
+        "styles" : {
+          "display" : "flex",
+          "gridRow" : "1/2",
+          "gridColumn" : "2/3"
+        }
+      },
+      "children" : [ {
+        "type" : "input",
+        "settings" : {
+          "titleName" : "文本组件"
+        },
+        "sourceSchema" : {
+          "id" : "input_XD11"
+        },
+        "dataSource" : {
+          "dataField" : "wbzj_12"
+        }
+      } ],
+      "sourceSchema" : {
+        "id" : "udcGridCell_a3s1"
+      }
+    }, {
+      "type" : "gridCell",
+      "settings" : {
+        "styles" : {
+          "display" : "flex",
+          "gridColumn" : "3/5",
+          "gridRow" : "1/2"
+        }
+      },
+      "children" : [ {
+        "type" : "label",
+        "settings" : {
+          "content" : "普通文本内容"
+        },
+        "sourceSchema" : {
+          "id" : "input_XD11"
+        },
+        "dataSource" : { }
+      } ],
+      "sourceSchema" : {
+        "id" : "udcGridCell_a3s1"
+      }
+    }, {
+      "type" : "gridCell",
+      "settings" : {
+        "styles" : {
+          "display" : "none",
+          "gridRow" : "1/2",
+          "gridColumn" : "4/5"
+        }
+      },
+      "children" : [ ],
+      "sourceSchema" : {
+        "id" : "udcGridCell_a3s1"
+      }
+    } ]
+  } ]
+} ]

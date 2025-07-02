@@ -1,0 +1,56 @@
+{
+	"titleName": "F25中海集团因私出国(境)人员审批表",
+	"groups": [
+		{
+			"name": "",
+			"type": "grid",
+			"settings": {
+				"titleName": "",
+				"gridType": "complex",
+				"gridTemplateColumns": [
+					0.5,
+					1.5
+				],
+				"gridTemplateRows": [
+					28
+				]
+			},
+			"components": [
+				
+				{
+					"settings": {
+						"titleName": "姓名",
+						"align": "left",
+						"titleDisplay": "left",
+						"validation": {
+							"required": true
+						},
+						"flexRowSize": 1
+					},
+					"type": "reference",
+					"dataSource": {
+						"entityFullName": "com.***.EntityDemo",
+						"dataField": "userName"
+					},
+					"level": 0,
+					"information": "",
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 2,
+						"flexColSize": 1
+					},
+					"referGroup": {
+						"groupId": "com.***.EntityDemo.userName",
+						"groupName": "com.***.EntityDemo.userName",
+						"groupType": "component"
+					},
+					"groups": [
+						{}
+					]
+				}
+				
+			]
+		}
+	]
+}

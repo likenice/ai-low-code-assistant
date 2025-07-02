@@ -1,0 +1,94 @@
+{
+	"type": "container",
+	"settings": {},
+	"sourceSchema": {
+		"id": "udcContainer_D6j4"
+	},
+	"id": "M2VlZWE2YmM",
+	"children": [
+		{
+			"type": "form",
+			"settings": {},
+			"sourceSchema": {
+				"id": "udcForm_Y70u"
+			},
+			"id": "NmYyNzEyOTU",
+			"name": "无分组实体1",
+			"dataSource": {
+				"type": "entity",
+				"entityName": "wufenzushiti1"
+			},
+			"children": [
+				{
+					"type": "grid",
+					"settings": {},
+					"sourceSchema": {
+						"id": "udcGrid_0Ufl"
+					},
+					"id": "OTMxNDNlM2E",
+					"children": [
+						{
+							"type": "gridCell",
+							"settings": {},
+							"sourceSchema": {
+								"id": "udcGridCell_mLaY"
+							},
+							"children": [
+								{
+									"type": "input",
+									"settings": {},
+									"sourceSchema": {
+										"id": "input_DDN3"
+									},
+									"id": "ZDA1MGUyNTE"
+								}
+							]
+						},
+						{
+							"type": "gridCell",
+							"settings": {},
+							"sourceSchema": {
+								"id": "udcGridCell_KbsM"
+							},
+							"children": [
+								{
+									"type": "input",
+									"settings": {},
+									"sourceSchema": {
+										"id": "input_9Trz"
+									},
+									"id": "NTgxYjA3MmI"
+								}
+							]
+						},
+						{
+							"type": "gridCell",
+							"settings": {},
+							"sourceSchema": {
+								"id": "udcGridCell_LRS2"
+							},
+							"children": [
+								{
+									"type": "input",
+									"settings": {},
+									"sourceSchema": {
+										"id": "input_PxpP"
+									},
+									"id": "NjRkMWJjMTM"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "divider",
+			"settings": {},
+			"sourceSchema": {
+				"id": "divider_GfFn"
+			},
+			"id": "MjQ1ZTIxOGY"
+		}
+	]
+}

@@ -1,0 +1,133 @@
+{
+	"id": "NTE3Y2I1ZjA",
+	"type": "page",
+	"pageType": "DETAIL",
+	"urlType": "PC",
+	"settings": {
+		"dataFrom": "ocr"
+	},
+	"sourceSchema": {
+		"id": "-591166153054340532"
+	},
+	"name": "页面",
+	"children": [
+		{
+			"type": "form",
+			"settings": {},
+			"sourceSchema": {
+				"id": "udcForm_esD0"
+			},
+			"id": "MjA1YzIyZGY",
+			"children": [
+				{
+					"type": "container",
+					"settings": {},
+					"sourceSchema": {
+						"id": "udcContainer_nT8g"
+					},
+					"id": "MGJjZGE2MzI",
+					"children": [
+						{
+							"type": "container",
+							"settings": {},
+							"sourceSchema": {
+								"id": "udcContainer_yd6L"
+							},
+							"id": "YmQwODMyYzM"
+						},
+						{
+							"type": "container",
+							"settings": {},
+							"sourceSchema": {
+								"id": "container_dScE"
+							},
+							"id": "NGJmZTVhZTY",
+							"children": [
+								{
+									"id": "MmRjMjk5Yzg",
+									"type": "grid",
+									"settings": {
+										"gridTemplateColumns": [
+											1,
+											1
+										]
+									},
+									"sourceSchema": {
+										"id": "udcGrid_888H"
+									},
+									"children": [
+										{
+											"id": "OWZlMjJiNGQ",
+											"type": "gridCell",
+											"settings": {},
+											"sourceSchema": {
+												"id": "udcGridCell_9Lqw"
+											},
+											"children": [
+												{
+													"id": "ZDU4NjJkMGE",
+													"type": "inputNumber",
+													"settings": {},
+													"sourceSchema": {
+														"id": "inputNumber_XD11"
+													}
+												}
+											]
+										},
+										{
+											"id": "ODIxMGRmNjE",
+											"type": "gridCell",
+											"settings": {},
+											"sourceSchema": {
+												"id": "udcGridCell_a3s1"
+											},
+											"children": [
+												{
+													"id": "NTRiN2QzYzc",
+													"type": "input",
+													"settings": {},
+													"sourceSchema": {
+														"id": "input_XD11"
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					,{
+							"type": "dataGrid",
+							"sourceSchema": {
+								"id": "udcDataGrid_Vbi1"
+							},
+							"id": "YmIzZjY0Mjc",
+							"settings": {
+							},
+							"dataSource": {
+								"entityName": "表名称"
+							},
+							"children": [
+								{
+									"type": "text",
+									"settings": {},
+									"sourceSchema": {
+										"id": "test_aa"
+									}
+								},
+
+								{
+									"type": "input",
+									"settings": {},
+									"sourceSchema": {
+										"id": "input_bb"
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

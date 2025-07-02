@@ -1,0 +1,26 @@
+{
+	"name": "",
+	"type": "dataGrid",
+	"sourceSchema": {
+		"id": "udcGridCell_dg"
+	},
+	"settings": {},
+	"children":[
+		{
+			"type": "text",
+			"settings": {},
+			"sourceSchema": {
+				"id": "text_aa"
+			}
+		},
+
+		{
+			"type": "input",
+			"settings": {},
+			"sourceSchema": {
+				"id": "input_bb"
+			}
+		}
+	]
+	
+}

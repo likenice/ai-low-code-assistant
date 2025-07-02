@@ -1,0 +1,157 @@
+[
+  {
+    "id": "NmFkNWJhOWE",
+    "type": "grid",
+    "settings": {
+      "gridTemplateColumns": [
+        1.0,
+        1.0
+      ],
+      "gridTemplateRows": [
+        28,
+        28
+      ],
+      "title": ""
+    },
+    "sourceSchema": {
+      "id": "udcGrid_7V3T"
+    },
+    "children": [
+      {
+        "id": "OWU5YTJiZjE",
+        "type": "gridCell",
+        "settings": {
+          "styles": {
+            "display": "flex",
+            "gridRow": "1/2",
+            "gridColumn": "1/2"
+          }
+        },
+        "sourceSchema": {
+          "id": "udcGridCell_HMk9"
+        },
+        "children": [
+          {
+            "id": "M2Q2MzBiZDM",
+            "type": "input",
+            "settings": {
+              "titleName": "姓名",
+              "align": "left",
+              "validation": {
+                "required": true
+              }
+            },
+            "sourceSchema": {
+              "id": "input_mFrL_1705028869530"
+            },
+            "dataSource": {
+              "dataField": "userName"
+            }
+          }
+        ]
+      },
+      {
+        "id": "NThhMWQ0OTg",
+        "type": "gridCell",
+        "settings": {
+          "styles": {
+            "display": "flex",
+            "gridRow": "1/2",
+            "gridColumn": "2/3"
+          }
+        },
+        "sourceSchema": {
+          "id": "udcGridCell_HMk9"
+        },
+        "children": [
+          {
+            "id": "ZGM0MDhhNjM",
+            "type": "label",
+            "settings": {
+              "titleName": "注意事项****",
+              "align": "center"
+            },
+            "sourceSchema": {
+              "id": "label_Zrrz"
+            }
+          }
+        ]
+      },
+      {
+        "id": "ZTg4YmQ0Mjg",
+        "type": "gridCell",
+        "settings": {
+          "styles": {
+            "display": "flex",
+            "gridRow": "2/3",
+            "gridColumn": "1/3"
+          }
+        },
+        "sourceSchema": {
+          "id": "udcGridCell_HMk9"
+        },
+        "children": [
+          {
+            "id": "Nzc3YWIyMmY",
+            "type": "container",
+            "settings": {
+              "flexDirection": "column",
+              "justifyContent": "center",
+              "alignItems": "stretch"
+            },
+            "sourceSchema": {},
+            "children": [
+              {
+                "id": "ODkyZTQwMGE",
+                "type": "textarea",
+                "settings": {
+                  "titleName": "备注",
+                  "align": "left",
+                  "validation": {
+                    "required": false
+                  }
+                },
+                "sourceSchema": {},
+                "dataSource": {
+                  "dataField": "memo"
+                }
+              },
+              {
+                "id": "OTI3MjU5Mzk",
+                "type": "reference",
+                "settings": {
+                  "titleName": "操作人员",
+                  "align": "left",
+                  "validation": {
+                    "required": false
+                  }
+                },
+                "sourceSchema": {
+                  "id": "udcReference_EdFN"
+                },
+                "dataSource": {
+                  "dataField": "optionUser"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "MjJhNWI0ZTA",
+        "type": "gridCell",
+        "settings": {
+          "styles": {
+            "display": "none",
+            "gridRow": "2/3",
+            "gridColumn": "2/3"
+          }
+        },
+        "sourceSchema": {
+          "id": "udcGridCell_HMk9"
+        },
+        "children": []
+      }
+    ]
+  }
+]

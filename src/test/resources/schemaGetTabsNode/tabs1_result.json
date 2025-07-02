@@ -1,0 +1,19 @@
+{
+    "type": "tabs",
+    "settings": {
+        "tabsSetting": [
+            {
+                "name": "页签1"
+            },
+            {   
+                "name": "页签2"
+            }
+        ]
+    },
+    "sourceSchema": {
+        "id": "tabs_11"
+    },
+    "id": "tabs_id_11",
+    "children": [
+    ]
+}

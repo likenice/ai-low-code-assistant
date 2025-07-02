@@ -1,0 +1,36 @@
+[
+  {
+    "type": "tabs",
+    "sourceSchema": {
+      "id": "tabs_2DkY"
+    },
+    "settings": {
+      "tabsSetting": [
+        {
+          "name": "页签1"
+        },
+        {
+          "name": "页签2"
+        }
+      ]
+    },
+    "children": []
+  },
+  {
+    "type": "tabs",
+    "sourceSchema": {
+      "id": "tabs_2DkY"
+    },
+    "settings": {
+      "tabsSetting": [
+        {
+          "name": "页签3"
+        },
+        {
+          "name": "页签4"
+        }
+      ]
+    },
+    "children": []
+  }
+]

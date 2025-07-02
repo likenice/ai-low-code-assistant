@@ -1,0 +1,4577 @@
+{
+	"children": [
+		"udcForm_jxE7"
+	],
+	"id": "1664618266661216324",
+	"appId": "4567607618895299110",
+	"pageType": "SUBPAGE",
+	"pageUrl": "dy6134643426635348943presetDocFormPage",
+	"urlType": "PC",
+	"defaultOpenType": null,
+	"description": "",
+	"groupId": "0",
+	"guid": "6134643426635348943",
+	"relationGroupId": "2463339762186489608",
+	"sortNo": 1,
+	"masterEntityIds": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument",
+	"createTime": "1743489003000",
+	"settings": {
+		"styles": {},
+		"title": {
+			"type": "Simple",
+			"expression": null,
+			"selectParam": null,
+			"simple": ""
+		},
+		"backgroundAdapt": "cover",
+		"backgroundColor": "#ffffff",
+		"gap": "20px 0",
+		"boxModel": {
+			"margin": "0 auto 0 auto",
+			"padding": "0px 0px 0px 0px"
+		},
+		"resolutionPower": {
+			"type": "auto",
+			"value": {
+				"per": 100,
+				"minWidth": 600,
+				"maxWidth": 1920,
+				"fixedWidth": 1200
+			}
+		},
+		"alignment": "center"
+	},
+	"pageLayout": false,
+	"originId": "1664618266661216324",
+	"name": "页面",
+	"type": "page",
+	"version": null,
+	"terminal": "PC",
+	"handWritten": false,
+	"pageVariable": [],
+	"eventDefine": [],
+	"expressSchemaPaths": [],
+	"childById": {
+		"udcForm_jxE7": {
+			"id": "udcForm_jxE7",
+			"type": "UdcForm",
+			"parentId": "page",
+			"settings": {
+				"styles": {},
+				"filterCondition": null,
+				"resolutionPower": {
+					"type": "auto",
+					"value": {
+						"per": 100,
+						"minWidth": 400,
+						"maxWidth": 1200,
+						"fixedWidth": 1200
+					}
+				},
+				"boxModel": {
+					"margin": "0px auto 0px auto",
+					"padding": "0px 0px 0px 0px"
+				}
+			},
+			"uiModel": {
+				"status": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "basic"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单一记录",
+			"dataSource": {
+				"type": "ENTITY",
+				"key": "udcForm_jxE7.com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.IssuedDocument",
+				"isRoot": true,
+				"isRef": true,
+				"dataShape": "SINGLE",
+				"inParamCode": "entity",
+				"dataFrom": "子页面入参",
+				"entity": {
+					"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument",
+					"name": "IssuedDocument",
+					"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument",
+					"caption": "发文",
+					"stereotype": "bill",
+					"category": "ENTITY",
+					"parent": null,
+					"supportOrderNo": true,
+					"appName": "edoc335172694483814428",
+					"appId": "edoc335172694483814428"
+				},
+				"fields": [
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.markOriginalData",
+						"name": "markOriginalData",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.markOriginalData",
+						"readonly": false
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.emergencyDegree",
+						"name": "emergencyDegree",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.emergencyDegree",
+						"readonly": false,
+						"enumType": "SAME_LEVEL",
+						"enumLevel": 0
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftDate",
+						"name": "draftDate",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftDate"
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.contactNumber",
+						"name": "contactNumber",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.contactNumber"
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.attachment",
+						"name": "attachment",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.attachment",
+						"readonly": false
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentTitle",
+						"name": "documentTitle",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentTitle"
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.mainReceiverDepartment",
+						"name": "mainReceiverDepartment",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.mainReceiverDepartment"
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.copyToDepartment",
+						"name": "copyToDepartment",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.copyToDepartment"
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentIssuingDepartment",
+						"name": "documentIssuingDepartment",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentIssuingDepartment"
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issuedDateOfDcoument",
+						"name": "issuedDateOfDcoument",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issuedDateOfDcoument"
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.signer",
+						"name": "signer",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.signer"
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issueOpinion",
+						"name": "issueOpinion",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issueOpinion",
+						"readonly": false
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.jointlySignOpinion",
+						"name": "jointlySignOpinion",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.jointlySignOpinion",
+						"readonly": false
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.examineOpinion",
+						"name": "examineOpinion",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.examineOpinion",
+						"readonly": false
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftVerificationOpinion",
+						"name": "draftVerificationOpinion",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftVerificationOpinion",
+						"readonly": false
+					},
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.drafters",
+						"name": "drafters",
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.drafters",
+						"readonly": false
+					}
+				],
+				"dataTarget": "udcForm_jxE7",
+				"fieldBindMap": {
+					"uiBusinessEdocMark_fo9N": "markOriginalData",
+					"treeSelect_JBmh": "emergencyDegree",
+					"datePicker_HxVA": "draftDate",
+					"udcReference_F8Hy": "drafters",
+					"input_3c3s": "contactNumber",
+					"attachment_PoSL": "attachment",
+					"input_mFrL_1705028869530": "documentTitle",
+					"uiBusinessSelectPeople_qnXQ_1705028973129": "mainReceiverDepartment",
+					"uiBusinessSelectPeople_cBCb_1705028987405": "copyToDepartment",
+					"udcReference_bV0u_1705029567398": "documentIssuingDepartment",
+					"datePicker_DAex": "issuedDateOfDcoument",
+					"udcReference_EdFN": "signer",
+					"uiBusinessEdocOpinionBox_C3RX": "issueOpinion",
+					"uiBusinessEdocOpinionBox_ZwiJ": "jointlySignOpinion",
+					"uiBusinessEdocOpinionBox_6M7t": "draftVerificationOpinion",
+					"uiBusinessEdocOpinionBox_kXNp": "examineOpinion"
+				},
+				"hiddenFields": [
+					{
+						"id": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.secretId",
+						"key": "secretId",
+						"name": "secretId",
+						"dataTarget": "udcForm_jxE7",
+						"parentDataContainer": "udcForm_jxE7",
+						"isFormItem": false,
+						"title": "密级[枚举]",
+						"fieldPath": [
+							"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.secretId"
+						],
+						"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.secretId",
+						"fullTitle": "密级",
+						"caption": "密级",
+						"dataType": "CTPENUM",
+						"customs": null,
+						"dataI18n": false,
+						"multiSelect": false,
+						"relationType": null,
+						"relationEntity": "secretLevel",
+						"relationApp": "ctp-user",
+						"readonly": false,
+						"group": {
+							"title": "密级",
+							"id": "3u9Z3PZqTgYybr_rFjp1o"
+						}
+					}
+				]
+			},
+			"name": "发文[单一记录]",
+			"events": null,
+			"children": [
+				"udcGrid_7V3T"
+			],
+			"extraChildren": {
+				"columnChildren": []
+			}
+		},
+		"udcGrid_7V3T": {
+			"id": "udcGrid_7V3T",
+			"type": "UdcGrid",
+			"parentId": "udcForm_jxE7",
+			"settings": {
+				"rows": 11,
+				"columns": 4,
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "8px 10px 8px 10px"
+				},
+				"gridTemplateColumns": [
+					0.3999999999999999,
+					1.5999999999999999,
+					0.38,
+					1.6199999999999999
+				],
+				"gridTemplateRows": [
+					28,
+					28,
+					28,
+					28,
+					28,
+					28,
+					28,
+					28,
+					28,
+					28,
+					28
+				],
+				"points": [],
+				"gridBorder": {
+					"type": "ALL",
+					"borderType": "solid",
+					"borderWidth": "1px",
+					"borderColor": "var(--error-6)"
+				},
+				"gap": "0px 0px"
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "网格",
+			"extraChildren": {
+				"udcGridCell_1dnh": [
+					"label_8XNA"
+				],
+				"udcGridCell_HMk9": [],
+				"udcGridCell_UU2f": [],
+				"udcGridCell_DVkG": [],
+				"udcGridCell_jOPu": [
+					"label_Zrrz"
+				],
+				"udcGridCell_UXD0": [
+					"uiBusinessEdocMark_fo9N"
+				],
+				"udcGridCell_4olF": [
+					"label_Ue4f"
+				],
+				"udcGridCell_KYtC": [
+					"treeSelect_JBmh"
+				],
+				"udcGridCell_IvH4": [
+					"label_sQaS_1705028862695"
+				],
+				"udcGridCell_962x": [
+					"input_mFrL_1705028869530"
+				],
+				"udcGridCell_1lAL": [],
+				"udcGridCell_yqyO": [],
+				"udcGridCell_kKXg": [
+					"label_4n8a_1713866183091",
+					"uiBusinessEdocOpinionBox_C3RX"
+				],
+				"udcGridCell_5TUt": [],
+				"udcGridCell_9HEP": [
+					"label_xpla_1713866192689",
+					"uiBusinessEdocOpinionBox_ZwiJ"
+				],
+				"udcGridCell_CVHK": [],
+				"udcGridCell_fXKg": [
+					"label_NuHJ_1713866202393",
+					"uiBusinessEdocOpinionBox_6M7t"
+				],
+				"udcGridCell_NgvE": [],
+				"udcGridCell_SAEi": [
+					"label_JD7a_1713866214177",
+					"uiBusinessEdocOpinionBox_kXNp"
+				],
+				"udcGridCell_byhw": [],
+				"udcGridCell_828v": [
+					"label_V2eU"
+				],
+				"udcGridCell_3LHP": [
+					"udcReference_EdFN"
+				],
+				"udcGridCell_hEOl": [
+					"label_vj0H"
+				],
+				"udcGridCell_LVyY": [
+					"datePicker_HxVA"
+				],
+				"udcGridCell_7a1o": [
+					"label_NFcg"
+				],
+				"udcGridCell_iNrP": [
+					"udcReference_F8Hy"
+				],
+				"udcGridCell_mGyl": [
+					"label_AqPB"
+				],
+				"udcGridCell_CGZS": [
+					"input_3c3s"
+				],
+				"udcGridCell_qSV1": [
+					"label_Lfby"
+				],
+				"udcGridCell_nO2d": [
+					"attachment_PoSL"
+				],
+				"udcGridCell_uoLm": [],
+				"udcGridCell_y0at": [],
+				"udcGridCell_fUrR": [
+					"label_JkxK_1705028978983"
+				],
+				"udcGridCell_qM4j": [
+					"uiBusinessSelectPeople_cBCb_1705028987405"
+				],
+				"udcGridCell_2ngT": [],
+				"udcGridCell_r3nr": [],
+				"udcGridCell_pyH5": [
+					"label_TA3p_1705028965054"
+				],
+				"udcGridCell_YiuT": [
+					"uiBusinessSelectPeople_qnXQ_1705028973129"
+				],
+				"udcGridCell_2Igi": [],
+				"udcGridCell_Xvr2": [],
+				"udcGridCell_Oljl": [
+					"label_bSj1_1705029561819"
+				],
+				"udcGridCell_tI7I": [
+					"udcReference_bV0u_1705029567398"
+				],
+				"udcGridCell_b7KM": [
+					"label_YDMz_1705029574707"
+				],
+				"udcGridCell_CxHf": [
+					"datePicker_DAex"
+				]
+			},
+			"extraConfig": {
+				"udcGridCell_1dnh": {
+					"id": "udcGridCell_1dnh",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "1/5"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_HMk9": {
+					"id": "udcGridCell_HMk9",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "1/2",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_UU2f": {
+					"id": "udcGridCell_UU2f",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "1/2",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_DVkG": {
+					"id": "udcGridCell_DVkG",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "1/2",
+							"gridColumn": "4/5"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_jOPu": {
+					"id": "udcGridCell_jOPu",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "1/2",
+							"borderLeft": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderTop": "1px solid var(--error-6)",
+							"bgColor": {
+								"type": "Simple"
+							}
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_UXD0": {
+					"id": "udcGridCell_UXD0",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "2/3",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderTop": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_4olF": {
+					"id": "udcGridCell_4olF",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "3/4",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_KYtC": {
+					"id": "udcGridCell_KYtC",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "4/5",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderTop": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_IvH4": {
+					"id": "udcGridCell_IvH4",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "1/2",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_962x": {
+					"id": "udcGridCell_962x",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "2/5",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_1lAL": {
+					"id": "udcGridCell_1lAL",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "3/4",
+							"gridColumn": "3/4",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_yqyO": {
+					"id": "udcGridCell_yqyO",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "3/4",
+							"gridColumn": "4/5",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_kKXg": {
+					"id": "udcGridCell_kKXg",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "1/3",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_5TUt": {
+					"id": "udcGridCell_5TUt",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "4/5",
+							"gridColumn": "2/3",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_9HEP": {
+					"id": "udcGridCell_9HEP",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "3/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_CVHK": {
+					"id": "udcGridCell_CVHK",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "4/5",
+							"gridColumn": "4/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_fXKg": {
+					"id": "udcGridCell_fXKg",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "5/6",
+							"gridColumn": "1/3",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_NgvE": {
+					"id": "udcGridCell_NgvE",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "5/6",
+							"gridColumn": "2/3",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_SAEi": {
+					"id": "udcGridCell_SAEi",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "5/6",
+							"gridColumn": "3/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_byhw": {
+					"id": "udcGridCell_byhw",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "5/6",
+							"gridColumn": "4/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_828v": {
+					"id": "udcGridCell_828v",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "8/9",
+							"gridColumn": "1/2",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_3LHP": {
+					"id": "udcGridCell_3LHP",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "8/9",
+							"gridColumn": "2/3",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_hEOl": {
+					"id": "udcGridCell_hEOl",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "8/9",
+							"gridColumn": "3/4",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_LVyY": {
+					"id": "udcGridCell_LVyY",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "8/9",
+							"gridColumn": "4/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_7a1o": {
+					"id": "udcGridCell_7a1o",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "9/10",
+							"gridColumn": "1/2",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_iNrP": {
+					"id": "udcGridCell_iNrP",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "9/10",
+							"gridColumn": "2/3",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_mGyl": {
+					"id": "udcGridCell_mGyl",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "9/10",
+							"gridColumn": "3/4",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_CGZS": {
+					"id": "udcGridCell_CGZS",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "9/10",
+							"gridColumn": "4/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_qSV1": {
+					"id": "udcGridCell_qSV1",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "11/12",
+							"gridColumn": "1/2",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_nO2d": {
+					"id": "udcGridCell_nO2d",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "11/12",
+							"gridColumn": "2/5",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_uoLm": {
+					"id": "udcGridCell_uoLm",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "11/12",
+							"gridColumn": "3/4",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_y0at": {
+					"id": "udcGridCell_y0at",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "11/12",
+							"gridColumn": "4/5",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_fUrR": {
+					"id": "udcGridCell_fUrR",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "7/8",
+							"gridColumn": "1/2",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_qM4j": {
+					"id": "udcGridCell_qM4j",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "7/8",
+							"gridColumn": "2/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_2ngT": {
+					"id": "udcGridCell_2ngT",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "7/8",
+							"gridColumn": "3/4",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_r3nr": {
+					"id": "udcGridCell_r3nr",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "7/8",
+							"gridColumn": "4/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_pyH5": {
+					"id": "udcGridCell_pyH5",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "6/7",
+							"gridColumn": "1/2",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_YiuT": {
+					"id": "udcGridCell_YiuT",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "6/7",
+							"gridColumn": "2/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_2Igi": {
+					"id": "udcGridCell_2Igi",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "6/7",
+							"gridColumn": "3/4",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_Xvr2": {
+					"id": "udcGridCell_Xvr2",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "none",
+							"gridRow": "6/7",
+							"gridColumn": "4/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_Oljl": {
+					"id": "udcGridCell_Oljl",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "10/11",
+							"gridColumn": "1/2",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_tI7I": {
+					"id": "udcGridCell_tI7I",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "10/11",
+							"gridColumn": "2/3",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_b7KM": {
+					"id": "udcGridCell_b7KM",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "10/11",
+							"gridColumn": "3/4",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_CxHf": {
+					"id": "udcGridCell_CxHf",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_7V3T",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "10/11",
+							"gridColumn": "4/5",
+							"borderTop": "1px solid var(--error-6)",
+							"borderRight": "1px solid var(--error-6)",
+							"borderBottom": "1px solid var(--error-6)",
+							"borderLeft": "1px solid var(--error-6)"
+						}
+					},
+					"uiModel": {
+						"auth": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					},
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				}
+			},
+			"children": []
+		},
+		"label_8XNA": {
+			"id": "label_8XNA",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "发文单"
+				},
+				"alignment": "center",
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"textStyle": {
+					"fontStyle": ",bold",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				},
+				"textFontSize": {
+					"type": "Simple",
+					"simple": "font-5"
+				},
+				"textLineHeight": 40,
+				"textLetterSpacing": {
+					"type": "Simple",
+					"simple": 2
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0 0 0 0"
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"label_Zrrz": {
+			"id": "label_Zrrz",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "发文字号"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"uiBusinessEdocMark_fo9N": {
+			"id": "uiBusinessEdocMark_fo9N",
+			"type": "UiBusinessEdocMark",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"edocMockComponentAuth": [
+					{
+						"id": "firstComponent",
+						"name": "机构代字"
+					},
+					{
+						"id": "secondComponent",
+						"name": "年号"
+					},
+					{
+						"id": "thirdComponent",
+						"name": "顺序号"
+					}
+				],
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "1000",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				},
+				"permissionsSwitch": true,
+				"size": "middle",
+				"fontSizeSwitch": true,
+				"overNumWrap": "330",
+				"labelLength": 120,
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "公文文号"
+				},
+				"flowAuthKeys": [
+					{
+						"key": "edocMockComponentAuth",
+						"resolveType": "normalListAuth",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "只读",
+								"key": "readonly"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						]
+					}
+				]
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文号",
+			"isFormItem": true,
+			"defaultDataType": "DOCUMENTNUMBER",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.markOriginalData",
+				"type": "INPUT",
+				"dataField": "markOriginalData",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.markOriginalData",
+				"readonly": false,
+				"key": "udcForm_jxE7.markOriginalData",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.markOriginalData"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_Ue4f": {
+			"id": "label_Ue4f",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "紧急程度"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0 0 0 0"
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"treeSelect_JBmh": {
+			"id": "treeSelect_JBmh",
+			"type": "TreeSelect",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"labelAlignment": "left",
+				"initialValue": null,
+				"relationCtpEnumCode": "jinjichengdu",
+				"relationEntity": "com.seeyon.boot.starter.enums.domain.entity.CtpEnum.jinjichengdu",
+				"enumType": "SAME_LEVEL",
+				"enumLevel": 0,
+				"validation": {},
+				"enumCode": "jinjichengdu",
+				"labelLength": 120,
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "下拉",
+			"isFormItem": true,
+			"defaultDataType": "CTPENUM",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.emergencyDegree",
+				"type": "INPUT",
+				"dataField": "emergencyDegree",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.emergencyDegree",
+				"readonly": false,
+				"key": "udcForm_jxE7.emergencyDegree",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.emergencyDegree"
+				],
+				"dataPath": "",
+				"enumType": "SAME_LEVEL",
+				"enumLevel": 0
+			},
+			"children": []
+		},
+		"label_sQaS_1705028862695": {
+			"id": "label_sQaS_1705028862695",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "标     题"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"input_mFrL_1705028869530": {
+			"id": "input_mFrL_1705028869530",
+			"type": "Input",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "500",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					},
+					"required": {
+						"validate": true,
+						"value": {
+							"type": "Simple",
+							"simple": true
+						},
+						"message": null,
+						"isCustome": true
+					}
+				},
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentTitle",
+				"type": "INPUT",
+				"dataField": "documentTitle",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentTitle",
+				"readonly": false,
+				"key": "udcForm_jxE7.documentTitle",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentTitle"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_4n8a_1713866183091": {
+			"id": "label_4n8a_1713866183091",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "签        发"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"textLineHeight": {
+					"type": "Simple",
+					"simple": 34
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"uiBusinessEdocOpinionBox_C3RX": {
+			"id": "uiBusinessEdocOpinionBox_C3RX",
+			"type": "UiBusinessEdocOpinionBox",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"contentExceeds": "PUSH_CELL_DOWN",
+				"contentHeight": 4,
+				"edocOpinionBoxComponentAuth": [
+					{
+						"id": "proxyRecording",
+						"name": "代录"
+					}
+				],
+				"showSignBtn": false,
+				"btnPlace": "left",
+				"showEditBox": false,
+				"inscribeSetting": "unifiedSettings",
+				"inscribeMethod": "OPINION_LEFT_INSCRIBE_RIGHT",
+				"showLineFeed": true,
+				"inscribeContent": [
+					"accountName",
+					"departmentName",
+					"createName"
+				],
+				"exchangen": true,
+				"inscribeName": "PRINTING",
+				"inscribeDepartment": "departmentLocation",
+				"dateFormat": "YYYY年MM月DD日",
+				"brackets": false,
+				"sortOrder": true,
+				"firstLevel": "dealTimeSort",
+				"secondLevel": "",
+				"thirdLevel": "",
+				"hideBackedOpinion": true,
+				"hideTemporaryOpinion": true,
+				"hideEmptyOpinion": false,
+				"hideTransferOpinion": true,
+				"hideHandwrittenInscribe": false,
+				"status": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "readonly"
+				},
+				"size": "middle",
+				"textColor": "rgb(19, 31, 49)",
+				"textStyle": {
+					"fontStyle": "14px",
+					"isEffect": {
+						"type": "Simple",
+						"expression": null,
+						"selectParam": null,
+						"simple": true
+					}
+				},
+				"borderDisplay": "hide",
+				"borderColor": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": ""
+				},
+				"edocOpinionBoxAuth": [
+					{
+						"id": "opinionBox",
+						"name": "意见框"
+					}
+				],
+				"fontSizeSwitch": true,
+				"opinionSegmentationLine": false,
+				"groupDepartment": false,
+				"labelLength": 120,
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": ""
+				},
+				"flowAuthKeys": [
+					{
+						"key": "edocOpinionBoxAuth",
+						"resolveType": "normalListAuth",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "只读 ",
+								"key": "readonly"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						]
+					},
+					{
+						"key": "edocOpinionBoxComponentAuth",
+						"resolveType": "normalListAuth",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						]
+					}
+				],
+				"status": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "readonly"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "意见框",
+			"isFormItem": true,
+			"defaultDataType": "OPINION",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issueOpinion",
+				"type": "INPUT",
+				"dataField": "issueOpinion",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issueOpinion",
+				"readonly": false,
+				"key": "udcForm_jxE7.issueOpinion",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issueOpinion"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_xpla_1713866192689": {
+			"id": "label_xpla_1713866192689",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "会        签"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"uiBusinessEdocOpinionBox_ZwiJ": {
+			"id": "uiBusinessEdocOpinionBox_ZwiJ",
+			"type": "UiBusinessEdocOpinionBox",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"contentExceeds": "PUSH_CELL_DOWN",
+				"contentHeight": 4,
+				"edocOpinionBoxComponentAuth": [
+					{
+						"id": "proxyRecording",
+						"name": "代录"
+					}
+				],
+				"showSignBtn": false,
+				"btnPlace": "left",
+				"showEditBox": false,
+				"inscribeSetting": "unifiedSettings",
+				"inscribeMethod": "OPINION_LEFT_INSCRIBE_RIGHT",
+				"showLineFeed": true,
+				"inscribeContent": [
+					"accountName",
+					"departmentName",
+					"createName"
+				],
+				"exchangen": true,
+				"inscribeName": "PRINTING",
+				"inscribeDepartment": "departmentLocation",
+				"dateFormat": "YYYY年MM月DD日",
+				"brackets": false,
+				"sortOrder": true,
+				"firstLevel": "dealTimeSort",
+				"secondLevel": "",
+				"thirdLevel": "",
+				"hideBackedOpinion": true,
+				"hideTemporaryOpinion": true,
+				"hideEmptyOpinion": false,
+				"hideTransferOpinion": true,
+				"hideHandwrittenInscribe": false,
+				"status": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "readonly"
+				},
+				"size": "middle",
+				"textColor": "rgb(19, 31, 49)",
+				"textStyle": {
+					"fontStyle": "14px",
+					"isEffect": {
+						"type": "Simple",
+						"expression": null,
+						"selectParam": null,
+						"simple": true
+					}
+				},
+				"borderDisplay": "hide",
+				"borderColor": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": ""
+				},
+				"edocOpinionBoxAuth": [
+					{
+						"id": "opinionBox",
+						"name": "意见框"
+					}
+				],
+				"fontSizeSwitch": true,
+				"opinionSegmentationLine": false,
+				"groupDepartment": false,
+				"labelLength": 120,
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": ""
+				},
+				"flowAuthKeys": [
+					{
+						"key": "edocOpinionBoxAuth",
+						"resolveType": "normalListAuth",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "只读 ",
+								"key": "readonly"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						]
+					},
+					{
+						"key": "edocOpinionBoxComponentAuth",
+						"resolveType": "normalListAuth",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						]
+					}
+				],
+				"status": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "readonly"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "意见框",
+			"isFormItem": true,
+			"defaultDataType": "OPINION",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.jointlySignOpinion",
+				"type": "INPUT",
+				"dataField": "jointlySignOpinion",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.jointlySignOpinion",
+				"readonly": false,
+				"key": "udcForm_jxE7.jointlySignOpinion",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.jointlySignOpinion"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_NuHJ_1713866202393": {
+			"id": "label_NuHJ_1713866202393",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "复        核"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"textLineHeight": {
+					"type": "Simple",
+					"simple": 34
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"uiBusinessEdocOpinionBox_6M7t": {
+			"id": "uiBusinessEdocOpinionBox_6M7t",
+			"type": "UiBusinessEdocOpinionBox",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"contentExceeds": "PUSH_CELL_DOWN",
+				"contentHeight": 4,
+				"edocOpinionBoxComponentAuth": [
+					{
+						"id": "proxyRecording",
+						"name": "代录"
+					}
+				],
+				"showSignBtn": false,
+				"btnPlace": "left",
+				"showEditBox": false,
+				"inscribeSetting": "unifiedSettings",
+				"inscribeMethod": "OPINION_LEFT_INSCRIBE_RIGHT",
+				"showLineFeed": true,
+				"inscribeContent": [
+					"accountName",
+					"departmentName",
+					"createName"
+				],
+				"exchangen": true,
+				"inscribeName": "PRINTING",
+				"inscribeDepartment": "departmentLocation",
+				"dateFormat": "YYYY年MM月DD日",
+				"brackets": false,
+				"sortOrder": true,
+				"firstLevel": "dealTimeSort",
+				"secondLevel": "",
+				"thirdLevel": "",
+				"hideBackedOpinion": true,
+				"hideTemporaryOpinion": true,
+				"hideEmptyOpinion": false,
+				"hideTransferOpinion": true,
+				"hideHandwrittenInscribe": false,
+				"status": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "readonly"
+				},
+				"size": "middle",
+				"textColor": "rgb(19, 31, 49)",
+				"textStyle": {
+					"fontStyle": "14px",
+					"isEffect": {
+						"type": "Simple",
+						"expression": null,
+						"selectParam": null,
+						"simple": true
+					}
+				},
+				"borderDisplay": "hide",
+				"borderColor": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": ""
+				},
+				"edocOpinionBoxAuth": [
+					{
+						"id": "opinionBox",
+						"name": "意见框"
+					}
+				],
+				"fontSizeSwitch": true,
+				"opinionSegmentationLine": false,
+				"groupDepartment": false,
+				"labelLength": 120,
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": ""
+				},
+				"flowAuthKeys": [
+					{
+						"key": "edocOpinionBoxAuth",
+						"resolveType": "normalListAuth",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "只读 ",
+								"key": "readonly"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						]
+					},
+					{
+						"key": "edocOpinionBoxComponentAuth",
+						"resolveType": "normalListAuth",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						]
+					}
+				],
+				"status": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "readonly"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "意见框",
+			"isFormItem": true,
+			"defaultDataType": "OPINION",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftVerificationOpinion",
+				"type": "INPUT",
+				"dataField": "draftVerificationOpinion",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftVerificationOpinion",
+				"readonly": false,
+				"key": "udcForm_jxE7.draftVerificationOpinion",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftVerificationOpinion"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_JD7a_1713866214177": {
+			"id": "label_JD7a_1713866214177",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "审        核"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"textLineHeight": {
+					"type": "Simple",
+					"simple": 34
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"uiBusinessEdocOpinionBox_kXNp": {
+			"id": "uiBusinessEdocOpinionBox_kXNp",
+			"type": "UiBusinessEdocOpinionBox",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"contentExceeds": "PUSH_CELL_DOWN",
+				"contentHeight": 4,
+				"edocOpinionBoxComponentAuth": [
+					{
+						"id": "proxyRecording",
+						"name": "代录"
+					}
+				],
+				"showSignBtn": false,
+				"btnPlace": "left",
+				"showEditBox": false,
+				"inscribeSetting": "unifiedSettings",
+				"inscribeMethod": "OPINION_LEFT_INSCRIBE_RIGHT",
+				"showLineFeed": true,
+				"inscribeContent": [
+					"accountName",
+					"departmentName",
+					"createName"
+				],
+				"exchangen": true,
+				"inscribeName": "PRINTING",
+				"inscribeDepartment": "departmentLocation",
+				"dateFormat": "YYYY年MM月DD日",
+				"brackets": false,
+				"sortOrder": true,
+				"firstLevel": "dealTimeSort",
+				"secondLevel": "",
+				"thirdLevel": "",
+				"hideBackedOpinion": true,
+				"hideTemporaryOpinion": true,
+				"hideEmptyOpinion": false,
+				"hideTransferOpinion": true,
+				"hideHandwrittenInscribe": false,
+				"status": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "readonly"
+				},
+				"size": "middle",
+				"textColor": "rgb(19, 31, 49)",
+				"textStyle": {
+					"fontStyle": "14px",
+					"isEffect": {
+						"type": "Simple",
+						"expression": null,
+						"selectParam": null,
+						"simple": true
+					}
+				},
+				"borderDisplay": "hide",
+				"borderColor": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": ""
+				},
+				"edocOpinionBoxAuth": [
+					{
+						"id": "opinionBox",
+						"name": "意见框"
+					}
+				],
+				"fontSizeSwitch": true,
+				"opinionSegmentationLine": false,
+				"groupDepartment": false,
+				"labelLength": 120,
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": ""
+				},
+				"flowAuthKeys": [
+					{
+						"key": "edocOpinionBoxAuth",
+						"resolveType": "normalListAuth",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "只读 ",
+								"key": "readonly"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						]
+					},
+					{
+						"key": "edocOpinionBoxComponentAuth",
+						"resolveType": "normalListAuth",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						]
+					}
+				],
+				"status": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "readonly"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "意见框",
+			"isFormItem": true,
+			"defaultDataType": "OPINION",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.examineOpinion",
+				"type": "INPUT",
+				"dataField": "examineOpinion",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.examineOpinion",
+				"readonly": false,
+				"key": "udcForm_jxE7.examineOpinion",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.examineOpinion"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_V2eU": {
+			"id": "label_V2eU",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "签 发 人"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"udcReference_EdFN": {
+			"id": "udcReference_EdFN",
+			"type": "UdcReference",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"multiSelect": true,
+				"titleDisplay": "none",
+				"labelPosition": "top",
+				"dataReference": {
+					"id": null,
+					"appName": "organization",
+					"fullName": "com.seeyon.organization.domain.core.entity.OrgMember.allMemberRefer",
+					"entityFullName": "com.seeyon.organization.domain.core.entity.OrgMember",
+					"starterName": null
+				},
+				"authControlledButton": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					}
+				],
+				"validation": {},
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				},
+				"controlledProps": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"allowControlled": false
+					}
+				]
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "参照",
+			"isFormItem": true,
+			"defaultDataType": "ENTITY",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.signer",
+				"type": "INPUT",
+				"dataField": "signer",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.signer",
+				"readonly": false,
+				"key": "udcForm_jxE7.signer",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.signer"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_vj0H": {
+			"id": "label_vj0H",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "拟稿日期"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"datePicker_HxVA": {
+			"id": "datePicker_HxVA",
+			"type": "DatePicker",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"picker": "date",
+				"validation": {},
+				"initialValue": {
+					"type": "SYSTEM_VARIABLE",
+					"expression": null,
+					"selectParam": null,
+					"simple": "currentDate",
+					"noNeedFormate": true,
+					"desc": "系统日期",
+					"value": "currentDate"
+				},
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "日期",
+			"isFormItem": true,
+			"defaultDataType": "DATETIME",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftDate",
+				"type": "INPUT",
+				"dataField": "draftDate",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftDate",
+				"readonly": false,
+				"key": "udcForm_jxE7.draftDate",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.draftDate"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_NFcg": {
+			"id": "label_NFcg",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "拟 稿 人"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"udcReference_F8Hy": {
+			"id": "udcReference_F8Hy",
+			"type": "UdcReference",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"labelPosition": "top",
+				"dataReference": {
+					"appName": "organization",
+					"entityFullName": "com.seeyon.organization.domain.core.entity.OrgMember",
+					"id": null,
+					"fullName": "com.seeyon.organization.domain.core.entity.OrgMember.allMemberRefer",
+					"starterName": null
+				},
+				"authControlledButton": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					}
+				],
+				"validation": {},
+				"initialValue": null,
+				"multiSelect": true,
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				},
+				"controlledProps": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"allowControlled": false
+					}
+				]
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "参照",
+			"isFormItem": true,
+			"defaultDataType": "ENTITY",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.drafters",
+				"type": "INPUT",
+				"dataField": "drafters",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.drafters",
+				"readonly": false,
+				"key": "udcForm_jxE7.drafters",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.drafters"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_AqPB": {
+			"id": "label_AqPB",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "联系电话"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"input_3c3s": {
+			"id": "input_3c3s",
+			"type": "Input",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "20",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				},
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.contactNumber",
+				"type": "INPUT",
+				"dataField": "contactNumber",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.contactNumber",
+				"readonly": false,
+				"key": "udcForm_jxE7.contactNumber",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.contactNumber"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_Lfby": {
+			"id": "label_Lfby",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "附    件"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				},
+				"alignment": "justify"
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"attachment_PoSL": {
+			"id": "attachment_PoSL",
+			"type": "Attachment",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"labelPosition": "top",
+				"uploadOperates": [
+					{
+						"id": "qrUploadStatus",
+						"name": "扫码上传"
+					},
+					{
+						"id": "uploadStatus",
+						"name": "本地上传"
+					},
+					{
+						"id": "downloadStatus",
+						"name": "下载文件"
+					},
+					{
+						"id": "previewStatus",
+						"name": "预览文件"
+					},
+					{
+						"id": "removeStatus",
+						"name": "删除文件"
+					},
+					{
+						"id": "editFileStatus",
+						"name": "编辑文件",
+						"defaultStatus": "invisible"
+					},
+					{
+						"id": "setSecretStatus",
+						"name": "密级设置"
+					}
+				],
+				"validation": {},
+				"initialValue": null,
+				"multiSelect": true,
+				"templateDirection": "horizontal",
+				"fileSizeType": "system",
+				"countLimitType": "system",
+				"operateAuth": true,
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				},
+				"flowAuthKeys": [
+					{
+						"key": "uploadOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					}
+				],
+				"auth": true,
+				"controlledProps": [
+					{
+						"type": "Button",
+						"key": "qrUploadStatus",
+						"name": "扫码上传",
+						"allowControlled": true
+					},
+					{
+						"type": "Button",
+						"key": "uploadStatus",
+						"name": "本地上传",
+						"allowControlled": true
+					},
+					{
+						"type": "Button",
+						"key": "downloadStatus",
+						"name": "下载文件",
+						"allowControlled": true
+					},
+					{
+						"type": "Button",
+						"key": "previewStatus",
+						"name": "预览文件",
+						"allowControlled": true
+					},
+					{
+						"type": "Button",
+						"key": "removeStatus",
+						"name": "删除文件",
+						"allowControlled": true
+					},
+					{
+						"type": "Button",
+						"key": "editFileStatus",
+						"name": "编辑文件",
+						"allowControlled": true,
+						"defaultStatus": "invisible"
+					},
+					{
+						"type": "Button",
+						"key": "setSecretStatus",
+						"name": "密级设置",
+						"allowControlled": true
+					}
+				]
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "附件",
+			"isFormItem": true,
+			"defaultDataType": "ATTACHMENT",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.attachment",
+				"type": "INPUT",
+				"dataField": "attachment",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.attachment",
+				"readonly": false,
+				"key": "udcForm_jxE7.attachment",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.attachment"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_JkxK_1705028978983": {
+			"id": "label_JkxK_1705028978983",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "抄送机关"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"uiBusinessSelectPeople_cBCb_1705028987405": {
+			"id": "uiBusinessSelectPeople_cBCb_1705028987405",
+			"type": "UiBusinessSelectPeople",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"initialValue": null,
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "10000",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				},
+				"manualEntry": true,
+				"tabs": [
+					"department",
+					"institution",
+					"ocip_unit",
+					"unit_team",
+					"outside_unit"
+				],
+				"selectType": [
+					"DEPARTMENT",
+					"INSTITUTION",
+					"OCIP_ACCOUNT",
+					"OCIP_DEPARTMENT",
+					"UNIT_TEAM",
+					"OUTSIDE_INSTITUTION",
+					"OUTSIDE_DEPARTMENT"
+				],
+				"labelPosition": "top",
+				"labelLength": 120,
+				"labelAlignment": "left",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "选人规则"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "选人规则",
+			"isFormItem": true,
+			"defaultDataType": "MULTILINESTRING",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.copyToDepartment",
+				"type": "INPUT",
+				"dataField": "copyToDepartment",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.copyToDepartment",
+				"readonly": false,
+				"key": "udcForm_jxE7.copyToDepartment",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.copyToDepartment"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_TA3p_1705028965054": {
+			"id": "label_TA3p_1705028965054",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "主送机关"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"uiBusinessSelectPeople_qnXQ_1705028973129": {
+			"id": "uiBusinessSelectPeople_qnXQ_1705028973129",
+			"type": "UiBusinessSelectPeople",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"initialValue": null,
+				"manualEntry": true,
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "10000",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				},
+				"tabs": [
+					"department",
+					"institution",
+					"ocip_unit",
+					"unit_team",
+					"outside_unit"
+				],
+				"selectType": [
+					"DEPARTMENT",
+					"INSTITUTION",
+					"OCIP_ACCOUNT",
+					"OCIP_DEPARTMENT",
+					"OUTSIDE_INSTITUTION",
+					"OUTSIDE_DEPARTMENT",
+					"UNIT_TEAM"
+				],
+				"labelPosition": "top",
+				"labelLength": 120,
+				"labelAlignment": "left",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"expression": null,
+					"selectParam": null,
+					"simple": "选人规则"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "选人规则",
+			"isFormItem": true,
+			"defaultDataType": "MULTILINESTRING",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.mainReceiverDepartment",
+				"type": "INPUT",
+				"dataField": "mainReceiverDepartment",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.mainReceiverDepartment",
+				"readonly": false,
+				"key": "udcForm_jxE7.mainReceiverDepartment",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.mainReceiverDepartment"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_bSj1_1705029561819": {
+			"id": "label_bSj1_1705029561819",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "发文机关"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"udcReference_bV0u_1705029567398": {
+			"id": "udcReference_bV0u_1705029567398",
+			"type": "UdcReference",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"labelPosition": "top",
+				"dataReference": {
+					"id": null,
+					"appName": "organization",
+					"fullName": "com.seeyon.organization.domain.core.entity.OrgUnit.allUnitRefer",
+					"entityFullName": "com.seeyon.organization.domain.core.entity.OrgUnit"
+				},
+				"authControlledButton": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					}
+				],
+				"validation": {},
+				"initialValue": {
+					"type": "SYSTEM_VARIABLE",
+					"expression": null,
+					"selectParam": null,
+					"simple": "currentInstitutionId",
+					"noNeedFormate": true,
+					"desc": "登录人员机构ID",
+					"value": "currentInstitutionId"
+				},
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				},
+				"controlledProps": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"allowControlled": false
+					}
+				]
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "参照",
+			"isFormItem": true,
+			"defaultDataType": "ENTITY",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentIssuingDepartment",
+				"type": "INPUT",
+				"dataField": "documentIssuingDepartment",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentIssuingDepartment",
+				"readonly": false,
+				"key": "udcForm_jxE7.documentIssuingDepartment",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.documentIssuingDepartment"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_YDMz_1705029574707": {
+			"id": "label_YDMz_1705029574707",
+			"type": "Label",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "成文日期"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0px 0px 0px 0px"
+				},
+				"textColor": {
+					"type": "Simple",
+					"simple": "error-6"
+				},
+				"alignment": "justify",
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"children": []
+		},
+		"datePicker_DAex": {
+			"id": "datePicker_DAex",
+			"type": "DatePicker",
+			"parentId": "udcGrid_7V3T",
+			"settings": {
+				"titleDisplay": "none",
+				"picker": "date",
+				"validation": {},
+				"initialValue": {
+					"type": "SYSTEM_VARIABLE",
+					"expression": null,
+					"selectParam": null,
+					"simple": "currentDate",
+					"noNeedFormate": true,
+					"desc": "系统日期",
+					"value": "currentDate"
+				},
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "日期",
+			"isFormItem": true,
+			"defaultDataType": "DATETIME",
+			"dataSource": {
+				"dataFieldId": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issuedDateOfDcoument",
+				"type": "INPUT",
+				"dataField": "issuedDateOfDcoument",
+				"fullName": "com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issuedDateOfDcoument",
+				"readonly": false,
+				"key": "udcForm_jxE7.issuedDateOfDcoument",
+				"dataTarget": "udcForm_jxE7",
+				"fieldPath": [
+					"com.seeyon.edoc335172694483814428.domain.entity.IssuedDocument.issuedDateOfDcoument"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		}
+	},
+	"inPortletParams": [],
+	"expressSchemaPathMaps": {}
+}

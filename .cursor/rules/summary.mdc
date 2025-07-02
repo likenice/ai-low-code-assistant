@@ -1,0 +1,65 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+ # AI 低代码助手项目概述
+
+## 项目简介
+这是一个基于 Spring Boot 的 AI 低代码助手项目，旨在提供智能化的代码生成和辅助开发功能。
+
+## 技术栈
+- **后端框架**: Spring Boot
+- **构建工具**: Maven
+- **Java 版本**: JDK 8
+- **主要依赖**:
+  - Spring Boot Web
+  - Jackson (JSON处理)
+  - OpenAPI/Swagger (API文档)
+  - Lombok (代码简化)
+  - Apache POI (Excel处理)
+  - HanLP, Jieba (中文分词)
+  - Lucene (搜索引擎)
+  - Hutool (工具库)
+
+## 项目结构
+- `/src/main/java`: Java 源代码目录
+- `/src/main/resources`: 配置文件和资源文件
+- `/src/test`: 测试代码目录
+
+## 核心功能模块
+1. **AI 代码生成**
+   - 智能代码分析
+   - 代码模板生成
+   - 自动化重构
+
+2. **自然语言处理**
+   - 中文分词和语义分析
+   - 代码意图理解
+   - 智能搜索匹配
+
+3. **开发辅助工具**
+   - Excel 数据处理
+   - 文本相似度计算
+   - 通用工具集成
+
+## 开发规范
+1. 代码风格遵循 Java 标准编码规范
+2. 使用 Lombok 注解简化代码
+3. API 文档使用 OpenAPI/Swagger 规范
+4. 统一使用 UTF-8 编码
+
+## 单元测试规范
+1. 使用junit4 
+2. 如果对JsonNode进行判断是否相等, 使用SchemaTransformerUtil.normalizeJson()方法对json转换 后在对比. 这个方法可以对jsonnode中的属性进行排序和去掉无意义的属性. 
+   
+
+## 部署说明
+- 使用 Maven 进行项目构建
+- 支持 Docker 容器化部署
+- 配置文件位于 resources 目录
+
+## 注意事项
+- 确保 JDK 版本为 1.8
+- 注意依赖版本兼容性
+- 遵循代码提交规范 

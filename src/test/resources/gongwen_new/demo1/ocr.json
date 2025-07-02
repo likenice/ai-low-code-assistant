@@ -1,0 +1,119 @@
+{
+    "titleName": "标题名称***",
+    "groups": [
+        {
+            "name": "",
+            "type": "grid",
+            "settings": {
+                "titleName": "",
+                "gridType": "complex",
+                "gridTemplateColumns": [
+                    1.0
+                ],
+                "gridTemplateRows": [
+                    28
+                ]
+            },
+            "components": [
+                {
+                    "settings": {
+                        "titleName": ""
+                    },
+                    "type": "gridCell",
+                    "cellColRow": {
+                        "rowIndex": 1,
+                        "flexRowSize": 1,
+                        "colIndex": 1,
+                        "flexColSize": 1
+                    },
+                    "groups": [
+                        {
+                            "type": "grid",
+                            "settings": {
+                                "titleName": "",
+                                "gridTemplateColumns": [
+                                    0.5,
+                                    1.5,
+									1
+									
+                                ],
+                                "gridTemplateRows": [
+                                    28
+                                ]
+                            },
+                            "components": [
+							
+                                {
+                                    "settings": {
+                                        "titleName": "文号:",
+                                        "align": "left",
+                                        "validation": {
+                                            "required": true
+                                        }
+                                    },
+                                    "type": "label",
+                                    "cellColRow": {
+                                        "rowIndex": 1,
+                                        "flexRowSize": 1,
+                                        "colIndex": 1,
+                                        "flexColSize": 1
+                                    },
+                                    "referGroup": {
+                                        "groupId": 20001,
+                                        "groupName": "文号",
+                                        "groupType": "title"
+                                    }
+                                },
+                                {
+                                    "settings": {
+                                        "titleName": "",
+                                        "align": "none",
+                                        "validation": {
+                                            "required": false
+                                        }
+                                    },
+                                    "type": "reference",
+                                    "dataSource": {
+                                        "dataField": "markOriginalData"
+                                    },
+                                    "cellColRow": {
+                                        "rowIndex": 1,
+                                        "flexRowSize": 1,
+                                        "colIndex": 2,
+                                        "flexColSize": 1
+                                    },
+                                    "referGroup": {
+                                        "groupId": 20001,
+                                        "groupName": "文号",
+                                        "groupType": "component"
+                                    }
+                                },
+                                {
+                                    "settings": {
+                                        "titleName": "文号描述:",
+                                        "align": "left",
+                                        "validation": {
+                                            "required": false
+                                        }
+                                    },
+                                    "type": "label",
+                                    "cellColRow": {
+                                        "rowIndex": 1,
+                                        "flexRowSize": 1,
+                                        "colIndex": 3,
+                                        "flexColSize": 1
+                                    },
+                                    "referGroup": {
+                                        "groupId": 20001,
+                                        "groupName": "文号",
+                                        "groupType": "desc"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

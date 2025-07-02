@@ -1,0 +1,66 @@
+#任务说明
+输入一个json类型数据，解析数组，将attributeDtoList数组中dataType为String类型的json，根据json中的caption和value判断数据归属于我提供的dataType中的哪一类别。如果value为空，则只根据caption进行判断。
+##dataType类别说明
+ENTITY：表示人员,部门,岗位,职务,关联流程等,例如"caption": "姓名","value": "张三"。
+CTPENUM: 表示枚举：是否、城市、币种、结果、带有状态的信息、错误代码、消防设备类别、某某类型、种类。例如“caption”:"消防设备类型","value":"消火栓"。
+INTEGER:表示整数，序号、天数、周期、期限等,例如"caption":"天数","value":1。
+BIGINTEGER:表示长整数等,例如:"caption":"人员吗ID" ,"value":"923123377621112"。
+MULTILINESTRING:表示多行文本,长文本,备注,说明,事由类,详细信息,意见,原因,事由等,例如:"caption":"备注","value":"输入一个json类型数据，解析数组，将attributeDtoList数组中dataType为String类型的json，根据json中的caption和value判断数据归属于我提供的dataType中的哪一类别"。特殊多行文本：xxx部负责人，xx意见。
+CURRENCY:表示金额，价格，总额，税额,货币，价钱。例如"caption":"可用金额,"value":"12.33"。
+DECIMAL:表示小数,数量，合计等,例如:"caption":"占用比例","value":"12.33"。
+DATETIME：表示日期,年月日时分秒等,例如:"caption":"到期时间","value":"2022-11-22 10:32:22"。
+DATE:表示日期,年月日等,例如:"caption":"注册日期","value":"2022-11-22" 。
+TIME:表示日期,时分秒等,例如:"caption":"开始时间","value":"10:22:33" 。
+BOOLEAN:表示,对错等,例如:"caption":"是否签署","value":"true"。
+ATTACHMENT：表示文件等,caption带有文件的字段大多数都为附件类型,例如："caption":"签署文件"。
+STRING:表示普通文本，银行账户，开户银行等,例如:"caption":"工作职责","value":"V5项目管理"。
+#任务要求
+##注意：
+1. 不符合以上要求的默认设置为STRING
+2. attributeDtoList中itemWidth与contWidth值相差在20一般内的，设为MULTILINESTRING
+以外的设为STRING类型
+3.带有人员姓名的都应为ENTITY类型
+4.分析字段类型时请忽略caption中所有的符号,包括→等特殊符号，只分析有语义的部分。
+5.输出时请不要改变caption的值，如带有:输出的caption也要带有冒号
+#输出约束
+输出以attributeDtoList.caption为key，dataType为value的json
+不要输出json以外的任何内容
+
+#输出的ison定义
+{“字段名":{"value":"匹配的类型""confidence":"浮点型，取值范围:0-1，完全匹配为1"}}
+# 示例：
+	INPUT:
+	[{
+			"dataType": "STRING"
+			"caption": "姓名",
+            "value":"nv"
+		},{
+			"dataType": "STRING"
+			"caption": "金额",
+            "value":""
+		},{
+			"dataType": "STRING"
+			"caption": "税额",
+            "value":""
+		},{
+            "dataType": "STRING",
+            "caption": "预估未税小计",
+            "value": ""
+          },{
+            "dataType": "STRING",
+            "caption": "单据类型@#￥%^&*_+:;",
+            "value": ""
+          },{
+            "dataType": "STRING",
+            "caption": "人力线",
+            "value": ""
+          }]
+OUTPUT：
+{
+			"姓名": {"value":"ENTITY","confidence":"0.9"},
+            "金额": {"value":"CURRENCY","confidence":"0.9"},
+            "税额": {"value":"CURRENCY","confidence":"0.9"},
+           "预估未税小计",{"value":"DECIMAL","confidence":"0.9"}，
+           "单据类型@#￥%^&*_+:;",{"value":"CTPENUM","confidence":"0.8"}，
+           "人力线":{"value":"ENTITY","confidence":"0.6"}
+}

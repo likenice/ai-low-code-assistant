@@ -1,0 +1,95 @@
+{
+	"layoutSchemaNode":{
+	"groups": [{
+		"name": "未命名组1",
+		"type": "container",
+		"settings": {
+			
+		},
+		"components": [{
+			"settings": {
+				"titleName": "收文字号",
+				"titleDisplay": "left",
+				"validation": {
+					"required": true
+				},
+				"align": "left",
+				"flexRowSize": 2,
+				"layout": [58, 59, 90, 69]
+			},
+			"type": "input"
+			
+		}]
+	}, {
+		"name": "未命名网格1",
+		"type": "grid",
+		"settings": {
+			"gridType": "complex",
+			"gridTemplateColumns": [0.34, 1.67],
+			"gridTemplateRows": [28, 28, 28]
+		},
+		"components": [{
+			"settings": {
+			},
+			"type": "label",
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		},{
+			"settings": {
+			},
+			"type": "label",
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		},{
+			"settings": {
+			},
+			"type": "label",
+			"cellColRow": {
+				"rowIndex": 2,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		},{
+			"settings": {
+			},
+			"type": "label",
+			"cellColRow": {
+				"rowIndex": 2,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		},{
+			"settings": {
+			},
+			"type": "label",
+			"cellColRow": {
+				"rowIndex": 3,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		},{
+			"settings": {
+			},
+			"type": "label",
+			"cellColRow": {
+				"rowIndex": 3,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		}]
+	}],
+	"titleName": "中建港航局集团有限公司公文处理单"
+}
+}

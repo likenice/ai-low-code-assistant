@@ -1,0 +1,14 @@
+{
+	"type": "uiBusinessEdocOpinionBox",
+	"settings":{
+		"titleName": "会商部门",
+		"align": "left",
+		"titleDisplay": "left"
+	},
+	"cellColRow": {  
+		"rowIndex": 1,
+		"flexRowSize": 1,
+		"colIndex": 1,
+		"flexColSize": 1
+	}
+}

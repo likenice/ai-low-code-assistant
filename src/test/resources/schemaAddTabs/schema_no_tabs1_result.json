@@ -1,0 +1,131 @@
+[
+	{
+		"type": "tabs",
+		"settings": {
+			"tabsSetting": [
+				{
+					"name": "页签1"
+				},
+				{
+					"name": "页签2"
+				}
+			]
+		},
+		"sourceSchema": {
+			"id": "tabs_11"
+		},
+		"id": "tabs_id_11",
+		"children": [
+			{
+				"id": "MmRjMjk5Yzg",
+				"type": "grid",
+				"settings": {
+					"belongTabs": "页签1/页签2",
+					"gridTemplateColumns": [
+						1,
+						1
+					]
+				},
+				"sourceSchema": {
+					"id": "udcGrid_888H"
+				},
+				"children": [
+					{
+						"id": "OWZlMjJiNGQ",
+						"type": "gridCell",
+						"settings": {},
+						"sourceSchema": {
+							"id": "udcGridCell_9Lqw"
+						},
+						"children": [
+							{
+								"id": "ZDU4NjJkMGE",
+								"type": "inputNumber",
+								"settings": {},
+								"sourceSchema": {
+									"id": "inputNumber_XD11"
+								}
+							}
+						]
+					},
+					{
+						"id": "ODIxMGRmNjE",
+						"type": "gridCell",
+						"settings": {},
+						"sourceSchema": {
+							"id": "udcGridCell_a3s1"
+						},
+						"children": [
+							{
+								"id": "NTRiN2QzYzc",
+								"type": "input",
+								"settings": {},
+								"sourceSchema": {
+									"id": "input_XD11"
+								}
+							}
+						]
+					}
+				]
+			},
+			{
+				"id": "label_id_1",
+				"type": "label",
+				"settings": {
+					"belongTabs": "页签1/页签2"
+				},
+				"sourceSchema": {
+					"id": "udcGrid_111H"
+				}
+			}
+		]
+	},
+	{
+		"type": "tabs",
+		"settings": {
+			"tabsSetting": [
+				{
+					"name": "页签3"
+				},
+				{
+					"name": "页签4"
+				}
+			]
+		},
+		"sourceSchema": {
+			"id": "tabs_22"
+		},
+		"id": "tabs_id_22",
+		"children": [
+			{
+				"type": "dataGrid",
+				"sourceSchema": {
+					"id": "udcDataGrid_Vbi1"
+				},
+				"id": "YmIzZjY0Mjc",
+				"settings": {
+					"belongTabs": "页签3/页签4"
+				},
+				"dataSource": {
+					"entityName": "表名称"
+				},
+				"children": [
+					{
+						"type": "text",
+						"settings": {},
+						"sourceSchema": {
+							"id": "test_aa"
+						}
+					},
+					{
+						"type": "input",
+						"settings": {},
+						"sourceSchema": {
+							"id": "input_bb"
+						}
+					}
+				]
+			}
+		]
+	}
+]

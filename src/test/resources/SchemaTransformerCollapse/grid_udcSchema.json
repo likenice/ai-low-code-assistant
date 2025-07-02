@@ -1,0 +1,1581 @@
+{
+	"masterEntityIds": "-1519044667838511161",
+	"appId": "7652733006056409420",
+	"children": [
+		"udcForm_esD0",
+		"udcDataGridView_bu2i",
+		"udcDataGrid_Vbi1",
+		"input_zsK0_1739948780253"
+	],
+	"urlType": "PC",
+	"defaultOpenType": null,
+	"handWritten": false,
+	"inPortletParams": [],
+	"settings": {
+		"styles": {},
+		"title": {
+			"type": "Simple"
+		},
+		"resolutionPower": {
+			"type": "auto",
+			"value": {
+				"per": 100,
+				"minWidth": 1200,
+				"maxWidth": 1920
+			}
+		},
+		"alignment": "center",
+		"backgroundAdapt": "cover",
+		"backgroundColor": "#ffffff",
+		"gap": "20px 0",
+		"boxModel": {
+			"margin": "0 auto 0 auto",
+			"padding": "16px 20px 0 20px"
+		}
+	},
+	"layoutVisibleControl": {
+		"type": "visible"
+	},
+	"pageLayout": false,
+	"outParameters": [],
+	"pageVariable": [],
+	"pageDefinedEvents": [],
+	"type": "page",
+	"eventDefine": [],
+	"terminal": "PC",
+	"toBeChangedMicorflowIds": {},
+	"id": "-591166153054340532",
+	"pageType": "DETAIL",
+	"pageUrl": "yfzstDetailPage",
+	"description": "",
+	"groupId": "0",
+	"guid": "-7615310465307488532",
+	"relationGroupId": "8800827527585829082",
+	"sortNo": 18,
+	"createTime": "1739509712000",
+	"version": null,
+	"originId": "-591166153054340532",
+	"name": "页面",
+	"childById": {
+		"udcForm_esD0": {
+			"id": "udcForm_esD0",
+			"type": "UdcForm",
+			"parentId": "page",
+			"settings": {},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单一记录",
+			"children": [
+				"udcContainer_nT8g"
+			],
+			"extraChildren": {
+				"columnChildren": []
+			},
+			"dataSource": {
+				"type": "ENTITY",
+				"subType": "NORMAL",
+				"key": "udcForm_esD0--1519044667838511161",
+				"isRoot": true,
+				"isRef": false,
+				"dataShape": "SINGLE",
+				"entity": {
+					"id": "-1519044667838511161",
+					"name": "youfenzushiti",
+					"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Youfenzushiti",
+					"caption": "有分组实体",
+					"stereotype": "standard",
+					"category": "ENTITY",
+					"supportOrderNo": false,
+					"appName": "biaodanaiyouhua7652733006056409420",
+					"appId": "7652733006056409420"
+				},
+				"fields": [
+					{
+						"id": "-7065081031759465501",
+						"name": "ziduan22",
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Youfenzushiti.ziduan22"
+					}
+				],
+				"dataTarget": "udcForm_esD0",
+				"hiddenFields": [],
+				"fieldBindMap": {
+					"input_mUMf": "ziduan22"
+				}
+			},
+			"name": "有分组实体",
+			"events": []
+		},
+		"udcContainer_nT8g": {
+			"id": "udcContainer_nT8g",
+			"type": "UdcContainer",
+			"parentId": "udcForm_esD0",
+			"settings": {
+				"flexWrap": "wrap",
+				"gap": "20px 20px",
+				"borderRadius": 2,
+				"columns": 1
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "容器",
+			"children": [
+				"udcContainer_yd6L",
+				"collapse_dScE"
+			],
+			"extraChildren": {
+				"columnChildren": []
+			}
+		},
+		"udcContainer_yd6L": {
+			"id": "udcContainer_yd6L",
+			"type": "UdcContainer",
+			"parentId": "udcContainer_nT8g",
+			"settings": {
+				"alignItems": "center",
+				"justifyContent": "center",
+				"flexWrap": "wrap",
+				"columns": 1,
+				"gap": "20px 20px",
+				"borderRadius": 2
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "容器",
+			"children": [],
+			"extraChildren": {
+				"columnChildren": []
+			}
+		},
+		"collapse_dScE": {
+			"id": "collapse_dScE",
+			"type": "Collapse",
+			"parentId": "udcContainer_nT8g",
+			"settings": {
+				"styles": {},
+				"reserveStyle": 0,
+				"expandIconPosition": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "分组1"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "分组",
+			"children": [
+				"udcGrid_888H"
+			],
+			"extraChildren": {
+				"columnChildren": []
+			},
+			"name": "分组1"
+		},
+		"udcGrid_888H": {
+			"id": "udcGrid_888H",
+			"type": "UdcGrid",
+			"parentId": "collapse_dScE",
+			"settings": {
+				"rows": 1,
+				"columns": 3,
+				"gridTemplateColumns": [
+					1,
+					1,
+					1
+				],
+				"gridTemplateRows": [
+					28
+				],
+				"points": []
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "网格",
+			"extraChildren": {
+				"udcGridCell_9Lqw": [
+					"input_0lrU"
+				],
+				"udcGridCell_DPum": [],
+				"udcGridCell_zclg": [
+					"input_mUMf"
+				]
+			},
+			"extraConfig": {
+				"udcGridCell_9Lqw": {
+					"id": "udcGridCell_9Lqw",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_888H",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "1/2"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_DPum": {
+					"id": "udcGridCell_DPum",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_888H",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_zclg": {
+					"id": "udcGridCell_zclg",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_888H",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				}
+			},
+			"children": []
+		},
+		"input_0lrU": {
+			"id": "input_0lrU",
+			"type": "text",
+			"parentId": "udcGrid_888H",
+			"settings": {
+				"titleDisplay": "left",
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "50",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				},
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"type": "INPUT",
+				"dataTarget": "udcForm_esD0",
+				"dataFieldId": "7322133007371113041",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Youfenzushiti.ziduan11",
+				"dataPath": "",
+				"fieldPath": [
+					"7322133007371113041"
+				],
+				"dataField": "ziduan11",
+				"readonly": false,
+				"key": "udcForm_esD0--1519044667838511161.ziduan11"
+			},
+			"children": []
+		},
+		"input_mUMf": {
+			"id": "input_mUMf",
+			"type": "Input",
+			"parentId": "udcGrid_888H",
+			"settings": {
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "50",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				}
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "-7065081031759465501",
+				"type": "INPUT",
+				"dataField": "ziduan12",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Youfenzushiti.ziduan12",
+				"readonly": false,
+				"key": "udcForm_esD0--1519044667838511161.ziduan12",
+				"dataTarget": "udcForm_esD0",
+				"fieldPath": [
+					"-7065081031759465501"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"udcDataGridView_bu2i": {
+			"id": "udcDataGridView_bu2i",
+			"type": "UdcDataGridView",
+			"parentId": "page",
+			"settings": {
+				"columns": [
+					{
+						"columnId": "0NDcDO",
+						"columnIndex": 0,
+						"parentId": "udcDataGridView_bu2i",
+						"dataIndex": "shuxing1",
+						"dataFieldId": "7062943667664206727",
+						"fieldPath": [
+							"7062943667664206727"
+						],
+						"dataFieldCaption": "属性1",
+						"dataI18n": false,
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.shuxing1",
+						"dataType": "STRING",
+						"customs": null,
+						"status": "default",
+						"align": "left",
+						"widthType": "pt",
+						"widthValue": 50,
+						"relationType": null,
+						"relationEntity": null,
+						"relationApp": null,
+						"displayFormate": "default",
+						"displayFormateTime": "default",
+						"decimalPlace": 0,
+						"amountInWord": false,
+						"isGroupEnable": true,
+						"decimalDigits": 0,
+						"positiveNumber": "0",
+						"nagativeNumber": "0",
+						"currencyIcon": "￥",
+						"displayStyle": "input",
+						"enableList": false,
+						"displayStyleAttachment": "button",
+						"sliderMin": 0,
+						"sliderMax": 100,
+						"sliderColor": {
+							"type": "Simple",
+							"simple": "brand1-6"
+						},
+						"multiSelect": false
+					},
+					{
+						"columnId": "AGLrV4",
+						"columnIndex": 1,
+						"parentId": "udcDataGridView_bu2i",
+						"dataIndex": "bumen1",
+						"dataFieldId": "-7263422153594961699",
+						"fieldPath": [
+							"-7263422153594961699"
+						],
+						"dataFieldCaption": "部门1",
+						"dataI18n": false,
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.bumen1",
+						"dataType": "ENTITY",
+						"customs": null,
+						"status": "default",
+						"align": "left",
+						"widthType": "pt",
+						"widthValue": 50,
+						"relationType": "Many2OneAssociation",
+						"relationEntity": "com.seeyon.organization.domain.core.entity.OrgUnit",
+						"relationApp": "organization",
+						"displayFormate": "default",
+						"displayFormateTime": "default",
+						"decimalPlace": 0,
+						"amountInWord": false,
+						"isGroupEnable": true,
+						"decimalDigits": 0,
+						"positiveNumber": "0",
+						"nagativeNumber": "0",
+						"currencyIcon": "￥",
+						"displayStyle": "input",
+						"enableList": false,
+						"displayStyleAttachment": "button",
+						"sliderMin": 0,
+						"sliderMax": 100,
+						"sliderColor": {
+							"type": "Simple",
+							"simple": "brand1-6"
+						},
+						"multiSelect": false
+					}
+				],
+				"topOperates": [
+					{
+						"id": "lT3KlnVCTa",
+						"type": "item",
+						"name": "操作1",
+						"allowControlled": false,
+						"buttonType": "default",
+						"danger": false,
+						"ghost": false,
+						"onlyIcon": false,
+						"icon": "",
+						"iconPosition": "left",
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isPlaceHolderColumn": false,
+						"showContent": "text"
+					},
+					{
+						"id": "j3zOw3kEhy",
+						"type": "item",
+						"name": "操作2",
+						"allowControlled": false,
+						"buttonType": "default",
+						"danger": false,
+						"ghost": false,
+						"onlyIcon": false,
+						"icon": "",
+						"iconPosition": "left",
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isPlaceHolderColumn": false,
+						"showContent": "text"
+					}
+				],
+				"filterSetting": {
+					"type": "single"
+				},
+				"paginationType": "client"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "子实体"
+				},
+				"flowAuthKeys": [
+					{
+						"key": "topOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					},
+					{
+						"key": "actionColumnOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					}
+				]
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "重复表查询",
+			"children": [],
+			"extraChildren": {
+				"columnChildren": []
+			},
+			"dataSource": {
+				"type": "ENTITY",
+				"subType": "NORMAL",
+				"key": "udcDataGridView_bu2i--5987557723163548104",
+				"isRoot": false,
+				"isRef": false,
+				"dataShape": "LIST",
+				"entity": {
+					"id": "-5987557723163548104",
+					"name": "zishiti",
+					"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti",
+					"caption": "子实体",
+					"stereotype": "standard",
+					"category": "ENTITY",
+					"supportOrderNo": true,
+					"appName": "biaodanaiyouhua7652733006056409420",
+					"appId": "7652733006056409420"
+				},
+				"fields": [
+					{
+						"id": "7062943667664206727",
+						"name": "shuxing1",
+						"fieldPath": [
+							"7062943667664206727"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.shuxing1",
+						"parentId": "udcDataGridView_bu2i",
+						"readonly": false
+					},
+					{
+						"id": "-7263422153594961699",
+						"name": "bumen1",
+						"fieldPath": [
+							"-7263422153594961699"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.bumen1",
+						"parentId": "udcDataGridView_bu2i",
+						"readonly": false
+					}
+				],
+				"dataTarget": "udcDataGridView_bu2i",
+				"fieldBindMap": {
+					"0NDcDO": "shuxing1",
+					"AGLrV4": "bumen1"
+				},
+				"hiddenFields": []
+			},
+			"name": "子实体",
+			"events": []
+		},
+		"udcDataGrid_Vbi1": {
+			"id": "udcDataGrid_Vbi1",
+			"type": "UdcDataGrid",
+			"parentId": "page",
+			"settings": {
+				"columns": [
+					{
+						"columnId": "6wyvad",
+						"columnIndex": 0,
+						"parentId": "udcDataGrid_Vbi1",
+						"dataIndex": "yewuleixing",
+						"dataFieldId": "1989826475335213892",
+						"fieldPath": [
+							"1989826475335213892"
+						],
+						"dataFieldCaption": "业务类型",
+						"dataI18n": false,
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi.yewuleixing",
+						"dataType": "STRING",
+						"customs": null,
+						"status": "default",
+						"align": "left",
+						"widthType": "pt",
+						"widthValue": 33.33,
+						"relationType": null,
+						"relationEntity": null,
+						"relationApp": null,
+						"displayFormate": "default",
+						"displayFormateTime": "default",
+						"decimalPlace": 0,
+						"amountInWord": false,
+						"isGroupEnable": true,
+						"decimalDigits": 0,
+						"positiveNumber": "0",
+						"nagativeNumber": "0",
+						"currencyIcon": "￥",
+						"displayStyle": "input",
+						"enableList": false,
+						"displayStyleAttachment": "button",
+						"sliderMin": 0,
+						"sliderMax": 100,
+						"sliderColor": {
+							"type": "Simple",
+							"simple": "brand1-6"
+						},
+						"componentType": "Input",
+						"multiSelect": false,
+						"calcColumn": {
+							"type": "Simple"
+						},
+						"hide": {
+							"type": "Simple"
+						}
+					},
+					{
+						"columnId": "YSEFTR",
+						"columnIndex": 1,
+						"parentId": "udcDataGrid_Vbi1",
+						"dataIndex": "jine",
+						"dataFieldId": "2093059187297264663",
+						"fieldPath": [
+							"2093059187297264663"
+						],
+						"dataFieldCaption": "金额",
+						"dataI18n": false,
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi.jine",
+						"dataType": "CURRENCY",
+						"customs": null,
+						"status": "default",
+						"align": "left",
+						"widthType": "pt",
+						"widthValue": 33.33,
+						"relationType": null,
+						"relationEntity": "",
+						"relationApp": "",
+						"displayFormate": "default",
+						"displayFormateTime": "default",
+						"decimalPlace": "2",
+						"amountInWord": false,
+						"isGroupEnable": true,
+						"decimalDigits": "2",
+						"positiveNumber": "0",
+						"nagativeNumber": "0",
+						"currencyIcon": "￥",
+						"displayStyle": "input",
+						"enableList": false,
+						"displayStyleAttachment": "button",
+						"sliderMin": 0,
+						"sliderMax": 100,
+						"sliderColor": {
+							"type": "Simple",
+							"simple": "brand1-6"
+						},
+						"componentType": "Currency",
+						"multiSelect": false
+					},
+					{
+						"columnId": "DNPfoK",
+						"columnIndex": 2,
+						"parentId": "udcDataGrid_Vbi1",
+						"dataIndex": "beizhu",
+						"dataFieldId": "-5108759610372944970",
+						"fieldPath": [
+							"-5108759610372944970"
+						],
+						"dataFieldCaption": "备注",
+						"dataI18n": false,
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi.beizhu",
+						"dataType": "MULTILINESTRING",
+						"customs": null,
+						"status": "default",
+						"align": "left",
+						"widthType": "pt",
+						"widthValue": 33.34,
+						"relationType": null,
+						"relationEntity": "",
+						"relationApp": "",
+						"displayFormate": "default",
+						"displayFormateTime": "default",
+						"decimalPlace": 0,
+						"amountInWord": false,
+						"isGroupEnable": true,
+						"decimalDigits": 0,
+						"positiveNumber": "0",
+						"nagativeNumber": "0",
+						"currencyIcon": "￥",
+						"displayStyle": "input",
+						"enableList": false,
+						"displayStyleAttachment": "button",
+						"sliderMin": 0,
+						"sliderMax": 100,
+						"sliderColor": {
+							"type": "Simple",
+							"simple": "brand1-6"
+						},
+						"componentType": "TextArea",
+						"multiSelect": false
+					}
+				],
+				"topOperates": [
+					{
+						"id": "insert",
+						"name": "插入",
+						"type": "item",
+						"icon": "LinedPlus",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "g6reYN",
+						"buttonType": "default",
+						"showContent": "all"
+					},
+					{
+						"id": "copy",
+						"name": "复制",
+						"type": "item",
+						"icon": "LinedCopyFrom",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "xFvhGr",
+						"buttonType": "default",
+						"showContent": "all"
+					},
+					{
+						"id": "delete",
+						"name": "删除",
+						"type": "item",
+						"icon": "LinedDelete",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "sQwyj1",
+						"buttonType": "default",
+						"showContent": "all"
+					}
+				],
+				"popoverOperates": [
+					{
+						"id": "insert_pop",
+						"name": "插入行",
+						"type": "item",
+						"icon": "LinedPlus",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "RQEgnk",
+						"pos": "bottom"
+					},
+					{
+						"id": "copy_pop",
+						"name": "复制行",
+						"type": "item",
+						"icon": "LinedCopyFrom",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "CEIrp9"
+					},
+					{
+						"id": "delete_pop",
+						"name": "删除行",
+						"type": "item",
+						"icon": "LinedDelete",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "SVicgR"
+					}
+				],
+				"filterSetting": {
+					"type": "single"
+				},
+				"paginationType": "client"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "业务明细"
+				},
+				"controlledProps": [
+					{
+						"key": "g6reYN",
+						"type": "Button",
+						"name": "插入",
+						"parentCode": "topOperates",
+						"allowControlled": false,
+						"mapOperateId": "insert"
+					},
+					{
+						"key": "xFvhGr",
+						"type": "Button",
+						"name": "复制",
+						"parentCode": "topOperates",
+						"allowControlled": false,
+						"mapOperateId": "copy"
+					},
+					{
+						"key": "sQwyj1",
+						"type": "Button",
+						"name": "删除",
+						"parentCode": "topOperates",
+						"allowControlled": false,
+						"mapOperateId": "delete"
+					},
+					{
+						"key": "RQEgnk",
+						"type": "Button",
+						"name": "插入行",
+						"parentCode": "popoverOperates",
+						"allowControlled": false,
+						"mapOperateId": "insert_pop"
+					},
+					{
+						"key": "CEIrp9",
+						"type": "Button",
+						"name": "复制行",
+						"parentCode": "popoverOperates",
+						"allowControlled": false,
+						"mapOperateId": "copy_pop"
+					},
+					{
+						"key": "SVicgR",
+						"type": "Button",
+						"name": "删除行",
+						"parentCode": "popoverOperates",
+						"allowControlled": false,
+						"mapOperateId": "delete_pop"
+					}
+				],
+				"flowAuthKeys": [
+					{
+						"key": "topOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					},
+					{
+						"key": "actionColumnOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					},
+					{
+						"key": "popoverOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					}
+				]
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "重复表录入",
+			"children": [],
+			"extraChildren": {
+				"columnChildren": [
+					"currency_rwHK",
+					"input_DwLK",
+					"textArea_zAv8"
+				]
+			},
+			"dataSource": {
+				"type": "ENTITY",
+				"subType": "NORMAL",
+				"key": "udcDataGrid_Vbi1-1949468276878299784",
+				"isRoot": false,
+				"isRef": false,
+				"dataShape": "LIST",
+				"entity": {
+					"id": "1949468276878299784",
+					"name": "yewumingxi",
+					"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi",
+					"caption": "业务明细",
+					"stereotype": "standard",
+					"category": "ENTITY",
+					"supportOrderNo": true,
+					"appName": "biaodanaiyouhua7652733006056409420",
+					"appId": "7652733006056409420"
+				},
+				"fields": [
+					{
+						"id": "1989826475335213892",
+						"name": "yewuleixing",
+						"fieldPath": [
+							"1989826475335213892"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi.yewuleixing",
+						"parentId": "udcDataGrid_Vbi1",
+						"readonly": false
+					},
+					{
+						"id": "2093059187297264663",
+						"name": "jine",
+						"fieldPath": [
+							"2093059187297264663"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi.jine",
+						"parentId": "udcDataGrid_Vbi1",
+						"readonly": false
+					},
+					{
+						"id": "-5108759610372944970",
+						"name": "beizhu",
+						"fieldPath": [
+							"-5108759610372944970"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi.beizhu",
+						"parentId": "udcDataGrid_Vbi1",
+						"readonly": false
+					}
+				],
+				"dataTarget": "udcDataGrid_Vbi1",
+				"fieldBindMap": {
+					"6wyvad": "yewuleixing",
+					"YSEFTR": "jine",
+					"DNPfoK": "beizhu"
+				},
+				"hiddenFields": []
+			},
+			"name": "业务明细",
+			"events": []
+		},
+		"input_DwLK": {
+			"id": "input_DwLK",
+			"type": "Input",
+			"parentId": "udcDataGrid_Vbi1",
+			"settings": {
+				"titleDisplay": "none",
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "50",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				}
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "1989826475335213892",
+				"type": "INPUT",
+				"dataField": "yewuleixing",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi.yewuleixing",
+				"readonly": false,
+				"key": "udcDataGrid_Vbi1-1949468276878299784.yewuleixing",
+				"dataTarget": "udcDataGrid_Vbi1",
+				"fieldPath": [
+					"1989826475335213892"
+				],
+				"dataPath": "",
+				"inColumn": true
+			},
+			"children": []
+		},
+		"currency_rwHK": {
+			"id": "currency_rwHK",
+			"type": "Currency",
+			"parentId": "udcDataGrid_Vbi1",
+			"settings": {
+				"titleDisplay": "none",
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"decimalDigits": "2",
+				"validation": {
+					"decimalDigits": {
+						"validate": true,
+						"value": "2",
+						"message": null
+					}
+				}
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "货币",
+			"isFormItem": true,
+			"defaultDataType": "CURRENCY",
+			"dataSource": {
+				"dataFieldId": "2093059187297264663",
+				"type": "INPUT",
+				"dataField": "jine",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi.jine",
+				"readonly": false,
+				"key": "udcDataGrid_Vbi1-1949468276878299784.jine",
+				"dataTarget": "udcDataGrid_Vbi1",
+				"fieldPath": [
+					"2093059187297264663"
+				],
+				"dataPath": "",
+				"inColumn": true
+			},
+			"children": []
+		},
+		"textArea_zAv8": {
+			"id": "textArea_zAv8",
+			"type": "TextArea",
+			"parentId": "udcDataGrid_Vbi1",
+			"settings": {
+				"titleDisplay": "none",
+				"labelPosition": "top",
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "300",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				}
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "多行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "-5108759610372944970",
+				"type": "INPUT",
+				"dataField": "beizhu",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Yewumingxi.beizhu",
+				"readonly": false,
+				"key": "udcDataGrid_Vbi1-1949468276878299784.beizhu",
+				"dataTarget": "udcDataGrid_Vbi1",
+				"fieldPath": [
+					"-5108759610372944970"
+				],
+				"dataPath": "",
+				"inColumn": true
+			},
+			"children": []
+		},
+		"input_zsK0_1739948780253": {
+			"id": "input_zsK0_1739948780253",
+			"type": "Input",
+			"parentId": "page",
+			"settings": {
+				"titleDisplay": "left",
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "50",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				},
+				"lineLimited": "unlimited",
+				"lineNumber": 1
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"children": []
+		}
+	},
+	"expressSchemaPathMaps": {}
+}

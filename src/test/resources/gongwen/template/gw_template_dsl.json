@@ -1,0 +1,624 @@
+{
+    "id" : "ODdhMGJmNDc",
+    "type" : "page",
+    "pageType" : "SUBPAGE",
+    "urlType" : "PC",
+    "settings" : {
+      "dataFrom" : "ocr"
+    },
+    "sourceSchema" : {
+      "id" : "1664618266661216324"
+    },
+    "name" : "页面",
+    "children" : [ {
+      "type" : "form",
+      "settings" : { },
+      "sourceSchema" : {
+        "id" : "udcForm_jxE7"
+      },
+      "id" : "NDgzYTJiZmY",
+      "name" : "发文[单一记录]",
+      "dataSource" : {
+        "type" : "entity",
+        "entityName" : "IssuedDocument"
+      },
+      "children" : [ {
+        "type" : "grid",
+        "settings" : {
+          "gridTemplateColumns" : [ 0.3999999999999999, 1.5999999999999999, 0.38, 1.6199999999999999 ]
+        },
+        "sourceSchema" : {
+          "id" : "udcGrid_7V3T"
+        },
+        "id" : "ZWMyZjlhODQ",
+        "children" : [ {
+          "id" : "OGRlMzAyNzk",
+          "type" : "gridCell",
+          "settings" : {
+            "isMergeAllColumns" : true
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_1dnh"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : {
+              "textFontSize" : 20
+            },
+            "sourceSchema" : {
+              "id" : "label_8XNA"
+            },
+            "id" : "ZTU1YzVlZTc"
+          } ]
+        }, {
+          "id" : "NDQyYzc1YmM",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_HMk9"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "MGNiYzFkMzM",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_UU2f"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "ODllM2MxNDM",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_DVkG"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "NGRkNDNiYjc",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_jOPu"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_Zrrz"
+            },
+            "id" : "OTJlNzhhN2U"
+          } ]
+        }, {
+          "id" : "MGRmMmY4ODA",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_UXD0"
+          },
+          "children" : [ {
+            "type" : "uiBusinessEdocMark",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "uiBusinessEdocMark_fo9N"
+            },
+            "id" : "YjBjMDk2NTI"
+          } ]
+        }, {
+          "id" : "NTZhMDVkNTI",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_4olF"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_Ue4f"
+            },
+            "id" : "YzQzYWEyMzg"
+          } ]
+        }, {
+          "id" : "NmZiN2E1YTM",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_KYtC"
+          },
+          "children" : [ {
+            "type" : "treeSelect",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "treeSelect_JBmh"
+            },
+            "id" : "YzkyY2EzNDA"
+          } ]
+        }, {
+          "id" : "ODU0ZWIyMjY",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_IvH4"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_sQaS_1705028862695"
+            },
+            "id" : "MjZmNjJlYmU"
+          } ]
+        }, {
+          "id" : "OGVhMTU5MWU",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_962x"
+          },
+          "children" : [ {
+            "type" : "input",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "input_mFrL_1705028869530"
+            },
+            "id" : "ZmJmYjcwZWY"
+          } ]
+        }, {
+          "id" : "YjBlYjM1MDk",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_1lAL"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "MzZjMGNhMzc",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_yqyO"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "ZWE1YjRiMjY",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_kKXg"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_4n8a_1713866183091"
+            },
+            "id" : "YmM2YTI0OTA"
+          }, {
+            "type" : "uiBusinessEdocOpinionBox",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "uiBusinessEdocOpinionBox_C3RX"
+            },
+            "id" : "ODExYzE5YzA"
+          } ]
+        }, {
+          "id" : "MTM4ZDNmMTc",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_5TUt"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "NjM1MDNhNGQ",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_9HEP"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_xpla_1713866192689"
+            },
+            "id" : "ZGUxMDgzMzU"
+          }, {
+            "type" : "uiBusinessEdocOpinionBox",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "uiBusinessEdocOpinionBox_ZwiJ"
+            },
+            "id" : "YjYyZmZlZmI"
+          } ]
+        }, {
+          "id" : "Y2ViMjYxNGY",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_CVHK"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "MWY5MWU2ZDk",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_fXKg"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_NuHJ_1713866202393"
+            },
+            "id" : "ZjYzZmI5MWQ"
+          }, {
+            "type" : "uiBusinessEdocOpinionBox",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "uiBusinessEdocOpinionBox_6M7t"
+            },
+            "id" : "Y2E1ZGRhMjk"
+          } ]
+        }, {
+          "id" : "NzFlYzU2Y2I",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_NgvE"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "Mzk0NGUxMWQ",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_SAEi"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_JD7a_1713866214177"
+            },
+            "id" : "NTA1ZTgyODY"
+          }, {
+            "type" : "uiBusinessEdocOpinionBox",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "uiBusinessEdocOpinionBox_kXNp"
+            },
+            "id" : "MGM0ZThhOTA"
+          } ]
+        }, {
+          "id" : "N2ExNDg2YTQ",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_byhw"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "ODdlNDY5YWY",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_828v"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_V2eU"
+            },
+            "id" : "MDM4MWZhZDQ"
+          } ]
+        }, {
+          "id" : "YzRlZjZhZWQ",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_3LHP"
+          },
+          "children" : [ {
+            "type" : "reference",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "udcReference_EdFN"
+            },
+            "id" : "ZmU4ODgwN2Q"
+          } ]
+        }, {
+          "id" : "N2U3MmRkMWM",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_hEOl"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_vj0H"
+            },
+            "id" : "OWM4MmI3Yzk"
+          } ]
+        }, {
+          "id" : "M2EwYzBjZTU",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_LVyY"
+          },
+          "children" : [ {
+            "type" : "datePicker",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "datePicker_HxVA"
+            },
+            "id" : "NjlkYTI2OGQ"
+          } ]
+        }, {
+          "id" : "ZGZlNjg5N2Q",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_7a1o"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_NFcg"
+            },
+            "id" : "MTM3ZWVjMDk"
+          } ]
+        }, {
+          "id" : "MmZiYzg3MDM",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_iNrP"
+          },
+          "children" : [ {
+            "type" : "reference",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "udcReference_F8Hy"
+            },
+            "id" : "MTc5OWFjODg"
+          } ]
+        }, {
+          "id" : "MGYxYjg4OTM",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_mGyl"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_AqPB"
+            },
+            "id" : "YWM4Yzc4Y2Q"
+          } ]
+        }, {
+          "id" : "YTIwZTY4MWM",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_CGZS"
+          },
+          "children" : [ {
+            "type" : "input",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "input_3c3s"
+            },
+            "id" : "MGE3MjZmOTQ"
+          } ]
+        }, {
+          "id" : "M2RmMDZjMzU",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_qSV1"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_Lfby"
+            },
+            "id" : "ZTExMDU2Zjk"
+          } ]
+        }, {
+          "id" : "NjAxYmVmN2E",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_nO2d"
+          },
+          "children" : [ {
+            "type" : "attachment",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "attachment_PoSL"
+            },
+            "id" : "NDAxNDA2NDU"
+          } ]
+        }, {
+          "id" : "ODM4YTBjMDE",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_uoLm"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "ODZjZjdmYTM",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_y0at"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "NjI0MzlhZmQ",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_fUrR"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_JkxK_1705028978983"
+            },
+            "id" : "ZjFjNjEyMGQ"
+          } ]
+        }, {
+          "id" : "NjRkN2VkODQ",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_qM4j"
+          },
+          "children" : [ {
+            "type" : "uiBusinessSelectPeople",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "uiBusinessSelectPeople_cBCb_1705028987405"
+            },
+            "id" : "NmM2YzhiMWM"
+          } ]
+        }, {
+          "id" : "NTJlNTkyNDU",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_2ngT"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "YTQ0ZWVkMjg",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_r3nr"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "YzQwMTg4MzA",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_pyH5"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_TA3p_1705028965054"
+            },
+            "id" : "MjBiMDkxNGI"
+          } ]
+        }, {
+          "id" : "YjQ5YjkxMGQ",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_YiuT"
+          },
+          "children" : [ {
+            "type" : "uiBusinessSelectPeople",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "uiBusinessSelectPeople_qnXQ_1705028973129"
+            },
+            "id" : "MDcxMzFhMWE"
+          } ]
+        }, {
+          "id" : "ODhlMDk0MzA",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_2Igi"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "MDEyNjBmMWE",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_Xvr2"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "NDNlMmQxNzg",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_Oljl"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_bSj1_1705029561819"
+            },
+            "id" : "MDkwYzg5MjQ"
+          } ]
+        }, {
+          "id" : "YzRkZmM1ZjQ",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_tI7I"
+          },
+          "children" : [ {
+            "type" : "reference",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "udcReference_bV0u_1705029567398"
+            },
+            "id" : "NTZiZTlkNmI"
+          } ]
+        }, {
+          "id" : "NzgxYmIyODg",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_b7KM"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "label_YDMz_1705029574707"
+            },
+            "id" : "ZjAwNGM5NTc"
+          } ]
+        }, {
+          "id" : "N2VhN2JhM2Y",
+          "type" : "gridCell",
+          "settings" : { },
+          "sourceSchema" : {
+            "id" : "udcGridCell_CxHf"
+          },
+          "children" : [ {
+            "type" : "datePicker",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "datePicker_DAex"
+            },
+            "id" : "MWJhYzMyNjY"
+          } ]
+        } ]
+      } ]
+    } ]
+  }

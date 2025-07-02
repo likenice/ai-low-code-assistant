@@ -1,0 +1,108 @@
+{
+	"name": "重复表名称",
+	"type": "dataGrid",
+	"dataSource": {
+		"entityName": "表名称"
+	},
+	"sourceSchema": {
+		"id": "udcGridCell_dg"
+	},
+	"settings": {
+		"enableColumnGroups": true,
+		"rowSelect": "single",
+		"gridTemplateColumns": [
+			0.5,
+			1,
+			1.5,
+			1
+		],
+		"gridTemplateRows": [
+			1,
+			1,
+			1
+		]
+	},
+	"children": [
+		{
+			"name": "",
+			"type": "group",
+			"sourceSchema": {
+				"id": "text_aa"
+			},
+			"settings": {
+				"content": "重复表1-1",
+				"align": "left"
+			},
+			"children": [
+				{
+					"name": "",
+					"type": "group",
+					"sourceSchema": {
+						"id": "text_aa"
+					},
+					"settings": {
+						"content": "重复表2-1",
+						"align": "center"
+					},
+					"children": [
+						{
+							"name": "",
+							"type": "input",
+							"dataSource": {
+								"dataField": "cfb3-1"
+							},
+							"sourceSchema": {
+								"id": "input_bb"
+							},
+							"settings": {
+								"content": "重复表3-1",
+								"align": "center"
+							}
+						},
+						{
+							"name": "",
+							"type": "input",
+							"dataSource": {
+								"dataField": "cfb3-2"
+							},
+							"sourceSchema": {
+								"id": "input_bb"
+							},
+							"settings": {
+								"content": "重复表3-2",
+								"align": "center"
+							}
+						}
+					]
+				},
+				{
+					"name": "",
+					"type": "reference",
+					"dataSource": {
+						"dataField": "cfb3-3"
+					},
+					"sourceSchema": {
+						"id": "text_aa"
+					},
+					"settings": {
+						"content": "重复表3-3",
+						"align": "center"
+					}
+				}
+			]
+		},{
+			"name": "",
+			"type": "reference",
+			"dataSource": {
+				"dataField": "cfb1-4"
+			},
+			"sourceSchema": {
+				"id": "text_aa"
+			},
+			"settings": {
+				"content": "重复表1-4",
+				"align": "center"
+			}
+		}
+	]
+}

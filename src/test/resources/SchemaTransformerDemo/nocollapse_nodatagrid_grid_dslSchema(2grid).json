@@ -1,0 +1,138 @@
+{
+	"id": "NTE3Y2I1ZjA",
+	"type": "page",
+	"pageType": "DETAIL",
+	"urlType": "PC",
+	"settings": {
+		"dataFrom": "ocr"
+	},
+	"sourceSchema": {
+		"id": "-591166153054340532"
+	},
+	"name": "页面",
+	"children": [
+		{
+			"type": "form",
+			"settings": {},
+			"sourceSchema": {
+				"id": "udcForm_esD0"
+			},
+			"id": "MjA1YzIyZGY",
+			"children": [
+				{
+					"type": "container",
+					"settings": {},
+					"sourceSchema": {
+						"id": "udcContainer_nT8g"
+					},
+					"id": "MGJjZGE2MzI",
+					"children": [
+						{
+							"type": "container",
+							"settings": {},
+							"sourceSchema": {
+								"id": "udcContainer_yd6L"
+							},
+							"id": "YmQwODMyYzM"
+						},
+						{
+							"type": "container",
+							"settings": {},
+							"sourceSchema": {
+								"id": "container_dScE"
+							},
+							"id": "NGJmZTVhZTY",
+							"children": [
+								{
+									"id": "1MmRjMjk5Yzg1",
+									"type": "grid",
+									"settings": {
+										"gridTemplateColumns": [
+											1,
+											1
+										]
+									},
+									"sourceSchema": {
+										"id": "udcGrid_888H1"
+									},
+									"children": [
+										{
+											"id": "OWZlMjJiNGQ1",
+											"type": "gridCell",
+											"settings": {},
+											"sourceSchema": {
+												"id": "udcGridCell_9Lqw1"
+											},
+											"children": []
+										},
+										{
+											"id": "OWZlMjJiNGQ2",
+											"type": "gridCell",
+											"settings": {},
+											"sourceSchema": {
+												"id": "udcGridCell_9Lqw2"
+											},
+											"children": [
+												{
+													"id": "MmRjMjk5Yzg",
+													"type": "grid",
+													"settings": {
+														"gridTemplateColumns": [
+															1,
+															1
+														]
+													},
+													"sourceSchema": {
+														"id": "udcGrid_888H"
+													},
+													"children": [
+														{
+															"id": "OWZlMjJiNGQ",
+															"type": "gridCell",
+															"settings": {},
+															"sourceSchema": {
+																"id": "udcGridCell_9Lqw"
+															},
+															"children": [
+																{
+																	"id": "ZDU4NjJkMGE",
+																	"type": "inputNumber",
+																	"settings": {},
+																	"sourceSchema": {
+																		"id": "inputNumber_XD11"
+																	}
+																}
+															]
+														},
+														{
+															"id": "ODIxMGRmNjE",
+															"type": "gridCell",
+															"settings": {},
+															"sourceSchema": {
+																"id": "udcGridCell_a3s1"
+															},
+															"children": [
+																{
+																	"id": "NTRiN2QzYzc",
+																	"type": "input",
+																	"settings": {},
+																	"sourceSchema": {
+																		"id": "input_XD11"
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

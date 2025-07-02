@@ -1,0 +1,93 @@
+{
+	"name": "分组",
+	"type": "collapse",
+	"settings": {
+		"title": "分组1",
+		"gridTemplateColumns": [
+			1,
+			1,
+			1
+		],
+		"gridTemplateRows": [
+			28,
+			28
+		]
+	},
+	"components": [
+		{
+			"type": "inputNumber",
+			"settings": {
+				"titleName": "文本组件11"
+			},
+			"dataSource": {
+				"dataField": "wbzj11"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		},
+		{
+			"type": "input",
+			"settings": {
+				"titleName": "文本组件12"
+			},
+			"dataSource": {
+				"dataField": "wbzj12"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 2
+			}
+		},
+		{
+			"type": "inputNumber",
+			"settings": {
+				"titleName": "文本组件21"
+			},
+			"dataSource": {
+				"dataField": "wbzj21"
+			},
+			"cellColRow": {
+				"rowIndex": 2,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		},
+		{
+			"type": "input",
+			"settings": {
+				"titleName": "文本组件22"
+			},
+			"dataSource": {
+				"dataField": "wbzj22"
+			},
+			"cellColRow": {
+				"rowIndex": 2,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		},
+		{
+			"type": "input",
+			"settings": {
+				"titleName": "文本组件23"
+			},
+			"dataSource": {
+				"dataField": "wbzj23"
+			},
+			"cellColRow": {
+				"rowIndex": 2,
+				"flexRowSize": 1,
+				"colIndex": 3,
+				"flexColSize": 1
+			}
+		}
+	]
+}

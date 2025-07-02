@@ -1,0 +1,112 @@
+[ {
+  "type" : "collapse",
+  "settings" : {
+    "title" : "分组1_1"
+  },
+  "sourceSchema" : {
+    "id" : "collapse_dScE"
+  },
+  "id" : "NWRhNjE0MzU",
+  "children" : [ {
+    "id" : "M2QwMTU4NDg",
+    "type" : "grid",
+    "settings" : {
+      "gridTemplateColumns" : [ 1, 1, 1, 1 ],
+      "gridTemplateRows" : [ 28 ]
+    },
+    "sourceSchema" : {
+      "id" : "udcGrid_888H"
+    },
+    "children" : [ {
+      "id" : "ZGMzZDcyODM",
+      "type" : "gridCell",
+      "settings" : {
+        "styles" : {
+          "display" : "flex",
+          "gridRow" : "1/2",
+          "gridColumn" : "1/2"
+        }
+      },
+      "sourceSchema" : {
+        "id" : "udcGridCell_9Lqw"
+      },
+      "children" : [ {
+        "id" : "ZjJmZjYyM2Y",
+        "type" : "label",
+        "settings" : {
+          "titleName" : "文本组件label"
+        },
+        "sourceSchema" : {
+          "id" : "inputNumber_XD11"
+        },
+        "dataSource" : {
+          "dataField" : "wbzj_12"
+        }
+      } ]
+    }, {
+      "id" : "ODc3ZTZjNWE",
+      "type" : "gridCell",
+      "settings" : {
+        "styles" : {
+          "display" : "flex",
+          "gridRow" : "1/2",
+          "gridColumn" : "2/3"
+        }
+      },
+      "sourceSchema" : {
+        "id" : "udcGridCell_9Lqw"
+      },
+      "children" : [ {
+        "id" : "NzY0N2FmNDU",
+        "type" : "input",
+        "settings" : {
+          "titleName" : "文本组件"
+        },
+        "sourceSchema" : {
+          "id" : "input_XD11"
+        },
+        "dataSource" : {
+          "dataField" : "wbzj_12"
+        }
+      } ]
+    }, {
+      "id" : "YWM4NjUwZGY",
+      "type" : "gridCell",
+      "settings" : {
+        "styles" : {
+          "display" : "flex",
+          "gridRow" : "1/2",
+          "gridColumn" : "3/5"
+        }
+      },
+      "sourceSchema" : {
+        "id" : "udcGridCell_9Lqw"
+      },
+      "children" : [ {
+        "id" : "MjMwNjA4MjA",
+        "type" : "label",
+        "settings" : {
+          "titleName" : "普通文本内容"
+        },
+        "sourceSchema" : {
+          "id" : "inputNumber_XD11"
+        },
+        "dataSource" : { }
+      } ]
+    }, {
+      "id" : "OTNmMzFlNDQ",
+      "type" : "gridCell",
+      "settings" : {
+        "styles" : {
+          "display" : "none",
+          "gridRow" : "1/2",
+          "gridColumn" : "4/5"
+        }
+      },
+      "sourceSchema" : {
+        "id" : "udcGridCell_9Lqw"
+      },
+      "children" : [ ]
+    } ]
+  } ]
+} ]

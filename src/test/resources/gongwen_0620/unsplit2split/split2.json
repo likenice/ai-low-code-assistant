@@ -1,0 +1,139 @@
+{
+	"titleName": "F25中海集团因私出国(境)人员审批表",
+	"groups": [
+		{
+			"name": "",
+			"type": "container",
+			"components": [
+				{
+					"type": "reference",
+					"settings": {
+						"titleName": "姓名1",
+						"align": "left",
+						"titleDisplay": "left"
+					},
+					"dataSource": {
+						"entityFullName": "com.***.EntityDemo",
+						"dataField": "userName1"
+					},
+					"referGroup": {
+						"groupId": "com.***.EntityDemo.userName1",
+						"groupName": "com.***.EntityDemo.userName1",
+						"groupType": "component"
+					},
+					"groups": [
+						{}
+					]
+				}
+			]
+		},
+		{
+			"name": "",
+			"type": "grid",
+			"settings": {
+				"titleName": "",
+				"gridType": "complex",
+				"gridTemplateColumns": [
+					0.33,
+					0.67,
+					1.0,
+					2.0
+				],
+				"gridTemplateRows": [
+					28
+				]
+			},
+			"components": [
+				{
+					"type": "gridCell",
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 1,
+						"flexColSize": 2
+					},
+					"groups": [
+						{
+							"name": "",
+							"type": "container",
+							"components": [
+								{
+									"type": "reference",
+									"settings": {
+										"titleName": "姓名2",
+										"align": "left",
+										"titleDisplay": "left"
+									},
+									"dataSource": {
+										"entityFullName": "com.***.EntityDemo",
+										"dataField": "userName2"
+									},
+									"referGroup": {
+										"groupId": "com.***.EntityDemo.userName2",
+										"groupName": "com.***.EntityDemo.userName2",
+										"groupType": "component"
+									},
+									"groups": [
+										{}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "label",
+					"settings": {
+						"titleName": "姓名"
+					},
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 3,
+						"flexColSize": 1
+					},
+					"referGroup": {
+						"groupId": "com.***.EntityDemo.userName",
+						"groupName": "com.***.EntityDemo.userName",
+						"groupType": "title"
+					},
+					"groups": [
+						{}
+					]
+				},
+				{
+					"settings": {
+						"titleName": "姓名",
+						"align": "left",
+						"titleDisplay": "none",
+						"validation": {
+							"required": true
+						},
+						"flexRowSize": 1
+					},
+					"type": "reference",
+					"dataSource": {
+						"entityFullName": "com.***.EntityDemo",
+						"dataField": "userName"
+					},
+					"level": 0,
+					"information": "",
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 4,
+						"flexColSize": 1
+					},
+					"referGroup": {
+						"groupId": "com.***.EntityDemo.userName",
+						"groupName": "com.***.EntityDemo.userName",
+						"groupType": "component"
+					},
+					"groups": [
+						{}
+					]
+				}
+			]
+		}
+	]
+}

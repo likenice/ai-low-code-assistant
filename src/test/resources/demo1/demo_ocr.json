@@ -1,0 +1,232 @@
+{
+  "titleName": "",
+  "groups": [
+    {
+      "name": "",
+      "type": "grid",
+      "settings": {
+        "titleName": "",
+        "gridType": "complex",
+        "gridTemplateColumns": [
+          1.0
+        ],
+        "gridTemplateRows": [
+          28,
+          28
+        ]
+      },
+      "components": [
+        {
+          "settings": {
+            "titleName": ""
+          },
+          "type": "gridCell",
+          "cellColRow": {
+            "rowIndex": 1,
+            "flexRowSize": 1,
+            "colIndex": 1,
+            "flexColSize": 1
+          },
+          "groups": [
+            {
+              "type": "container",
+              "settings": {
+                "titleName": "",
+                "flexDirection": "column",
+                "justifyContent": "center",
+                "alignItems": "stretch"
+              },
+              "components": [
+                {
+                  "settings": {
+                    "titleName": "会商部门",
+                    "align": "left",
+                    "titleDisplay": "left",
+                    "validation": {
+                      "required": false
+                    }
+                  },
+                  "type": "reference",
+                  "dataSource": {
+                    "dataField": "hsbm"
+                  },
+                  "referGroup": {
+                    "groupId": 10001,
+                    "groupName": "会商部门",
+                    "groupType": "component"
+                  }
+                },
+                {
+                  "settings": {
+                    "titleName": "",
+                    "align": "left",
+                    "titleDisplay": "none",
+                    "validation": {
+                      "required": false
+                    }
+                  },
+                  "type": "uiBusinessEdocOpinionBox",
+                  "dataSource": {
+                    "dataField": "hsbmyj"
+                  },
+                  "referGroup": {
+                    "groupId": 10002,
+                    "groupName": "",
+                    "groupType": "component"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "settings": {
+            "titleName": ""
+          },
+          "type": "gridCell",
+          "cellColRow": {
+            "rowIndex": 2,
+            "flexRowSize": 1,
+            "colIndex": 1,
+            "flexColSize": 1
+          },
+          "groups": [
+            {
+              "type": "grid",
+              "settings": {
+                "titleName": "",
+                "gridTemplateColumns": [
+                  0.5,
+                  1.0,
+                  1.5
+                ],
+                "gridTemplateRows": [
+                  28,
+                  28,
+                  28,
+                  28
+                ]
+              },
+              "components": [
+                {
+                  "settings": {
+                    "titleName": "主办部门:",
+                    "align": "left",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  "type": "label",
+                  "cellColRow": {
+                    "rowIndex": 1,
+                    "flexRowSize": 1,
+                    "colIndex": 1,
+                    "flexColSize": 1
+                  },
+                  "referGroup": {
+                    "groupId": 20001,
+                    "groupName": "主办部门",
+                    "groupType": "label"
+                  }
+                },
+                {
+                  "settings": {
+                    "titleName": "",
+                    "align": "none",
+                    "validation": {
+                      "required": false
+                    }
+                  },
+                  "type": "reference",
+                  "dataSource": {
+                    "dataField": "zbbm"
+                  },
+                  "cellColRow": {
+                    "rowIndex": 1,
+                    "flexRowSize": 1,
+                    "colIndex": 2,
+                    "flexColSize": 1
+                  },
+                  "referGroup": {
+                    "groupId": 20001,
+                    "groupName": "主办部门",
+                    "groupType": "component"
+                  }
+                },
+                {
+                  "settings": {
+                    "titleName": "合规审查结论:",
+                    "align": "left",
+                    "validation": {
+                      "required": false
+                    }
+                  },
+                  "type": "input",
+                  "cellColRow": {
+                    "rowIndex": 2,
+                    "flexRowSize": 1,
+                    "colIndex": 1,
+                    "flexColSize": 1
+                  },
+                  "referGroup": {
+                    "groupId": 20002,
+                    "groupName": "合规审查结论",
+                    "groupType": "label"
+                  }
+                },
+                {
+                  "settings": {
+                    "titleName": "",
+                    "align": "none",
+                    "validation": {
+                      "required": false
+                    }
+                  },
+                  "type": "reference",
+                  "dataSource": {
+                    "dataField": "hgscjl"
+                  },
+                  "cellColRow": {
+                    "rowIndex": 2,
+                    "flexRowSize": 1,
+                    "colIndex": 2,
+                    "flexColSize": 1
+                  },
+                  "referGroup": {
+                    "groupId": 20002,
+                    "groupName": "合规审查结论",
+                    "groupType": "component"
+                  }
+                },
+                {
+                  "settings": {
+                    "titleName": "主办部门负责人",
+                    "align": "top",
+                    "validation": {
+                      "required": true
+                    }
+                  },
+                  "type": "uiBusinessEdocOpinionBox",
+                  "dataSource": {
+                    "dataField": "zbbmfzr"
+                  },
+                  "cellColRow": {
+                    "rowIndex": 1,
+                    "flexRowSize": 4,
+                    "colIndex": 3,
+                    "flexColSize": 1
+                  },
+                  "referGroup": {
+                    "groupId": 30001,
+                    "groupName": "主办部门负责人",
+                    "groupType": "component"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

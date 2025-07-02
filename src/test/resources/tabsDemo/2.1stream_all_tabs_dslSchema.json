@@ -1,0 +1,83 @@
+{
+	"id": "ZWZkMWViM2Y",
+	"type": "page",
+	"pageType": "DETAIL",
+	"urlType": "PC",
+	"settings": {
+		"dataFrom": "ocr"
+	},
+	"sourceSchema": {
+		"id": "5841418389060902052"
+	},
+	"name": "页面",
+	"children": [
+		{
+			"type": "tabs",
+			"sourceSchema": {
+				"id": "tabs_2DkY"
+			},
+			"id": "tabs_id_1",
+			"children": [
+				{
+					"id": "ODdkYWQ3ODQ",
+					"type": "label",
+					"sourceSchema": {
+						"id": "label_Y2Tu"
+					},
+					"name": "表头"
+				},
+				{
+					"type": "form",
+					"sourceSchema": {
+						"id": "udcForm_2DkY"
+					},
+					"id": "MzJhMDZlY2M",
+					"children": [
+						{
+							"id": "ZTEzMTdmMzU",
+							"type": "collapse",
+							"settings": {
+								"title": "分组1_1",
+								"gridTemplateColumns": [
+									1,
+									1
+								],
+								"gridTemplateRows": [
+									28
+								]
+							},
+							"sourceSchema": {
+								"id": "collapse_Zy4z"
+							},
+							"children": [
+								{
+									"type": "container",
+									"sourceSchema": {
+										"id": "udcContainer_uEhm"
+									},
+									"id": "NzY1MmQ3OGU",
+									"children": [
+										{
+											"id": "inputNumber_1",
+											"type": "inputNumber",
+											"sourceSchema": {
+												"id": "inputNumber_XD11"
+											}
+										},
+										{
+											"id": "input_1",
+											"type": "input",
+											"sourceSchema": {
+												"id": "input_XD11"
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

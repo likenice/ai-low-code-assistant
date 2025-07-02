@@ -1,0 +1,209 @@
+[
+	{
+		"children": [
+			{
+				"children": [
+					{
+						"dataSource": {
+							"dataField": "wbzj_11"
+						},
+						"settings": {
+							"flexRowSize": 1,
+							"titleName": "文本组件11"
+						},
+						"sourceSchema": {
+							"id": "inputNumber_XD11"
+						},
+						"type": "inputNumber"
+					},
+					{
+						"dataSource": {
+							"dataField": "wbzj_12"
+						},
+						"settings": {
+							"flexRowSize": 1,
+							"titleName": "文本组件12"
+						},
+						"sourceSchema": {
+							"id": "input_XD11"
+						},
+						"type": "input"
+					}
+				],
+				"id": "NzY1MmQ3OGU",
+				"settings": {
+					"columns": 2
+				},
+				"sourceSchema": {
+					"id": "udcContainer_uEhm"
+				},
+				"type": "container"
+			}
+		],
+		"id": "MDI0OWZkZjQ",
+		"settings": {
+			"gridTemplateColumns": [
+				1,
+				1
+			],
+			"gridTemplateRows": [
+				28
+			],
+			"title": "分组1_1"
+		},
+		"sourceSchema": {
+			"id": "collapse_Zy4z"
+		},
+		"type": "collapse"
+	},
+	{
+		"children": [
+			{
+				"children": [
+					{
+						"dataSource": {
+							"dataField": "jine"
+						},
+						"settings": {
+							"titleName": "金额",
+							"width": 300
+						},
+						"sourceSchema": {
+							"id": ""
+						},
+						"type": "text"
+					},
+					{
+						"dataSource": {
+							"dataField": "mingxi"
+						},
+						"settings": {
+							"titleName": "明细",
+							"width": 100
+						},
+						"sourceSchema": {
+							"id": ""
+						},
+						"type": "dataPack"
+					},
+					{
+						"dataSource": {
+							"dataField": "xghklc"
+						},
+						"settings": {
+							"titleName": "相关还款流程",
+							"width": 200
+						},
+						"sourceSchema": {
+							"id": ""
+						},
+						"type": "input"
+					}
+				],
+				"dataSource": {
+					"entityName": "表名称"
+				},
+				"id": "ZGI0MWRiZDg",
+				"settings": {
+					"belongTabs": "页签1/页签2",
+					"gridTemplateColumns": [
+						1,
+						1,
+						1
+					],
+					"title": "重复表1"
+				},
+				"type": "dataGrid"
+			}
+		],
+		"settings": {
+			"tabsSetting": [
+				{
+					"name": "页签1"
+				},
+				{
+					"name": "页签2"
+				}
+			]
+		},
+		"sourceSchema": {
+			"id": "tabs_2DkY"
+		},
+		"type": "tabs"
+	},
+	{
+		"children": [
+			{
+				"children": [
+					{
+						"dataSource": {
+							"dataField": "jine"
+						},
+						"settings": {
+							"titleName": "金额",
+							"width": 300
+						},
+						"sourceSchema": {
+							"id": ""
+						},
+						"type": "text"
+					},
+					{
+						"dataSource": {
+							"dataField": "mingxi"
+						},
+						"settings": {
+							"titleName": "明细",
+							"width": 100
+						},
+						"sourceSchema": {
+							"id": ""
+						},
+						"type": "dataPack"
+					},
+					{
+						"dataSource": {
+							"dataField": "xghklc"
+						},
+						"settings": {
+							"titleName": "相关还款流程",
+							"width": 200
+						},
+						"sourceSchema": {
+							"id": ""
+						},
+						"type": "input"
+					}
+				],
+				"dataSource": {
+					"entityName": "表名称"
+				},
+				"id": "ZTVjYjkzMTk",
+				"settings": {
+					"belongTabs": "页签3/页签4",
+					"gridTemplateColumns": [
+						1,
+						1,
+						1
+					],
+					"title": "重复表2"
+				},
+				"type": "dataGrid"
+			}
+		],
+		"settings": {
+			"tabsSetting": [
+				{
+					"name": "页签3"
+				},
+				{
+					"name": "页签4"
+				}
+			]
+		},
+		"sourceSchema": {
+			"id": "tabs_2DkY"
+		},
+		"type": "tabs"
+	}
+]

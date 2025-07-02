@@ -1,0 +1,1030 @@
+{
+	"children": [
+		"label_Y2Tu",
+		"collapse_Zy4z",
+		"udcDataGrid_eC5F"
+	],
+	"id": "5841418389060902052",
+	"appId": "7652733006056409420",
+	"pageType": "DETAIL",
+	"pageUrl": "demosimplepage",
+	"urlType": "PC",
+	"defaultOpenType": null,
+	"description": "",
+	"groupId": "0",
+	"guid": "2806212357491605546",
+	"relationGroupId": "3119415677513227636",
+	"sortNo": 23,
+	"masterEntityIds": "1778115848780305383",
+	"createTime": "1739759404000",
+	"version": "2.4.0",
+	"handWritten": false,
+	"inPortletParams": [],
+	"settings": {
+		"styles": {},
+		"title": {
+			"type": "Simple"
+		},
+		"resolutionPower": {
+			"type": "auto",
+			"value": {
+				"per": 100,
+				"minWidth": 1200,
+				"maxWidth": 1920
+			}
+		},
+		"alignment": "center",
+		"backgroundAdapt": "cover",
+		"backgroundColor": "#ffffff",
+		"gap": "20px 0",
+		"boxModel": {
+			"margin": "0 auto 0 auto",
+			"padding": "16px 20px 0 20px"
+		}
+	},
+	"layoutVisibleControl": {
+		"type": "visible"
+	},
+	"pageLayout": false,
+	"outParameters": [],
+	"pageVariable": [],
+	"pageDefinedEvents": [],
+	"originId": "5841418389060902052",
+	"name": "页面",
+	"type": "page",
+	"eventDefine": [],
+	"childById": {
+		"label_Y2Tu": {
+			"id": "label_Y2Tu",
+			"type": "Label",
+			"parentId": "page",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "标题内容"
+				},
+				"alignment": "center",
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0 0 0 0"
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"name": "表头",
+			"children": []
+		},
+		"collapse_Zy4z": {
+			"id": "collapse_Zy4z",
+			"type": "Collapse",
+			"parentId": "page",
+			"settings": {
+				"styles": {},
+				"reserveStyle": 0,
+				"expandIconPosition": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "分组"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "分组",
+			"children": [
+				"udcForm_2DkY"
+			],
+			"extraChildren": {
+				"columnChildren": []
+			}
+		},
+		"udcForm_2DkY": {
+			"id": "udcForm_2DkY",
+			"type": "UdcForm",
+			"parentId": "collapse_Zy4z",
+			"settings": {},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单一记录",
+			"children": [
+				"udcContainer_uEhm"
+			],
+			"extraChildren": {
+				"columnChildren": []
+			},
+			"dataSource": {
+				"type": "ENTITY",
+				"subType": "NORMAL",
+				"key": "udcForm_2DkY-1778115848780305383",
+				"isRoot": true,
+				"isRef": false,
+				"dataShape": "SINGLE",
+				"entity": {
+					"id": "1778115848780305383",
+					"name": "demosimple",
+					"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Demosimple",
+					"caption": "demo-simple",
+					"stereotype": "standard",
+					"category": "ENTITY",
+					"supportOrderNo": false,
+					"appName": "biaodanaiyouhua7652733006056409420",
+					"appId": "7652733006056409420"
+				},
+				"fields": [
+					{
+						"id": "-4319140042845939032",
+						"name": "ziduan1",
+						"fieldPath": [
+							"-4319140042845939032"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Demosimple.ziduan1",
+						"parentId": "udcForm_2DkY",
+						"readonly": false
+					},
+					{
+						"id": "9220135525666379170",
+						"name": "ziduan2",
+						"fieldPath": [
+							"9220135525666379170"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Demosimple.ziduan2",
+						"parentId": "udcForm_2DkY",
+						"readonly": false
+					}
+				],
+				"dataTarget": "udcForm_2DkY",
+				"hiddenFields": [],
+				"fieldBindMap": {
+					"input_XD11": "ziduan1",
+					"input_93cd": "ziduan2"
+				}
+			},
+			"name": "demo-simple",
+			"events": []
+		},
+		"udcContainer_uEhm": {
+			"id": "udcContainer_uEhm",
+			"type": "UdcContainer",
+			"parentId": "udcForm_2DkY",
+			"settings": {
+				"flexWrap": "wrap",
+				"gap": "20px 20px",
+				"borderRadius": 2
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "容器",
+			"children": [
+				"input_XD11",
+				"input_93cd"
+			],
+			"extraChildren": {
+				"columnChildren": []
+			}
+		},
+		"input_XD11": {
+			"id": "input_XD11",
+			"type": "Input",
+			"parentId": "udcContainer_uEhm",
+			"settings": {
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "50",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				},
+				"initialValue": null
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "-4319140042845939032",
+				"type": "INPUT",
+				"dataField": "ziduan1",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Demosimple.ziduan1",
+				"readonly": false,
+				"key": "udcForm_2DkY-1778115848780305383.ziduan1",
+				"dataTarget": "udcForm_2DkY",
+				"fieldPath": [
+					"-4319140042845939032"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"input_93cd": {
+			"id": "input_93cd",
+			"type": "Input",
+			"parentId": "udcContainer_uEhm",
+			"settings": {
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "50",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				}
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "9220135525666379170",
+				"type": "INPUT",
+				"dataField": "ziduan2",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Demosimple.ziduan2",
+				"readonly": false,
+				"key": "udcForm_2DkY-1778115848780305383.ziduan2",
+				"dataTarget": "udcForm_2DkY",
+				"fieldPath": [
+					"9220135525666379170"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"udcDataGrid_eC5F": {
+			"id": "udcDataGrid_eC5F",
+			"type": "UdcDataGrid",
+			"parentId": "page",
+			"settings": {
+				"columns": [
+					{
+						"columnId": "Kl0OgY",
+						"columnIndex": 0,
+						"parentId": "udcDataGrid_eC5F",
+						"dataIndex": "shuxing1",
+						"dataFieldId": "7062943667664206727",
+						"fieldPath": [
+							"7062943667664206727"
+						],
+						"dataFieldCaption": "属性1",
+						"dataI18n": false,
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.shuxing1",
+						"dataType": "STRING",
+						"customs": null,
+						"status": "default",
+						"align": "left",
+						"widthType": "pt",
+						"widthValue": 50,
+						"relationType": null,
+						"relationEntity": null,
+						"relationApp": null,
+						"displayFormate": "default",
+						"displayFormateTime": "default",
+						"decimalPlace": 0,
+						"amountInWord": false,
+						"isGroupEnable": true,
+						"decimalDigits": 0,
+						"positiveNumber": "0",
+						"nagativeNumber": "0",
+						"currencyIcon": "￥",
+						"displayStyle": "input",
+						"enableList": false,
+						"displayStyleAttachment": "button",
+						"sliderMin": 0,
+						"sliderMax": 100,
+						"sliderColor": {
+							"type": "Simple",
+							"simple": "brand1-6"
+						},
+						"componentType": "Input",
+						"multiSelect": false
+					},
+					{
+						"columnId": "P2ynVq",
+						"columnIndex": 1,
+						"parentId": "udcDataGrid_eC5F",
+						"dataIndex": "bumen1",
+						"dataFieldId": "-7263422153594961699",
+						"fieldPath": [
+							"-7263422153594961699"
+						],
+						"dataFieldCaption": "部门1",
+						"dataI18n": false,
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.bumen1",
+						"dataType": "ENTITY",
+						"customs": null,
+						"status": "default",
+						"align": "left",
+						"widthType": "pt",
+						"widthValue": 50,
+						"relationType": "Many2OneAssociation",
+						"relationEntity": "com.seeyon.organization.domain.core.entity.OrgUnit",
+						"relationApp": "organization",
+						"displayFormate": "default",
+						"displayFormateTime": "default",
+						"decimalPlace": 0,
+						"amountInWord": false,
+						"isGroupEnable": true,
+						"decimalDigits": 0,
+						"positiveNumber": "0",
+						"nagativeNumber": "0",
+						"currencyIcon": "￥",
+						"displayStyle": "input",
+						"enableList": false,
+						"displayStyleAttachment": "button",
+						"sliderMin": 0,
+						"sliderMax": 100,
+						"sliderColor": {
+							"type": "Simple",
+							"simple": "brand1-6"
+						},
+						"componentType": "UdcReference",
+						"multiSelect": false
+					}
+				],
+				"topOperates": [
+					{
+						"id": "insert",
+						"name": "插入",
+						"type": "item",
+						"icon": "LinedPlus",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "7MZah5",
+						"buttonType": "default",
+						"showContent": "all"
+					},
+					{
+						"id": "copy",
+						"name": "复制",
+						"type": "item",
+						"icon": "LinedCopyFrom",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "ERf9fw",
+						"buttonType": "default",
+						"showContent": "all"
+					},
+					{
+						"id": "delete",
+						"name": "删除",
+						"type": "item",
+						"icon": "LinedDelete",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "HAotSH",
+						"buttonType": "default",
+						"showContent": "all"
+					}
+				],
+				"popoverOperates": [
+					{
+						"id": "insert_pop",
+						"name": "插入行",
+						"type": "item",
+						"icon": "LinedPlus",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "KBQMjg",
+						"pos": "bottom"
+					},
+					{
+						"id": "copy_pop",
+						"name": "复制行",
+						"type": "item",
+						"icon": "LinedCopyFrom",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "44nRhI"
+					},
+					{
+						"id": "delete_pop",
+						"name": "删除行",
+						"type": "item",
+						"icon": "LinedDelete",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "vjdjqD"
+					}
+				],
+				"filterSetting": {
+					"type": "single"
+				},
+				"paginationType": "client"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "子实体"
+				},
+				"controlledProps": [
+					{
+						"key": "7MZah5",
+						"type": "Button",
+						"name": "插入",
+						"parentCode": "topOperates",
+						"allowControlled": false,
+						"mapOperateId": "insert"
+					},
+					{
+						"key": "ERf9fw",
+						"type": "Button",
+						"name": "复制",
+						"parentCode": "topOperates",
+						"allowControlled": false,
+						"mapOperateId": "copy"
+					},
+					{
+						"key": "HAotSH",
+						"type": "Button",
+						"name": "删除",
+						"parentCode": "topOperates",
+						"allowControlled": false,
+						"mapOperateId": "delete"
+					},
+					{
+						"key": "KBQMjg",
+						"type": "Button",
+						"name": "插入行",
+						"parentCode": "popoverOperates",
+						"allowControlled": false,
+						"mapOperateId": "insert_pop"
+					},
+					{
+						"key": "44nRhI",
+						"type": "Button",
+						"name": "复制行",
+						"parentCode": "popoverOperates",
+						"allowControlled": false,
+						"mapOperateId": "copy_pop"
+					},
+					{
+						"key": "vjdjqD",
+						"type": "Button",
+						"name": "删除行",
+						"parentCode": "popoverOperates",
+						"allowControlled": false,
+						"mapOperateId": "delete_pop"
+					}
+				],
+				"flowAuthKeys": [
+					{
+						"key": "topOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					},
+					{
+						"key": "actionColumnOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					},
+					{
+						"key": "popoverOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					}
+				]
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "重复表录入",
+			"children": [],
+			"extraChildren": {
+				"columnChildren": [
+					"input_NEBy",
+					"udcReference_gm9o"
+				]
+			},
+			"dataSource": {
+				"type": "ENTITY",
+				"subType": "NORMAL",
+				"key": "udcDataGrid_eC5F--5987557723163548104",
+				"isRoot": false,
+				"isRef": false,
+				"dataShape": "LIST",
+				"entity": {
+					"id": "-5987557723163548104",
+					"name": "zishiti",
+					"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti",
+					"caption": "子实体",
+					"stereotype": "standard",
+					"category": "ENTITY",
+					"supportOrderNo": true,
+					"appName": "biaodanaiyouhua7652733006056409420",
+					"appId": "7652733006056409420"
+				},
+				"fields": [
+					{
+						"id": "7062943667664206727",
+						"name": "shuxing1",
+						"fieldPath": [
+							"7062943667664206727"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.shuxing1",
+						"parentId": "udcDataGrid_eC5F",
+						"readonly": false
+					},
+					{
+						"id": "-7263422153594961699",
+						"name": "bumen1",
+						"fieldPath": [
+							"-7263422153594961699"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.bumen1",
+						"parentId": "udcDataGrid_eC5F",
+						"readonly": false
+					}
+				],
+				"dataTarget": "udcDataGrid_eC5F",
+				"fieldBindMap": {
+					"Kl0OgY": "shuxing1",
+					"P2ynVq": "bumen1"
+				},
+				"hiddenFields": []
+			},
+			"name": "子实体",
+			"events": []
+		},
+		"input_NEBy": {
+			"id": "input_NEBy",
+			"type": "Input",
+			"parentId": "udcDataGrid_eC5F",
+			"settings": {
+				"titleDisplay": "none",
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "50",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				}
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "7062943667664206727",
+				"type": "INPUT",
+				"dataField": "shuxing1",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.shuxing1",
+				"readonly": false,
+				"key": "udcDataGrid_eC5F--5987557723163548104.shuxing1",
+				"dataTarget": "udcDataGrid_eC5F",
+				"fieldPath": [
+					"7062943667664206727"
+				],
+				"dataPath": "",
+				"inColumn": true
+			},
+			"children": []
+		},
+		"udcReference_gm9o": {
+			"id": "udcReference_gm9o",
+			"type": "UdcReference",
+			"parentId": "udcDataGrid_eC5F",
+			"settings": {
+				"titleDisplay": "none",
+				"labelPosition": "top",
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"dataReference": {
+					"id": null,
+					"appName": "organization",
+					"fullName": "com.seeyon.organization.domain.core.entity.OrgUnit.allUnitRefer",
+					"entityFullName": "com.seeyon.organization.domain.core.entity.OrgUnit",
+					"starterName": null
+				},
+				"authControlledButton": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					}
+				],
+				"validation": {}
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				},
+				"controlledProps": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"allowControlled": false
+					}
+				]
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "参照",
+			"isFormItem": true,
+			"defaultDataType": "ENTITY",
+			"dataSource": {
+				"dataFieldId": "-7263422153594961699",
+				"type": "INPUT",
+				"dataField": "bumen1",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Zishiti.bumen1",
+				"readonly": false,
+				"key": "udcDataGrid_eC5F--5987557723163548104.bumen1",
+				"dataTarget": "udcDataGrid_eC5F",
+				"fieldPath": [
+					"-7263422153594961699"
+				],
+				"dataPath": "",
+				"inColumn": true
+			},
+			"children": []
+		}
+	},
+	"terminal": "PC",
+	"expressSchemaPathMaps": {}
+}

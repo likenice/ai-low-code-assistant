@@ -1,0 +1,1 @@
+这个数据是用来验证 公文ocr 精度网格中 label和component在一个网格的场景.且 网格中 包含container布局的场景.

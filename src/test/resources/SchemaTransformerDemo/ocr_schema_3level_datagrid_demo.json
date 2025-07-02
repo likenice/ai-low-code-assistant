@@ -1,0 +1,239 @@
+{
+	"titleName": "标题名称",
+	"dataSource": {
+		"entityName": "表名称"
+	},
+	"groups": [
+		{
+			"name": "页面属性",
+			"type": "pageProps",
+			"settings": {
+				"gridTemplateColumns": [
+					1,
+					1
+				],
+				"gridTemplateRows": [
+					28
+				]
+			},
+			"components": [
+				{
+					"type": "input",
+					"settings": {
+						"titleName": "创建人",
+						"titleDisplay": "left"
+					},
+					"dataSource": {
+						"dataField": "creator"
+					},
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 1,
+						"flexColSize": 1
+					}
+				},
+				{
+					"type": "inputNumber",
+					"settings": {
+						"titleName": "创建时间",
+						"titleDisplay": "left"
+					},
+					"dataSource": {
+						"dataField": "createTime"
+					},
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 2,
+						"flexColSize": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "分组",
+			"type": "collapse",
+			"settings": {
+				"title": "分组1_1",
+				"gridTemplateColumns": [
+					1,1
+				],
+				"gridTemplateRows": [
+					28
+				]
+			},
+			"components": [
+				{
+					"type": "inputNumber",
+					"settings": {
+						"titleName": "文本组件11"
+					},
+					"dataSource": {
+						"dataField": "wbzj_11"
+					},
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 1,
+						"flexColSize": 1
+					}
+				},{
+					"type": "input",
+					"settings": {
+						"titleName": "文本组件12"
+					},
+					"dataSource": {
+						"dataField": "wbzj_12"
+					},
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 2,
+						"flexColSize": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "分组",
+			"type": "collapse",
+			"settings": {
+				"title": "分组1",
+				"gridTemplateColumns": [
+					1,
+					1,
+					1
+				],
+				"gridTemplateRows": [
+					28,
+					28
+				]
+			},
+			"components": [
+				{
+					"type": "inputNumber",
+					"settings": {
+						"titleName": "文本组件11"
+					},
+					"dataSource": {
+						"dataField": "wbzj11"
+					},
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 1,
+						"flexColSize": 1
+					}
+				},
+				{
+					"type": "input",
+					"settings": {
+						"titleName": "文本组件12"
+					},
+					"dataSource": {
+						"dataField": "wbzj12"
+					},
+					"cellColRow": {
+						"rowIndex": 1,
+						"flexRowSize": 1,
+						"colIndex": 2,
+						"flexColSize": 2
+					}
+				},
+				{
+					"type": "inputNumber",
+					"settings": {
+						"titleName": "文本组件21"
+					},
+					"dataSource": {
+						"dataField": "wbzj21"
+					},
+					"cellColRow": {
+						"rowIndex": 2,
+						"flexRowSize": 1,
+						"colIndex": 1,
+						"flexColSize": 1
+					}
+				},
+				{
+					"type": "input",
+					"settings": {
+						"titleName": "文本组件22"
+					},
+					"dataSource": {
+						"dataField": "wbzj22"
+					},
+					"cellColRow": {
+						"rowIndex": 2,
+						"flexRowSize": 1,
+						"colIndex": 2,
+						"flexColSize": 1
+					}
+				},
+				{
+					"type": "input",
+					"settings": {
+						"titleName": "文本组件23"
+					},
+					"dataSource": {
+						"dataField": "wbzj23"
+					},
+					"cellColRow": {
+						"rowIndex": 2,
+						"flexRowSize": 1,
+						"colIndex": 3,
+						"flexColSize": 1
+					}
+				}
+			]
+		},
+		{
+			"name": "重复表",
+			"type": "dataGrid",
+			"settings": {
+				"title": "重复表1",
+				"gridTemplateColumns": [
+					1,
+					1,
+					1
+				]
+			},
+			"dataSource": {
+				"entityName": "表名称"
+			},
+			"components": [
+				{
+					"type": "text",
+					"settings": {
+						"titleName": "金额",
+						"width": 300
+					},
+					"dataSource": {
+						"dataField": "jine"
+					}
+				},
+				{
+					"type": "dataPack",
+					"settings": {
+						"titleName": "明细",
+						"width": 100
+					},
+					"dataSource": {
+						"dataField": "mingxi"
+					}
+				},
+				{
+					"type": "input",
+					"settings": {
+						"titleName": "相关还款流程",
+						"width": 200
+					},
+					"dataSource": {
+						"dataField": "xghklc"
+					}
+				}
+			]
+		}
+	]
+}

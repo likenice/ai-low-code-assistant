@@ -1,0 +1,44 @@
+{
+  "titleName": "",
+  "groups": [
+    {
+      "id": "1",
+      "type": "tabs",
+      "settings": {
+        "tabsSetting": [
+          {
+            "name": "页签1"
+          },
+          {
+            "name": "页签2"
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "2",
+          "type": "collapse"
+        }
+      ]
+    },{
+      "id": "3",
+      "type": "tabs",
+      "settings": {
+        "tabsSetting": [
+          {
+            "name": "页签3"
+          },
+          {
+            "name": "页签4"
+          }
+        ]
+      },
+      "components": [
+        {
+          "id": "4",
+          "type": "collapse"
+        }
+      ]
+    }
+  ]
+}

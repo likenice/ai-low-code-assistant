@@ -1,0 +1,60 @@
+# 本地开发环境配置
+server:
+  port: 8484
+seeyon:
+  ai:
+    common:
+      filePath: /data/seeyon/ai-manager/file
+  connect:
+    llm:
+      # gpt-4o
+      modelType: multi
+      url: http://10.101.129.2:8080
+      model: gpt-4o
+      apiVersion: 2024-02-15-preview
+      apiKey: ovJBqNn8zFAOD26KGTAdEArgMJinyd3HudXRmrpQEmNuVl3FWA
+
+      # qwen 2.5
+      #      modelType: text
+      #      url: http://192.168.80.41:9998/v1/chat/completions#   # https://seeyon-ai-platform2.openai.azure.com
+      #      model: Qwen2.5-72B-Instruct-AWQ
+      #      apiKey: sk-df9f09f3c70648ddbe32a4828e8297e0
+
+
+      # deepseek
+  #      modelType: multi
+  #      url: https://dashscope.aliyuncs.com/compatible-mode
+  #      model: deepseek-v3
+  #      apiKey: sk-df9f09f3c70648ddbe32a4828e8297e0
+
+  ocr:
+    gw_path: http://10.101.129.4:9002/
+    udc_path: http://10.101.129.4:9001/
+    path: http://10.101.129.4:9002/recognize
+    udcPath: http://10.101.129.4:9001/recognize
+    detectDuplicatesUrl: http://10.101.129.4:9002/detectDuplicates
+    udcDetectDuplicatesUrl: http://10.101.129.4:9001/detectDuplicates
+    pageProps: [ "发起人","创建人","创建时间" ]
+    keySize: 5
+spring:
+  application:
+    name: ai-low-code-assistant
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+logging:
+  file:
+    name: logs/${spring.application.name}.log
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+    file: "%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n"
+  level:
+    root: INFO
+    com.seeyon.ai: DEBUG
+management:
+  metrics:
+    export:
+      file:
+        enabled: false

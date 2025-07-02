@@ -1,0 +1,35 @@
+{
+	"type": "gridCell",
+	
+	"cellColRow": {  
+		"rowIndex": 1,
+		"flexRowSize": 1,
+		"colIndex": 1,
+		"flexColSize": 1
+	},
+	"groups": [
+		{
+			"type": "container",
+			"settings": {
+				"flexDirection": "column",
+				"justifyContent": "center",
+				"alignItems": "stretch"
+			},
+			"components": [
+				{
+					"type": "label",
+					"settings":{
+						"titleName": "会商部门"
+					}
+				},
+				{
+					"type": "uiBusinessEdocOpinionBox",
+					"settings":{
+						"align": "left",
+						"titleDisplay": "none"
+					}
+				}
+			]
+		}
+	]
+}

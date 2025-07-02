@@ -1,0 +1,2848 @@
+{
+	"id": "-3418819949449915075",
+	"appId": "7652733006056409420",
+	"pageType": "DETAIL",
+	"pageUrl": "byjjkspd",
+	"urlType": "PC",
+	"defaultOpenType": null,
+	"description": "",
+	"groupId": "0",
+	"guid": "1333601295108163531",
+	"relationGroupId": "-814265525386338863",
+	"sortNo": 12,
+	"masterEntityIds": "4415965353197279731",
+	"createTime": "1736748234000",
+	"version": "2.4.0",
+	"handWritten": false,
+	"inPortletParams": [],
+	"settings": {
+		"settings": {
+			"styles": {},
+			"title": {
+				"type": "Simple"
+			},
+			"resolutionPower": {
+				"type": "auto",
+				"value": {
+					"per": 100,
+					"minWidth": 1200,
+					"maxWidth": 1920
+				}
+			},
+			"alignment": "center",
+			"backgroundAdapt": "stretch",
+			"backgroundColor": "#ffffff",
+			"gap": "20px 0",
+			"boxModel": {
+				"margin": "0 auto 0 auto",
+				"padding": "16px 20px 0 20px"
+			}
+		},
+		"title": {
+			"type": "Simple"
+		},
+		"resolutionPower": {
+			"type": "auto",
+			"value": {
+				"per": 100,
+				"minWidth": 1200,
+				"maxWidth": 1920
+			}
+		},
+		"alignment": "center",
+		"backgroundAdapt": "cover",
+		"backgroundColor": "#ffffff",
+		"gap": "20px 0",
+		"boxModel": {
+			"margin": "0 auto 0 auto",
+			"padding": "16px 20px 0 20px"
+		}
+	},
+	"pageLayout": false,
+	"outParameters": [],
+	"pageVariable": [],
+	"originId": "-3418819949449915075",
+	"name": "页面",
+	"type": "page",
+	"eventDefine": [],
+	"terminal": "PC",
+	"children": [
+		"udcForm_K3IC"
+	],
+	"childById": {
+		"udcForm_K3IC": {
+			"id": "udcForm_K3IC",
+			"type": "UdcForm",
+			"settings": {},
+			"dataSource": {
+				"entity": {
+					"id": "4415965353197279731",
+					"name": "byjjkspd",
+					"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd",
+					"caption": "备用金借款审批单",
+					"stereotype": "standard",
+					"category": "ENTITY",
+					"supportOrderNo": false,
+					"appName": "biaodanaiyouhua7652733006056409420",
+					"appId": "7652733006056409420"
+				},
+				"type": "ENTITY",
+				"subType": "NORMAL",
+				"key": "udcForm_K3IC-4415965353197279731",
+				"isRoot": true,
+				"isRef": false,
+				"dataShape": "SINGLE",
+				"fields": [
+					{
+						"id": "8932591329893459179",
+						"name": "cglxlc",
+						"fieldPath": [
+							"8932591329893459179"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.cglxlc",
+						"parentId": "udcContainer_eAWK",
+						"readonly": false
+					},
+					{
+						"id": "7976188147805699817",
+						"name": "shenqingren",
+						"fieldPath": [
+							"7976188147805699817"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.shenqingren",
+						"parentId": "udcContainer_JDCK",
+						"readonly": false
+					},
+					{
+						"id": "-7266148502332121225",
+						"name": "suoshubumen",
+						"fieldPath": [
+							"-7266148502332121225"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.suoshubumen",
+						"parentId": "udcContainer_JDCK",
+						"readonly": false
+					},
+					{
+						"id": "-2582929817222943375",
+						"name": "yujihaikuanriqi",
+						"fieldPath": [
+							"-2582929817222943375"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.yujihaikuanriqi",
+						"parentId": "udcContainer_Difz",
+						"readonly": false
+					},
+					{
+						"id": "7357448230073685608",
+						"name": "danjuhao",
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.danjuhao",
+						"readonly": false
+					}
+				],
+				"fieldBindMap": {
+					"input_ewA7": "cglxlc",
+					"udcReference_WRHR": "shenqingren",
+					"udcReference_oeM0": "suoshubumen",
+					"datePicker_Qnol": "yujihaikuanriqi",
+					"input_yr8c": "danjuhao",
+					"label_7rsO": "danjuhao"
+				},
+				"dataTarget": "udcForm_K3IC",
+				"hiddenFields": []
+			},
+			"children": [
+				"label_6clV",
+				"udcContainer_eAWK",
+				"udcGrid_GCKe",
+				"collapse_lNmB",
+				"collapse_MJD1",
+				"udcDataGrid_oU5H",
+				"collapse_KhhX"
+			],
+			"parentId": "page",
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			]
+		},
+		"label_6clV": {
+			"id": "label_6clV",
+			"name": "表头",
+			"type": "Label",
+			"settings": {
+				"textColor": "#9b9b9be6",
+				"textBgColor": "#9b9b9b1a",
+				"textFontSize": 32,
+				"content": {
+					"type": "Simple",
+					"simple": "备用金借款审批单"
+				},
+				"alignment": "center",
+				"textStyle": {
+					"fontStyle": "bold,italic,underline",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				},
+				"contentFontFamily": "FangSong",
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0 0 0 0"
+				}
+			},
+			"children": [],
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "备用金借款审批单"
+				}
+			},
+			"parentId": "udcForm_K3IC",
+			"isFormItem": true,
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			]
+		},
+		"udcContainer_eAWK": {
+			"id": "udcContainer_eAWK",
+			"type": "UdcContainer",
+			"settings": {
+				"justifyContent": "flex-end",
+				"gap": "20px 20px",
+				"borderRadius": 2,
+				"alignItems": "flex-end"
+			},
+			"children": [
+				"input_ewA7"
+			],
+			"parentId": "udcForm_K3IC",
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			]
+		},
+		"input_ewA7": {
+			"id": "input_ewA7",
+			"type": "Input",
+			"settings": {
+				"title": "",
+				"hAlign": "right",
+				"textColor": "#9b9b9be6",
+				"textFontStyle": "bold,italic,underline",
+				"textBgColor": "#FFFFFF",
+				"titleDisplay": "none",
+				"readonlyFontSize": 11,
+				"contentFontFamily": "FangSong",
+				"labelLength": 120,
+				"labelAlignment": "center",
+				"contentAlignment": "right"
+			},
+			"children": [],
+			"dataSource": {
+				"dataFieldId": "8932591329893459179",
+				"type": "INPUT",
+				"dataField": "cglxlc",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.cglxlc",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.cglxlc",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"8932591329893459179"
+				],
+				"dataPath": ""
+			},
+			"parentId": "udcContainer_eAWK",
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "1223"
+				}
+			},
+			"isFormItem": true,
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"name": "1223"
+		},
+		"udcGrid_GCKe": {
+			"id": "udcGrid_GCKe",
+			"type": "UdcGrid",
+			"parentId": "udcForm_K3IC",
+			"settings": {
+				"gridTemplateColumns": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				],
+				"gridTemplateRows": [
+					28,
+					28,
+					28,
+					28
+				],
+				"points": [
+					[
+						1,
+						1
+					],
+					[
+						2,
+						2
+					]
+				]
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "网格",
+			"children": [],
+			"extraChildren": {
+				"udcGridCell_UDGc": [
+					"label_xREr"
+				],
+				"udcGridCell_DrMu": [
+					"input_xrfI"
+				],
+				"udcGridCell_iith": [],
+				"udcGridCell_Vxuf": [],
+				"udcGridCell_ryxx": [],
+				"udcGridCell_l5Uy": [],
+				"udcGridCell_qtw1": [],
+				"udcGridCell_03lo": [],
+				"udcGridCell_qyoN": [],
+				"udcGridCell_olkI": [],
+				"udcGridCell_i2aS": [],
+				"udcGridCell_VmOD": [],
+				"udcGridCell_6d4e": [],
+				"udcGridCell_CYgY": [],
+				"udcGridCell_y6r4": [],
+				"udcGridCell_7AgF": [],
+				"udcGridCell_5Hza": [],
+				"udcGridCell_DszU": [],
+				"udcGridCell_UEUa": [],
+				"udcGridCell_7EUO": [],
+				"udcGridCell_ncu6": [],
+				"udcGridCell_09tY": [],
+				"udcGridCell_z0Cm": [],
+				"udcGridCell_68HY": []
+			},
+			"extraConfig": {
+				"udcGridCell_UDGc": {
+					"id": "udcGridCell_UDGc",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "1/2"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_DrMu": {
+					"id": "udcGridCell_DrMu",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_iith": {
+					"id": "udcGridCell_iith",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_Vxuf": {
+					"id": "udcGridCell_Vxuf",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "4/5"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_ryxx": {
+					"id": "udcGridCell_ryxx",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "5/6"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_l5Uy": {
+					"id": "udcGridCell_l5Uy",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "6/7"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_qtw1": {
+					"id": "udcGridCell_qtw1",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "1/2"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_03lo": {
+					"id": "udcGridCell_03lo",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_qyoN": {
+					"id": "udcGridCell_qyoN",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_olkI": {
+					"id": "udcGridCell_olkI",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "4/5"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_i2aS": {
+					"id": "udcGridCell_i2aS",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "5/6"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_VmOD": {
+					"id": "udcGridCell_VmOD",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "6/7"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_6d4e": {
+					"id": "udcGridCell_6d4e",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "1/2"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_CYgY": {
+					"id": "udcGridCell_CYgY",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_y6r4": {
+					"id": "udcGridCell_y6r4",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_7AgF": {
+					"id": "udcGridCell_7AgF",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "4/5"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_5Hza": {
+					"id": "udcGridCell_5Hza",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "5/6"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_DszU": {
+					"id": "udcGridCell_DszU",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "6/7"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_UEUa": {
+					"id": "udcGridCell_UEUa",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "1/2"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_7EUO": {
+					"id": "udcGridCell_7EUO",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_ncu6": {
+					"id": "udcGridCell_ncu6",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_09tY": {
+					"id": "udcGridCell_09tY",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "4/5"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_z0Cm": {
+					"id": "udcGridCell_z0Cm",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "5/6"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_68HY": {
+					"id": "udcGridCell_68HY",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_GCKe",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "6/7"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				}
+			}
+		},
+		"label_xREr": {
+			"id": "label_xREr",
+			"type": "Label",
+			"parentId": "udcGrid_GCKe",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "申请人"
+				},
+				"alignment": "right",
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0 0 0 0"
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"children": []
+		},
+		"input_xrfI": {
+			"id": "input_xrfI",
+			"type": "Input",
+			"parentId": "udcGrid_GCKe",
+			"settings": {
+				"titleDisplay": "none",
+				"labelLength": 120,
+				"labelAlignment": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"children": []
+		},
+		"collapse_lNmB": {
+			"id": "collapse_lNmB",
+			"type": "Collapse",
+			"parentId": "udcForm_K3IC",
+			"settings": {
+				"styles": {},
+				"reserveStyle": 0,
+				"expandIconPosition": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "分组"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "分组",
+			"children": [
+				"udcGrid_Hlb1"
+			],
+			"extraChildren": {
+				"columnChildren": []
+			}
+		},
+		"udcGrid_Hlb1": {
+			"id": "udcGrid_Hlb1",
+			"type": "UdcGrid",
+			"parentId": "collapse_lNmB",
+			"settings": {
+				"gridTemplateColumns": [
+					1,
+					1,
+					1,
+					1,
+					1,
+					1
+				],
+				"gridTemplateRows": [
+					28,
+					28,
+					28,
+					28
+				],
+				"points": []
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "网格",
+			"children": [],
+			"extraChildren": {
+				"udcGridCell_DrE9": [
+					"label_7rsO"
+				],
+				"udcGridCell_NCw2": [
+					"input_yr8c"
+				],
+				"udcGridCell_0ZG8": [],
+				"udcGridCell_M8zH": [],
+				"udcGridCell_N8Aj": [
+					"label_StuR"
+				],
+				"udcGridCell_5D99": [
+					"input_nBjG"
+				],
+				"udcGridCell_i8GF": [],
+				"udcGridCell_XCIh": [],
+				"udcGridCell_gYC5": [],
+				"udcGridCell_6OOq": [],
+				"udcGridCell_NUSy": [],
+				"udcGridCell_zahU": [],
+				"udcGridCell_18bg": [],
+				"udcGridCell_5haO": [],
+				"udcGridCell_JxYe": [],
+				"udcGridCell_CxTS": [],
+				"udcGridCell_zqHj": [],
+				"udcGridCell_6R95": [],
+				"udcGridCell_5jr8": [],
+				"udcGridCell_JxIT": [],
+				"udcGridCell_afVo": [],
+				"udcGridCell_pLl3": [],
+				"udcGridCell_zxBd": [],
+				"udcGridCell_U2kg": []
+			},
+			"extraConfig": {
+				"udcGridCell_DrE9": {
+					"id": "udcGridCell_DrE9",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "1/2"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_NCw2": {
+					"id": "udcGridCell_NCw2",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_0ZG8": {
+					"id": "udcGridCell_0ZG8",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_M8zH": {
+					"id": "udcGridCell_M8zH",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "4/5"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_N8Aj": {
+					"id": "udcGridCell_N8Aj",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "5/6"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_5D99": {
+					"id": "udcGridCell_5D99",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "1/2",
+							"gridColumn": "6/7"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_i8GF": {
+					"id": "udcGridCell_i8GF",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "1/2"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_XCIh": {
+					"id": "udcGridCell_XCIh",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_gYC5": {
+					"id": "udcGridCell_gYC5",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_6OOq": {
+					"id": "udcGridCell_6OOq",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "4/5"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_NUSy": {
+					"id": "udcGridCell_NUSy",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "5/6"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_zahU": {
+					"id": "udcGridCell_zahU",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "2/3",
+							"gridColumn": "6/7"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_18bg": {
+					"id": "udcGridCell_18bg",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "1/2"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_5haO": {
+					"id": "udcGridCell_5haO",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_JxYe": {
+					"id": "udcGridCell_JxYe",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_CxTS": {
+					"id": "udcGridCell_CxTS",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "4/5"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_zqHj": {
+					"id": "udcGridCell_zqHj",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "5/6"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_6R95": {
+					"id": "udcGridCell_6R95",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "3/4",
+							"gridColumn": "6/7"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_5jr8": {
+					"id": "udcGridCell_5jr8",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "1/2"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_JxIT": {
+					"id": "udcGridCell_JxIT",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "2/3"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_afVo": {
+					"id": "udcGridCell_afVo",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "3/4"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_pLl3": {
+					"id": "udcGridCell_pLl3",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "4/5"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_zxBd": {
+					"id": "udcGridCell_zxBd",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "5/6"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				},
+				"udcGridCell_U2kg": {
+					"id": "udcGridCell_U2kg",
+					"type": "UdcGridCell",
+					"parentId": "udcGrid_Hlb1",
+					"settings": {
+						"styles": {
+							"display": "flex",
+							"gridRow": "4/5",
+							"gridColumn": "6/7"
+						}
+					},
+					"uiModel": {},
+					"uiModelSchema": [],
+					"componentName": "表格单元格",
+					"children": [],
+					"extraChildren": {
+						"columnChildren": []
+					}
+				}
+			}
+		},
+		"label_7rsO": {
+			"id": "label_7rsO",
+			"type": "Label",
+			"parentId": "udcGrid_Hlb1",
+			"settings": {
+				"contentSource": "association",
+				"content": {
+					"type": "Simple",
+					"simple": "单据号"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0 0 0 0"
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "7357448230073685608",
+				"type": "INPUT",
+				"dataField": "danjuhao",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.danjuhao",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.danjuhao",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"7357448230073685608"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"input_yr8c": {
+			"id": "input_yr8c",
+			"type": "Input",
+			"parentId": "udcGrid_Hlb1",
+			"settings": {
+				"titleDisplay": "none",
+				"labelLength": 120,
+				"labelAlignment": "right",
+				"validation": {
+					"maxLength": {
+						"validate": true,
+						"value": "50",
+						"message": null
+					},
+					"minLength": {
+						"validate": true,
+						"value": "0",
+						"message": null
+					}
+				},
+				"initialValue": null
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"dataSource": {
+				"dataFieldId": "7357448230073685608",
+				"type": "INPUT",
+				"dataField": "danjuhao",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.danjuhao",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.danjuhao",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"7357448230073685608"
+				],
+				"dataPath": ""
+			},
+			"children": []
+		},
+		"label_StuR": {
+			"id": "label_StuR",
+			"type": "Label",
+			"parentId": "udcGrid_Hlb1",
+			"settings": {
+				"content": {
+					"type": "Simple",
+					"simple": "所属部门"
+				},
+				"boxModel": {
+					"margin": "0 0 0 0",
+					"padding": "0 0 0 0"
+				},
+				"textStyle": {
+					"fontStyle": "",
+					"isEffect": {
+						"type": "Simple",
+						"simple": true
+					}
+				}
+			},
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "文字标签",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"children": []
+		},
+		"input_nBjG": {
+			"id": "input_nBjG",
+			"type": "Input",
+			"parentId": "udcGrid_Hlb1",
+			"settings": {
+				"titleDisplay": "none",
+				"labelLength": 120,
+				"labelAlignment": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				}
+			},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"componentName": "单行文本",
+			"isFormItem": true,
+			"defaultDataType": "STRING",
+			"children": []
+		},
+		"collapse_MJD1": {
+			"id": "collapse_MJD1",
+			"name": "分组",
+			"type": "Collapse",
+			"settings": {
+				"title": "分组1标题",
+				"icon": "ColourMeeting",
+				"styles": {},
+				"titleBgColor": "rgba(205, 86, 86, 1)",
+				"borderStyle": "style-3",
+				"borderWeight": {
+					"simple": "line-2",
+					"type": "Simple"
+				},
+				"textColor": "#9b9b9be6",
+				"textFontStyle": "bold,,",
+				"textBgColor": "#FFFFFF",
+				"textFontSize": 20,
+				"textFontFamily": "FangSong",
+				"reserveStyle": 0,
+				"expandIconPosition": "right",
+				"titleStyle": {
+					"fontStyle": "bold,italic",
+					"isEffect": {
+						"type": "Simple"
+					}
+				}
+			},
+			"children": [
+				"udcContainer_JDCK"
+			],
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "分组1标题"
+				}
+			},
+			"parentId": "udcForm_K3IC",
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			]
+		},
+		"udcContainer_JDCK": {
+			"id": "udcContainer_JDCK",
+			"settings": {
+				"title": "",
+				"flexWrap": "wrap",
+				"gap": "20px 20px",
+				"borderRadius": 2
+			},
+			"type": "UdcContainer",
+			"children": [
+				"udcReference_WRHR",
+				"udcReference_oeM0"
+			],
+			"parentId": "collapse_MJD1",
+			"uiModel": {},
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			]
+		},
+		"udcReference_WRHR": {
+			"id": "udcReference_WRHR",
+			"type": "UdcReference",
+			"children": [],
+			"settings": {
+				"title": "申请人",
+				"flexRowSize": {
+					"type": "basis",
+					"basis": 1
+				},
+				"placeholder": {
+					"simple": "请输入",
+					"type": "Simple"
+				},
+				"titleDisplay": "left",
+				"titleWidth": "120px",
+				"titleHAlign": "right",
+				"textColor": {
+					"simple": "#9b9b9be6",
+					"type": "Simple"
+				},
+				"textFontStyle": {
+					"simple": ",italic,",
+					"type": "Simple"
+				},
+				"textBgColor": {
+					"simple": "#FFFFFF",
+					"type": "Simple"
+				},
+				"textFontSize": 11,
+				"textFontFamily": "FangSong",
+				"labelPosition": "top",
+				"authControlledButton": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					}
+				],
+				"dataReference": {
+					"id": null,
+					"appName": "organization",
+					"fullName": "com.seeyon.organization.domain.core.entity.OrgMember.allMemberRefer",
+					"entityFullName": "com.seeyon.organization.domain.core.entity.OrgMember",
+					"starterName": null
+				},
+				"labelLength": 120,
+				"labelAlignment": "right"
+			},
+			"dataSource": {
+				"dataFieldId": "7976188147805699817",
+				"type": "INPUT",
+				"dataField": "shenqingren",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.shenqingren",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.shenqingren",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"7976188147805699817"
+				],
+				"dataPath": ""
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "申请人1"
+				},
+				"controlledProps": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"allowControlled": false
+					}
+				]
+			},
+			"parentId": "udcContainer_JDCK",
+			"isFormItem": true,
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			],
+			"name": "申请人1"
+		},
+		"udcReference_oeM0": {
+			"id": "udcReference_oeM0",
+			"type": "UdcReference",
+			"children": [],
+			"dataSource": {
+				"dataFieldId": "-7266148502332121225",
+				"type": "INPUT",
+				"dataField": "suoshubumen",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.suoshubumen",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.suoshubumen",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"-7266148502332121225"
+				],
+				"dataPath": ""
+			},
+			"settings": {
+				"title": "所属部门",
+				"flexRowSize": {
+					"type": "basis",
+					"basis": 2
+				},
+				"placeholder": {
+					"simple": "请输入",
+					"type": "Simple"
+				},
+				"titleDisplay": "left",
+				"titleWidth": "120px",
+				"titleHAlign": "right",
+				"textColor": {
+					"simple": "#9b9b9be6",
+					"type": "Simple"
+				},
+				"textFontStyle": {
+					"simple": ",italic,",
+					"type": "Simple"
+				},
+				"textBgColor": {
+					"simple": "#FFFFFF",
+					"type": "Simple"
+				},
+				"textFontSize": 11,
+				"textFontFamily": "FangSong",
+				"labelPosition": "top",
+				"authControlledButton": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						}
+					}
+				],
+				"dataReference": {
+					"id": null,
+					"appName": "organization",
+					"fullName": "com.seeyon.organization.domain.core.entity.OrgUnit.allUnitRefer",
+					"entityFullName": "com.seeyon.organization.domain.core.entity.OrgUnit",
+					"starterName": null
+				},
+				"labelLength": 120,
+				"labelAlignment": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "所属部门"
+				},
+				"controlledProps": [
+					{
+						"key": "add",
+						"type": "Button",
+						"name": "新增",
+						"allowControlled": false
+					}
+				]
+			},
+			"parentId": "udcContainer_JDCK",
+			"isFormItem": true,
+			"uiModelSchema": [
+				{
+					"label": "标题",
+					"key": "title",
+					"dataType": "STRING"
+				},
+				{
+					"label": "必填",
+					"key": "required",
+					"dataType": "BOOLEAN"
+				},
+				{
+					"label": "状态",
+					"key": "status",
+					"dataType": "STRING",
+					"options": [
+						{
+							"label": "正常 ",
+							"key": "basic"
+						},
+						{
+							"label": "只读",
+							"key": "readonly"
+						},
+						{
+							"label": "禁用",
+							"key": "disabled"
+						},
+						{
+							"label": "隐藏",
+							"key": "invisible"
+						}
+					]
+				}
+			]
+		},
+		"udcDataGrid_oU5H": {
+			"id": "udcDataGrid_oU5H",
+			"name": "重复表录入",
+			"type": "UdcDataGrid",
+			"dataSource": {
+				"entity": {
+					"id": "-3116808520125836536",
+					"name": "beiyongjinmingxi",
+					"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi",
+					"caption": "备用金明细",
+					"stereotype": "standard",
+					"category": "ENTITY",
+					"parent": {
+						"id": "4415965353197279731",
+						"name": "byjjkspd",
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd",
+						"caption": "备用金借款审批单",
+						"stereotype": "standard",
+						"category": "ENTITY",
+						"supportOrderNo": false,
+						"appName": "biaodanaiyouhua7652733006056409420",
+						"appId": "7652733006056409420"
+					},
+					"supportOrderNo": true,
+					"appName": "biaodanaiyouhua7652733006056409420",
+					"appId": "7652733006056409420"
+				},
+				"fieldBindMap": {
+					"mnYhWO": "jine",
+					"Zpa2lh": "mingxi",
+					"ZZjYdz": "shuoming",
+					"YUZB7f": "xghklc"
+				},
+				"type": "ENTITY",
+				"subType": "RELATION",
+				"key": "udcForm_K3IC-4415965353197279731.beiyongjinmingxiDtoList",
+				"isRoot": false,
+				"isRef": true,
+				"dataShape": "LIST",
+				"fields": [
+					{
+						"id": "-5556963246933397057",
+						"name": "jine",
+						"fieldPath": [
+							"-5556963246933397057"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.jine",
+						"parentId": "udcDataGrid_oU5H",
+						"readonly": false
+					},
+					{
+						"id": "4476504481566938336",
+						"name": "mingxi",
+						"fieldPath": [
+							"4476504481566938336"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.mingxi",
+						"parentId": "udcDataGrid_oU5H",
+						"readonly": false
+					},
+					{
+						"id": "6108436683753528374",
+						"name": "shuoming",
+						"fieldPath": [
+							"6108436683753528374"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.shuoming",
+						"parentId": "udcDataGrid_oU5H",
+						"readonly": false
+					},
+					{
+						"id": "3660634671790442967",
+						"name": "xghklc",
+						"fieldPath": [
+							"3660634671790442967"
+						],
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.xghklc",
+						"parentId": "udcDataGrid_oU5H",
+						"readonly": false
+					}
+				],
+				"dataTarget": "udcForm_K3IC",
+				"dataPath": "",
+				"fieldPath": [
+					"-3116808520125836536"
+				],
+				"dataField": "beiyongjinmingxiDtoList",
+				"relatedCmp": "udcForm_K3IC"
+			},
+			"settings": {
+				"tableTitleDisplay": "none",
+				"enableActionColumn": true,
+				"enableOrderNumber": true,
+				"paginationType": "client",
+				"topOperates": [
+					{
+						"name": "新建"
+					},
+					{
+						"name": "批量删除"
+					}
+				],
+				"actionColumnOperates": [
+					{
+						"name": "删除"
+					},
+					{
+						"name": "发布"
+					}
+				],
+				"columns": [
+					{
+						"align": "center",
+						"componentType": "Input",
+						"dataFieldCaption": "金额",
+						"dataI18n": false,
+						"dataIndex": "jine",
+						"title": "金额(标题)",
+						"widthValue": 50,
+						"columnId": "mnYhWO",
+						"widthType": "pt",
+						"columnIndex": 0,
+						"parentId": "udcDataGrid_oU5H",
+						"dataFieldId": "-5556963246933397057",
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.jine",
+						"fieldPath": [
+							"-3116808520125836536",
+							"-5556963246933397057"
+						],
+						"dataType": "CURRENCY",
+						"multiSelect": false,
+						"relationApp": "",
+						"relationEntity": "",
+						"relationType": null
+					},
+					{
+						"align": "center",
+						"componentType": "Input",
+						"dataFieldCaption": "明细",
+						"dataI18n": false,
+						"dataIndex": "mingxi",
+						"dataType": "STRING",
+						"widthValue": 10,
+						"columnId": "Zpa2lh",
+						"widthType": "pt",
+						"columnIndex": 1,
+						"parentId": "udcDataGrid_oU5H",
+						"dataFieldId": "4476504481566938336",
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.mingxi",
+						"fieldPath": [
+							"-3116808520125836536",
+							"4476504481566938336"
+						],
+						"multiSelect": false,
+						"relationApp": null,
+						"relationEntity": null,
+						"relationType": null
+					},
+					{
+						"align": "center",
+						"componentType": "Input",
+						"dataFieldCaption": "说明",
+						"dataI18n": false,
+						"dataIndex": "shuoming",
+						"dataType": "STRING",
+						"widthValue": 20,
+						"columnId": "ZZjYdz",
+						"widthType": "pt",
+						"columnIndex": 2,
+						"parentId": "udcDataGrid_oU5H",
+						"dataFieldId": "6108436683753528374",
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.shuoming",
+						"fieldPath": [
+							"-3116808520125836536",
+							"6108436683753528374"
+						],
+						"multiSelect": false,
+						"relationApp": null,
+						"relationEntity": null,
+						"relationType": null
+					},
+					{
+						"align": "center",
+						"componentType": "Input",
+						"dataFieldCaption": "相关还款流程",
+						"dataI18n": false,
+						"dataIndex": "xghklc",
+						"dataType": "MULTILINESTRING",
+						"widthValue": 20,
+						"columnId": "YUZB7f",
+						"widthType": "pt",
+						"columnIndex": 3,
+						"parentId": "udcDataGrid_oU5H",
+						"dataFieldId": "3660634671790442967",
+						"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.xghklc",
+						"fieldPath": [
+							"-3116808520125836536",
+							"3660634671790442967"
+						],
+						"multiSelect": false,
+						"relationApp": "",
+						"relationEntity": "",
+						"relationType": null
+					}
+				],
+				"popoverOperates": [
+					{
+						"id": "insert_pop",
+						"name": "插入行",
+						"type": "item",
+						"icon": "LinedPlus",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "VPbyzE",
+						"pos": "bottom"
+					},
+					{
+						"id": "copy_pop",
+						"name": "复制行",
+						"type": "item",
+						"icon": "LinedCopyFrom",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "emr7Yv"
+					},
+					{
+						"id": "delete_pop",
+						"name": "删除行",
+						"type": "item",
+						"icon": "LinedDelete",
+						"preset": true,
+						"allowControlled": false,
+						"status": {
+							"type": "Simple",
+							"simple": "basic"
+						},
+						"isExpression": true,
+						"mapAuthOperateId": "qZ8vED"
+					}
+				],
+				"filterSetting": {
+					"type": "single"
+				}
+			},
+			"children": [],
+			"extraChildren": {
+				"columnChildren": [
+					"currency_PoVQ",
+					"input_51NK",
+					"input_8dlf",
+					"textArea_fYGu"
+				]
+			},
+			"parentId": "udcForm_K3IC",
+			"uiModel": {
+				"title": {
+					"type": "Simple"
+				},
+				"controlledProps": [
+					{
+						"key": "XKxFi9",
+						"type": "Button",
+						"name": "插入",
+						"parentCode": "topOperates",
+						"allowControlled": false,
+						"mapOperateId": "insert"
+					},
+					{
+						"key": "9Xk27L",
+						"type": "Button",
+						"name": "复制",
+						"parentCode": "topOperates",
+						"allowControlled": false,
+						"mapOperateId": "copy"
+					},
+					{
+						"key": "srhO8x",
+						"type": "Button",
+						"name": "删除",
+						"parentCode": "topOperates",
+						"allowControlled": false,
+						"mapOperateId": "delete"
+					},
+					{
+						"key": "VPbyzE",
+						"type": "Button",
+						"name": "插入行",
+						"parentCode": "popoverOperates",
+						"allowControlled": false,
+						"mapOperateId": "insert_pop"
+					},
+					{
+						"key": "emr7Yv",
+						"type": "Button",
+						"name": "复制行",
+						"parentCode": "popoverOperates",
+						"allowControlled": false,
+						"mapOperateId": "copy_pop"
+					},
+					{
+						"key": "qZ8vED",
+						"type": "Button",
+						"name": "删除行",
+						"parentCode": "popoverOperates",
+						"allowControlled": false,
+						"mapOperateId": "delete_pop"
+					}
+				],
+				"flowAuthKeys": [
+					{
+						"key": "topOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					},
+					{
+						"key": "actionColumnOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					},
+					{
+						"key": "popoverOperates",
+						"childOperateStatusOptions": [
+							{
+								"label": "正常 ",
+								"key": "basic"
+							},
+							{
+								"label": "禁用",
+								"key": "disabled"
+							},
+							{
+								"label": "隐藏",
+								"key": "invisible"
+							}
+						],
+						"resolveType": "normalListAuth"
+					}
+				]
+			}
+		},
+		"currency_PoVQ": {
+			"id": "currency_PoVQ",
+			"type": "Currency",
+			"children": [],
+			"dataSource": {
+				"dataFieldId": "-5556963246933397057",
+				"type": "INPUT",
+				"dataField": "jine",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.jine",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.beiyongjinmingxiDtoList.jine",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"-3116808520125836536",
+					"-5556963246933397057"
+				],
+				"dataPath": "beiyongjinmingxiDtoList",
+				"inColumn": true
+			},
+			"settings": {
+				"title": "金额",
+				"flexRowSize": {
+					"type": "basis",
+					"basis": 1
+				},
+				"titleDisplay": "none",
+				"labelLength": 120,
+				"labelAlignment": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "金额"
+				}
+			},
+			"parentId": "udcDataGrid_oU5H",
+			"isFormItem": true
+		},
+		"input_51NK": {
+			"id": "input_51NK",
+			"type": "Input",
+			"children": [],
+			"dataSource": {
+				"dataFieldId": "4476504481566938336",
+				"type": "INPUT",
+				"dataField": "mingxi",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.mingxi",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.beiyongjinmingxiDtoList.mingxi",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"-3116808520125836536",
+					"4476504481566938336"
+				],
+				"dataPath": "beiyongjinmingxiDtoList",
+				"inColumn": true
+			},
+			"settings": {
+				"title": "明细",
+				"flexRowSize": {
+					"type": "basis",
+					"basis": 1
+				},
+				"titleDisplay": "none",
+				"labelLength": 120,
+				"labelAlignment": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "明细"
+				}
+			},
+			"parentId": "udcDataGrid_oU5H",
+			"isFormItem": true
+		},
+		"input_8dlf": {
+			"id": "input_8dlf",
+			"type": "Input",
+			"children": [],
+			"dataSource": {
+				"dataFieldId": "6108436683753528374",
+				"type": "INPUT",
+				"dataField": "shuoming",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.shuoming",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.beiyongjinmingxiDtoList.shuoming",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"-3116808520125836536",
+					"6108436683753528374"
+				],
+				"dataPath": "beiyongjinmingxiDtoList",
+				"inColumn": true
+			},
+			"settings": {
+				"title": "说明",
+				"flexRowSize": {
+					"type": "basis",
+					"basis": 1
+				},
+				"titleDisplay": "none",
+				"labelLength": 120,
+				"labelAlignment": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "说明"
+				}
+			},
+			"parentId": "udcDataGrid_oU5H",
+			"isFormItem": true
+		},
+		"textArea_fYGu": {
+			"id": "textArea_fYGu",
+			"type": "TextArea",
+			"children": [],
+			"dataSource": {
+				"dataFieldId": "3660634671790442967",
+				"type": "INPUT",
+				"dataField": "xghklc",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Beiyongjinmingxi.xghklc",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.beiyongjinmingxiDtoList.xghklc",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"-3116808520125836536",
+					"3660634671790442967"
+				],
+				"dataPath": "beiyongjinmingxiDtoList",
+				"inColumn": true
+			},
+			"settings": {
+				"title": "相关还款流程",
+				"flexRowSize": {
+					"type": "basis",
+					"basis": 1
+				},
+				"titleDisplay": "none",
+				"labelPosition": "top",
+				"labelLength": 120,
+				"labelAlignment": "right"
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "相关还款流程"
+				}
+			},
+			"parentId": "udcDataGrid_oU5H",
+			"isFormItem": true
+		},
+		"collapse_KhhX": {
+			"id": "collapse_KhhX",
+			"name": "分组",
+			"type": "Collapse",
+			"settings": {
+				"title": "分组2标题",
+				"reserveStyle": 0,
+				"expandIconPosition": "right",
+				"styles": {}
+			},
+			"children": [
+				"udcContainer_Difz"
+			],
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "分组2标题"
+				}
+			},
+			"parentId": "udcForm_K3IC"
+		},
+		"udcContainer_Difz": {
+			"id": "udcContainer_Difz",
+			"settings": {
+				"columns": 1,
+				"title": "",
+				"flexWrap": "wrap",
+				"gap": "20px 20px",
+				"borderRadius": 2
+			},
+			"type": "UdcContainer",
+			"children": [
+				"datePicker_Qnol"
+			],
+			"parentId": "collapse_KhhX",
+			"uiModel": {}
+		},
+		"datePicker_Qnol": {
+			"id": "datePicker_Qnol",
+			"type": "DatePicker",
+			"children": [],
+			"settings": {
+				"title": "预计还款日期",
+				"flexRowSize": {
+					"type": "basis",
+					"basis": 1
+				},
+				"titleDisplay": "left",
+				"labelLength": 120,
+				"labelAlignment": "right"
+			},
+			"dataSource": {
+				"dataFieldId": "-2582929817222943375",
+				"type": "INPUT",
+				"dataField": "yujihaikuanriqi",
+				"fullName": "com.seeyon.biaodanaiyouhua7652733006056409420.domain.entity.Byjjkspd.yujihaikuanriqi",
+				"readonly": false,
+				"key": "udcForm_K3IC-4415965353197279731.yujihaikuanriqi",
+				"dataTarget": "udcForm_K3IC",
+				"fieldPath": [
+					"-2582929817222943375"
+				],
+				"dataPath": ""
+			},
+			"uiModel": {
+				"title": {
+					"type": "Simple",
+					"simple": "预计还款日期"
+				}
+			},
+			"parentId": "udcContainer_Difz",
+			"isFormItem": true
+		}
+	},
+	"expressSchemaPathMaps": {}
+}

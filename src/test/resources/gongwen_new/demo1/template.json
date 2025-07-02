@@ -1,0 +1,291 @@
+{
+  "id" : "ZjNkN2FhNDc",
+  "type" : "page",
+  "pageType" : "SUBPAGE",
+  "urlType" : "PC",
+  "settings" : {
+    "dataFrom" : "ocr"
+  },
+  "sourceSchema" : {
+    "id" : "-4446304051873963810"
+  },
+  "name" : "页面",
+  "children" : [ {
+    "type" : "form",
+    "settings" : { },
+    "sourceSchema" : {
+      "id" : "udcForm_jxE7"
+    },
+    "id" : "YzNiMDE0ODQ",
+    "name" : "发文[单一记录]",
+    "dataSource" : {
+      "type" : "entity",
+      "entityName" : "IssuedDocument"
+    },
+    "children" : [
+
+      {
+        "id" : "Y2E2ZjljZmI",
+        "type" : "grid",
+        "settings" : {
+          "gridTemplateColumns" : [ 1, 1 ],
+          "gridTemplateRows" : [ 28 ]
+        },
+        "sourceSchema" : {
+          "id" : "udcGrid_7V3T"
+        },
+        "children" : [ {
+          "id" : "OTYwNzZiMWY",
+          "type" : "gridCell",
+          "settings" : {
+            "display" : "flex",
+            "gridColumn" : "1/5",
+            "gridRow" : "1/2",
+            "isMergeAllColumns" : true
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_1dnh"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : {
+              "textFontSize" : 20,
+              "textFontStyle" : ",bold",
+              "alignment" : "center",
+              "textColor" : "error-6"
+            },
+            "sourceSchema" : {
+              "id" : "label_8XNA"
+            },
+            "id" : "MDgxYmIzMjU",
+            "name" : "文单标题"
+          } ]
+        } ]
+      },
+
+
+      {
+        "id" : "Y2E2ZjljZmI",
+        "type" : "grid",
+        "settings" : {
+          "gridTemplateColumns" : [ 1, 1 ],
+          "gridTemplateRows" : [ 28 ]
+        },
+        "sourceSchema" : {
+          "id" : "udcGrid_7V3T"
+        },
+        "children" : [ {
+          "id" : "NDk5ZjUyZGU",
+          "type" : "gridCell",
+          "settings" : {
+            "display" : "none",
+            "gridColumn" : "2/3",
+            "gridRow" : "1/2"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_HMk9"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "N2E3YWY4ODE",
+          "type" : "gridCell",
+          "settings" : {
+            "display" : "none",
+            "gridColumn" : "3/4",
+            "gridRow" : "1/2"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_UU2f"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "YTBiOTg2N2I",
+          "type" : "gridCell",
+          "settings" : {
+            "display" : "none",
+            "gridColumn" : "4/5",
+            "gridRow" : "1/2"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_DVkG"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "N2VjNjM0ODY",
+          "type" : "gridCell",
+          "settings" : {
+            "borderBottom" : "1px solid var(--error-6)",
+            "borderLeft" : "1px solid var(--error-6)",
+            "borderTop" : "1px solid var(--error-6)",
+            "display" : "flex",
+            "gridColumn" : "1/2",
+            "gridRow" : "2/3",
+            "bgColor" : "brand1-7"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_jOPu"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : {
+              "alignment" : "justify",
+              "textColor" : "warning-5"
+            },
+            "sourceSchema" : {
+              "id" : "label_Zrrz"
+            },
+            "id" : "ZjMzODA4NGY"
+          } ]
+        }, {
+          "id" : "ZTlkYjI0MGQ",
+          "type" : "gridCell",
+          "settings" : {
+            "borderBottom" : "1px solid var(--error-6)",
+            "borderLeft" : "1px solid var(--error-6)",
+            "borderTop" : "1px solid var(--error-6)",
+            "display" : "flex",
+            "gridColumn" : "2/3",
+            "gridRow" : "2/3",
+            "bgColor" : "success-3"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_UXD0"
+          },
+          "children" : [ {
+            "type" : "uiBusinessEdocMark",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "uiBusinessEdocMark_fo9N"
+            },
+            "id" : "ZTM5ODdlOTk"
+          } ]
+        }, {
+          "id" : "MWNmOWNiNTM",
+          "type" : "gridCell",
+          "settings" : {
+            "borderBottom" : "1px solid var(--error-6)",
+            "borderLeft" : "1px solid var(--error-6)",
+            "borderRight" : "1px solid var(--error-6)",
+            "borderTop" : "1px solid var(--error-6)",
+            "display" : "flex",
+            "gridColumn" : "3/4",
+            "gridRow" : "2/3"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_4olF"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : {
+              "alignment" : "justify",
+              "textColor" : "error-6"
+            },
+            "sourceSchema" : {
+              "id" : "label_Ue4f"
+            },
+            "id" : "MmVhYTdjMDc"
+          } ]
+        }, {
+          "id" : "YmFjZTNiY2Q",
+          "type" : "gridCell",
+          "settings" : {
+            "borderBottom" : "1px solid var(--error-6)",
+            "borderRight" : "1px solid var(--error-6)",
+            "borderTop" : "1px solid var(--error-6)",
+            "display" : "flex",
+            "gridColumn" : "4/5",
+            "gridRow" : "2/3"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_KYtC"
+          },
+          "children" : [ {
+            "type" : "treeSelect",
+            "settings" : { },
+            "sourceSchema" : {
+              "id" : "treeSelect_JBmh"
+            },
+            "id" : "NTZiYzBkNDI"
+          } ]
+        }, {
+          "id" : "Yjg2YzIyYzM",
+          "type" : "gridCell",
+          "settings" : {
+            "borderBottom" : "1px solid var(--error-6)",
+            "borderLeft" : "1px solid var(--error-6)",
+            "borderRight" : "1px solid var(--error-6)",
+            "borderTop" : "1px solid var(--error-6)",
+            "display" : "flex",
+            "gridColumn" : "1/2",
+            "gridRow" : "3/4"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_fUrR"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "ODZiMWRjMzU",
+          "type" : "gridCell",
+          "settings" : {
+            "borderBottom" : "1px solid var(--error-6)",
+            "borderLeft" : "1px solid var(--error-6)",
+            "borderRight" : "1px solid var(--error-6)",
+            "borderTop" : "1px solid var(--error-6)",
+            "display" : "flex",
+            "gridColumn" : "2/5",
+            "gridRow" : "3/4",
+            "bgColor" : "error-3"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_qM4j"
+          },
+          "children" : [ {
+            "type" : "label",
+            "settings" : {
+              "textFontSize" : 18,
+              "alignment" : "justify",
+              "textColor" : "info-7"
+            },
+            "sourceSchema" : {
+              "id" : "label_V2eU"
+            },
+            "id" : "OGIwYzI0OWQ"
+          } ]
+        }, {
+          "id" : "YTAzNDhlMzU",
+          "type" : "gridCell",
+          "settings" : {
+            "borderBottom" : "1px solid var(--error-6)",
+            "borderLeft" : "1px solid var(--error-6)",
+            "borderRight" : "1px solid var(--error-6)",
+            "borderTop" : "1px solid var(--error-6)",
+            "display" : "none",
+            "gridColumn" : "3/4",
+            "gridRow" : "3/4",
+            "bgColor" : "error-3"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_2ngT"
+          },
+          "children" : [ ]
+        }, {
+          "id" : "Y2E4ZGYwM2I",
+          "type" : "gridCell",
+          "settings" : {
+            "borderBottom" : "1px solid var(--error-6)",
+            "borderLeft" : "1px solid var(--error-6)",
+            "borderRight" : "1px solid var(--error-6)",
+            "borderTop" : "1px solid var(--error-6)",
+            "display" : "none",
+            "gridColumn" : "4/5",
+            "gridRow" : "3/4",
+            "bgColor" : "error-3"
+          },
+          "sourceSchema" : {
+            "id" : "udcGridCell_r3nr"
+          },
+          "children" : [ ]
+        } ]
+      } ]
+  } ]
+}

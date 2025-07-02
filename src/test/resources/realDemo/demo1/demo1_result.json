@@ -1,0 +1,1768 @@
+{
+    "children": [
+        {
+            "children": [
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "settings": {},
+                                    "sourceSchema": {
+                                        "id": "imageList_yXKm"
+                                    },
+                                    "type": "imageList"
+                                }
+                            ],
+                            "settings": {},
+                            "sourceSchema": {
+                                "id": "udcContainer_pOGe"
+                            },
+                            "type": "container"
+                        }
+                    ],
+                    "settings": {
+                        "isMergeAllColumns": true,
+                        "styles": {
+                            "display": "flex",
+                            "gridColumn": "1/2",
+                            "gridRow": "1/2"
+                        }
+                    },
+                    "sourceSchema": {
+                        "id": "udcGridCell_Oh9O"
+                    },
+                    "type": "gridCell"
+                },
+                {
+                    "children": [
+                        {
+                            "name": "表头",
+                            "settings": {
+                                "alignment": "center",
+                                "content": "收入结算单申请wx4",
+                                "textFontStyle": ",bold"
+                            },
+                            "sourceSchema": {
+                                "id": "label_klht"
+                            },
+                            "type": "label"
+                        }
+                    ],
+                    "settings": {
+                        "isMergeAllColumns": true,
+                        "styles": {
+                            "display": "flex",
+                            "gridColumn": "1/2",
+                            "gridRow": "2/3"
+                        }
+                    },
+                    "sourceSchema": {
+                        "id": "udcGridCell_F4ao"
+                    },
+                    "type": "gridCell"
+                },
+                {
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "applicant"
+                                                    },
+                                                    "settings": {
+                                                        "content": "申请人"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "1/2",
+                                                    "gridRow": "1/2"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "applicant"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "申请人",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "reference"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "2/3",
+                                                    "gridRow": "1/2"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "shenqingbumen"
+                                                    },
+                                                    "settings": {
+                                                        "content": "申请部门"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "3/4",
+                                                    "gridRow": "1/2"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "shenqingbumen"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "申请部门",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "reference"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "4/5",
+                                                    "gridRow": "1/2"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "shenqingriqi"
+                                                    },
+                                                    "settings": {
+                                                        "content": "申请日期"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "5/6",
+                                                    "gridRow": "1/2"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "shenqingriqi"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "申请日期",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "datePicker_LakI"
+                                                    },
+                                                    "type": "datePicker"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "6/7",
+                                                    "gridRow": "1/2"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "inbillid"
+                                                    },
+                                                    "settings": {
+                                                        "content": "inBillId"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "1/2",
+                                                    "gridRow": "2/3"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "inbillid"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "inBillId",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "input_IPgl"
+                                                    },
+                                                    "type": "input"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "2/3",
+                                                    "gridRow": "2/3"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "suoshuzuzhi"
+                                                    },
+                                                    "settings": {
+                                                        "content": "所属组织"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "3/4",
+                                                    "gridRow": "2/3"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "suoshuzuzhi"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "所属组织",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "reference"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "4/5",
+                                                    "gridRow": "2/3"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "ruzhangxiangmu"
+                                                    },
+                                                    "settings": {
+                                                        "content": "入账项目"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "5/6",
+                                                    "gridRow": "2/3"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "ruzhangxiangmu"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "入账项目",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "input_IPgl"
+                                                    },
+                                                    "type": "input"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "6/7",
+                                                    "gridRow": "2/3"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "hetongbianma"
+                                                    },
+                                                    "settings": {
+                                                        "content": "合同编码"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "1/2",
+                                                    "gridRow": "3/4"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "hetongbianma"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "合同编码",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "input_IPgl"
+                                                    },
+                                                    "type": "input"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "2/3",
+                                                    "gridRow": "3/4"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "hetongmingcheng"
+                                                    },
+                                                    "settings": {
+                                                        "content": "合同名称"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "3/4",
+                                                    "gridRow": "3/4"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "hetongmingcheng"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "合同名称",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "input_IPgl"
+                                                    },
+                                                    "type": "input"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "4/5",
+                                                    "gridRow": "3/4"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "yewuleixingmingcheng"
+                                                    },
+                                                    "settings": {
+                                                        "content": "业务类型名称"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "5/6",
+                                                    "gridRow": "3/4"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "yewuleixingmingcheng"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "业务类型名称",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "treeSelect"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "6/7",
+                                                    "gridRow": "3/4"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "yewuleixing"
+                                                    },
+                                                    "settings": {
+                                                        "content": "业务类型"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "1/2",
+                                                    "gridRow": "4/5"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "yewuleixing"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "业务类型",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "treeSelect"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "2/3",
+                                                    "gridRow": "4/5"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "khmcxdfmc"
+                                                    },
+                                                    "settings": {
+                                                        "content": "客户名称/相对方名称"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "3/4",
+                                                    "gridRow": "4/5"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "khmcxdfmc"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "客户名称/相对方名称",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "reference"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "4/5",
+                                                    "gridRow": "4/5"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "lianxiren"
+                                                    },
+                                                    "settings": {
+                                                        "content": "联系人"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "5/6",
+                                                    "gridRow": "4/5"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "lianxiren"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "联系人",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "reference"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "6/7",
+                                                    "gridRow": "4/5"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "kaihuxing"
+                                                    },
+                                                    "settings": {
+                                                        "content": "开户行"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "1/2",
+                                                    "gridRow": "5/6"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "kaihuxing"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "开户行",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "input_IPgl"
+                                                    },
+                                                    "type": "input"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "2/3",
+                                                    "gridRow": "5/6"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "yinhangzhanghao"
+                                                    },
+                                                    "settings": {
+                                                        "content": "银行账号"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "3/4",
+                                                    "gridRow": "5/6"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "yinhangzhanghao"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "银行账号",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "input_IPgl"
+                                                    },
+                                                    "type": "input"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "4/5",
+                                                    "gridRow": "5/6"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "jiesuandanleixing"
+                                                    },
+                                                    "settings": {
+                                                        "content": "结算单类型"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "5/6",
+                                                    "gridRow": "5/6"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "jiesuandanleixing"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "结算单类型",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "treeSelect"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "6/7",
+                                                    "gridRow": "5/6"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "laiyuan"
+                                                    },
+                                                    "settings": {
+                                                        "content": "来源"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "1/2",
+                                                    "gridRow": "6/7"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "laiyuan"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "来源",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "input_IPgl"
+                                                    },
+                                                    "type": "input"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "2/3",
+                                                    "gridRow": "6/7"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "chouchengjine"
+                                                    },
+                                                    "settings": {
+                                                        "content": "抽成金额"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "3/4",
+                                                    "gridRow": "6/7"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "chouchengjine"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "抽成金额",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "currency"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "4/5",
+                                                    "gridRow": "6/7"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "lvyuejine"
+                                                    },
+                                                    "settings": {
+                                                        "content": "履约金额"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "5/6",
+                                                    "gridRow": "6/7"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "lvyuejine"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "履约金额",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "currency"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "6/7",
+                                                    "gridRow": "6/7"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "dingdanzongjine"
+                                                    },
+                                                    "settings": {
+                                                        "content": "订单总金额"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "1/2",
+                                                    "gridRow": "7/8"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "dingdanzongjine"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "订单总金额",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "currency"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "2/7",
+                                                    "gridRow": "7/8"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "shenqingshuoming"
+                                                    },
+                                                    "settings": {
+                                                        "content": "申请说明"
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "label_v2bx"
+                                                    },
+                                                    "type": "label"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "1/2",
+                                                    "gridRow": "8/9"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [
+                                                {
+                                                    "dataSource": {
+                                                        "dataField": "shenqingshuoming"
+                                                    },
+                                                    "settings": {
+                                                        "gridTemplateColumns": [],
+                                                        "gridTemplateRows": [],
+                                                        "titleName": "申请说明",
+                                                        "validation": {
+                                                            "required": false
+                                                        }
+                                                    },
+                                                    "sourceSchema": {
+                                                        "id": "udcReference_uDr2"
+                                                    },
+                                                    "type": "textArea"
+                                                }
+                                            ],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "flex",
+                                                    "gridColumn": "2/7",
+                                                    "gridRow": "8/9"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "none",
+                                                    "gridColumn": "3/4",
+                                                    "gridRow": "7/8"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "none",
+                                                    "gridColumn": "4/5",
+                                                    "gridRow": "7/8"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "none",
+                                                    "gridColumn": "5/6",
+                                                    "gridRow": "7/8"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "none",
+                                                    "gridColumn": "6/7",
+                                                    "gridRow": "7/8"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "none",
+                                                    "gridColumn": "3/4",
+                                                    "gridRow": "8/9"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "none",
+                                                    "gridColumn": "4/5",
+                                                    "gridRow": "8/9"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "none",
+                                                    "gridColumn": "5/6",
+                                                    "gridRow": "8/9"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_Dv65"
+                                            },
+                                            "type": "gridCell"
+                                        },
+                                        {
+                                            "children": [],
+                                            "settings": {
+                                                "styles": {
+                                                    "display": "none",
+                                                    "gridColumn": "6/7",
+                                                    "gridRow": "8/9"
+                                                }
+                                            },
+                                            "sourceSchema": {
+                                                "id": "udcGridCell_yP5z"
+                                            },
+                                            "type": "gridCell"
+                                        }
+                                    ],
+                                    "settings": {
+                                        "gridTemplateColumns": [
+                                            0.666667,
+                                            1.333333,
+                                            0.666667,
+                                            1.333333,
+                                            0.666667,
+                                            1.333333
+                                        ],
+                                        "gridTemplateRows": [
+                                            1,
+                                            1,
+                                            1,
+                                            1,
+                                            1,
+                                            1,
+                                            1,
+                                            1
+                                        ]
+                                    },
+                                    "sourceSchema": {
+                                        "id": "udcGrid__8iU"
+                                    },
+                                    "type": "grid"
+                                },
+                                {
+                                    "children": [
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 1,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "xuhao"
+                                            },
+                                            "ocrRelationId": "8cf5b889-8de9-4c01-9659-e53656d216dc",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "序号",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "inputNumber_vIDT"
+                                            },
+                                            "type": "inputNumber"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 2,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "ziyuanmingcheng"
+                                            },
+                                            "ocrRelationId": "b3047ef3-d40a-4e4a-becc-5d4b5ac51390",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "资源名称",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "input_hI6M"
+                                            },
+                                            "type": "input"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 3,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "feixiangmingcheng"
+                                            },
+                                            "ocrRelationId": "bff13ff1-c2ed-42f1-ae80-c9bcf28feee7",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "费项名称",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "input_hI6M"
+                                            },
+                                            "type": "input"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 4,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "yingshouhanshuijine"
+                                            },
+                                            "ocrRelationId": "79d112d2-993f-4105-85d0-13abd741dc0a",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "应收含税金额",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "currency_uGhn"
+                                            },
+                                            "type": "currency"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 5,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "shuilv"
+                                            },
+                                            "ocrRelationId": "dff31a7a-2b7f-4fab-b0be-8ba717bc82e9",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "税率",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "inputNumber_vIDT"
+                                            },
+                                            "type": "inputNumber"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 6,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "yingshoushuie"
+                                            },
+                                            "ocrRelationId": "a223bde6-8079-4de2-aac1-4b40cf68cb24",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "应收税额",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "currency_uGhn"
+                                            },
+                                            "type": "currency"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 7,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "ysbhsje"
+                                            },
+                                            "ocrRelationId": "142a0184-121e-40dc-b04f-48dadd5fc6d1",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "应收不含税金额",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "currency_uGhn"
+                                            },
+                                            "type": "currency"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 8,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "feiyongkaishiriqi"
+                                            },
+                                            "ocrRelationId": "ed6b7a58-b91f-461d-b918-0df33bcc80c1",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "费用开始日期",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "datePicker_2Kjt"
+                                            },
+                                            "type": "datePicker"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 9,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "feiyongjieshuriqi"
+                                            },
+                                            "ocrRelationId": "f4c68fc3-7b4c-45b2-8932-706488c704e5",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "费用结束日期",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "datePicker_2Kjt"
+                                            },
+                                            "type": "datePicker"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 10,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "yingshouzhangqi"
+                                            },
+                                            "ocrRelationId": "2474d1ce-7db9-4d3a-9745-266186c9f7fa",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "应收账期",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "inputNumber_vIDT"
+                                            },
+                                            "type": "inputNumber"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 11,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "yingshouriqi"
+                                            },
+                                            "ocrRelationId": "22a18946-2143-4821-8d78-8ac60c3dd350",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "应收日期",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "datePicker_2Kjt"
+                                            },
+                                            "type": "datePicker"
+                                        },
+                                        {
+                                            "cellColRow": {
+                                                "colIndex": 12,
+                                                "flexColSize": 1,
+                                                "flexRowSize": 1,
+                                                "rowIndex": 1
+                                            },
+                                            "dataSource": {
+                                                "dataField": "beizhu"
+                                            },
+                                            "ocrRelationId": "35ca5a1a-14a1-45e7-838e-b3b52301a255",
+                                            "settings": {
+                                                "gridTemplateColumns": [],
+                                                "gridTemplateRows": [],
+                                                "titleName": "备注",
+                                                "validation": null
+                                            },
+                                            "sourceSchema": {
+                                                "id": "textArea_dvuX"
+                                            },
+                                            "type": "textArea"
+                                        }
+                                    ],
+                                    "dataSource": {
+                                        "entityName": "ingbiao1wx4"
+                                    },
+                                    "settings": {
+                                        "gridTemplateColumns": [
+                                            0.65,
+                                            1.08,
+                                            0.99,
+                                            1.32,
+                                            0.95,
+                                            0.92,
+                                            1.12,
+                                            1.1,
+                                            1.19,
+                                            1.08,
+                                            1.2,
+                                            0.4
+                                        ],
+                                        "gridTemplateRows": [
+                                            1
+                                        ],
+                                        "title": ""
+                                    },
+                                    "sourceSchema": {
+                                        "id": "udcDataGrid_4iRU"
+                                    },
+                                    "type": "dataGrid"
+                                }
+                            ],
+                            "dataSource": {
+                                "entityName": "srjsdsqwx4",
+                                "type": "entity"
+                            },
+                            "name": "收入结算单申请",
+                            "settings": {},
+                            "sourceSchema": {
+                                "id": "udcForm_v4zN"
+                            },
+                            "type": "form"
+                        },
+                        {
+                            "children": [
+                                {
+                                    "children": [],
+                                    "settings": {
+                                        "isMergeAllColumns": true,
+                                        "styles": {
+                                            "display": "flex",
+                                            "gridColumn": "1/2",
+                                            "gridRow": "1/2"
+                                        }
+                                    },
+                                    "sourceSchema": {
+                                        "id": "udcGridCell_fyMb"
+                                    },
+                                    "type": "gridCell"
+                                }
+                            ],
+                            "settings": {
+                                "gridTemplateColumns": [
+                                    1
+                                ],
+                                "gridTemplateRows": [
+                                    28
+                                ]
+                            },
+                            "sourceSchema": {
+                                "id": "udcGrid_CzTr"
+                            },
+                            "type": "grid"
+                        }
+                    ],
+                    "settings": {
+                        "isMergeAllColumns": true,
+                        "styles": {
+                            "display": "flex",
+                            "gridColumn": "1/2",
+                            "gridRow": "3/4"
+                        }
+                    },
+                    "sourceSchema": {
+                        "id": "udcGridCell_g5ZD"
+                    },
+                    "type": "gridCell"
+                }
+            ],
+            "settings": {
+                "gridTemplateColumns": [
+                    1
+                ],
+                "gridTemplateRows": [
+                    28,
+                    28,
+                    28
+                ]
+            },
+            "sourceSchema": {
+                "id": "udcGrid_HsAp"
+            },
+            "type": "grid"
+        }
+    ],
+    "name": "页面",
+    "pageType": "DETAIL",
+    "settings": {
+        "dataFrom": "ocr"
+    },
+    "sourceSchema": {
+        "id": "193666080057990854"
+    },
+    "type": "page",
+    "urlType": "PC"
+}

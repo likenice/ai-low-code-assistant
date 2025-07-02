@@ -1,0 +1,70 @@
+{
+	"titleName": "标题名称",
+	"dataSource": {
+		"entityName": "表名称"
+	},
+	"groups": [
+		{
+			"name": "页签",
+			"type": "tabs",
+			"settings": {
+				"tabsSetting": [
+					{
+						"name": "页签1"
+					},
+					{
+						"name": "页签2"
+					}
+				]
+			},
+			"components": [
+				{
+					"name": "分组",
+					"type": "collapse",
+					"settings": {
+						"titleName": "分组1_1",
+						"gridTemplateColumns": [
+							1,
+							1
+						],
+						"gridTemplateRows": [
+							28
+						]
+					},
+					"components": [
+						{
+							"type": "inputNumber",
+							"settings": {
+								"titleName": "文本组件11"
+							},
+							"dataSource": {
+								"dataField": "wbzj_11"
+							},
+							"cellColRow": {
+								"rowIndex": 1,
+								"flexRowSize": 1,
+								"colIndex": 1,
+								"flexColSize": 1
+							}
+						},
+						{
+							"type": "input",
+							"settings": {
+								"titleName": "文本组件12"
+							},
+							"dataSource": {
+								"dataField": "wbzj_12"
+							},
+							"cellColRow": {
+								"rowIndex": 1,
+								"flexRowSize": 1,
+								"colIndex": 2,
+								"flexColSize": 1
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

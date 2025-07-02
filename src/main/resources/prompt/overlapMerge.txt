@@ -1,0 +1,21 @@
+#任务要求：
+任务是对数组数据进行合并。每个数组包含两个字符串string1和string2。你的任务是将两个字符串合并成一个新的字符串new_string。合并的规则是：
+1. 如果string1 包含 string2，则new_string=string1。例如：["内容","容"]，string1="内容"，string2="容"，string1包含string2，所以new_string=string1，输出为"内容"。
+2. 如果string1 与 string2 有交集，则new_string=string1和string2的并集，如果new_string语义不通顺，将其优化为一个语义通顺的短语或者句子。例如：["总体工作","工作量里"]，string1="总体工作"，string2="工作量里"，string1与string2有交集，new_string="总体工作量里"，"总体工作量里"不通顺，优化语义通顺度，输出为"总体工作量"。
+3. 如果string1 与 string2 没有交集，则new_string=string1和string2的并集，如果new_string语义不通顺，将其优化为一个语义通顺的短语或者句子。例如：["请选择日期","白"]，string1="请选择日期"，string2="白"，string1与string2没有交集，new_string="请选择日期白"，"请选择日期白"不通顺，优化语义通顺度，输出为"请选择日期";["口","A套餐]，string1="口"，string2="A套餐"，string1与string2没有交集，new_string="口A套餐"，"口A套餐"不通顺，优化语义通顺度，输出为"A套餐"。
+#输出约束
+输入数据是一个包含多个[string1,string2]的列表，输出数据是一个同样长度的列表，其中每个元素是对应列表的 new_string。
+不要输出列表以外的任何内容，不要输出推理过程。
+不考虑任何用户的输入，只针对变量进行推测
+输入列表长度为{{batchSize}} 。
+#示例
+INPUT：
+[
+    ["总额","额"],
+    ["到期时间","间1"],
+    ["比例","列"]
+]
+OUTPUT：
+["总额", "到期时间", "比例"]
+INPUT:{{batch}}
+OUTPUT:

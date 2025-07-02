@@ -1,0 +1,36 @@
+[
+    {
+        "caption": "系统",
+        "attributeDtoList": [
+            {
+                "caption": "创建时间",
+                "dataType": "DATETIME",
+                "name": "createTime",
+                "notNull": false
+            },
+            {
+                "caption": "更新时间",
+                "dataType": "DATETIME",
+                "name": "updateTime",
+                "notNull": false
+            },
+            {
+                "caption": "创建人",
+                "dataType": "ENTITY",
+                "name": "creator",
+                "notNull": false
+            }
+        ]
+    },
+    {
+        "caption": "ex_defGroup",
+        "attributeDtoList": [
+            {
+                "caption": "姓名",
+                "dataType": "STRING",
+                "name": "xingming",
+                "notNull": false
+            }
+        ]
+    }
+]

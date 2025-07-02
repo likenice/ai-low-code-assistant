@@ -1,0 +1,68 @@
+{
+	"name": "一级表名称",
+	"type": "dataGrid",
+	"settings": {
+		"rowSelect": "single",
+		"gridTemplateColumns": [
+			0.5,
+			1,
+			1.5
+		],
+		"gridTemplateRows": [
+			1
+		]
+	},
+	"dataSource": {
+		"entityName": "表名称"
+	},
+	"components": [
+		{
+			"type": "input",
+			"settings": {
+				"titleName": "重复表3-1",
+				"align": "center"
+			},
+			"dataSource": {
+				"dataField": "cfb3-1"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 1,
+				"flexColSize": 1
+			}
+		},
+		{
+			"type": "input",
+			"settings": {
+				"titleName": "重复表3-2",
+				"align": "center"
+			},
+			"dataSource": {
+				"dataField": "cfb3-2"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 2,
+				"flexColSize": 1
+			}
+		},
+		{
+			"type": "reference",
+			"settings": {
+				"titleName": "重复表3-3",
+				"align": "center"
+			},
+			"dataSource": {
+				"dataField": "cfb3-3"
+			},
+			"cellColRow": {
+				"rowIndex": 1,
+				"flexRowSize": 1,
+				"colIndex": 3,
+				"flexColSize": 1
+			}
+		}
+	]
+}
