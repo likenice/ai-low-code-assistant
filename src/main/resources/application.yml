@@ -12,20 +12,20 @@ seeyon:
       url: http://10.101.129.2:8080
       model: gpt-4o
       apiVersion: 2024-02-15-preview
-      apiKey: ovJBqNn8zFAOD26KGTAdEArgMJinyd3HudXRmrpQEmNuVl3FWA
+      apiKey: selfApiKey
 
       # qwen 2.5
       #      modelType: text
       #      url: http://192.168.80.41:9998/v1/chat/completions#   # https://seeyon-ai-platform2.openai.azure.com
       #      model: Qwen2.5-72B-Instruct-AWQ
-      #      apiKey: sk-df9f09f3c70648ddbe32a4828e8297e0
+      #      apiKey: selfApiKey
 
 
       # deepseek
   #      modelType: multi
   #      url: https://dashscope.aliyuncs.com/compatible-mode
   #      model: deepseek-v3
-  #      apiKey: sk-df9f09f3c70648ddbe32a4828e8297e0
+  #      apiKey: selfApiKey
 
   ocr:
     gw_path: http://10.101.129.4:9002/
