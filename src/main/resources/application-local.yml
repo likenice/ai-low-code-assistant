@@ -13,16 +13,11 @@ seeyon:
     enableUdc: true
     deployType: public
     aiManagerAddress: http://10.101.129.4:8383
-    aiManagerApiKey: CpG5ctket0GvwaSF7H5J0cv7JOSMkPCYjC9ajgRV5UVs3gl6Ak
-#    llmUrl: https://dashscope.aliyuncs.com/compatible-mode
-#    llmModel: DeepSeek-V3
-#    llmApiKey: sk-df9f09f3c70648ddbe32a4828e8297e0
+    aiManagerApiKey: selfApiKey
     ocrUrl: http://192.168.80.41:9009
     pageProps: [ "发起人","创建人","创建时间" ]
     keySize: 5
 spring:
-#  application:
-#    name: ai-manager
   servlet:
     multipart:
       max-file-size: 10MB
